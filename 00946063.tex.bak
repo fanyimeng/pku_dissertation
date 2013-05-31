@@ -3,6 +3,7 @@
 \setCJKmainfont[BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}]{FZJPShuSong-Z01S} % FangZhengFonts
 %\setmainfont{CMU Serif Roman}
 \usepackage{mathptmx}
+\bibliographystyle{astron}
 %\usepackage{unicode-math}
 \setmainfont{Times New Roman}
 %\setsansfont{Myriad Pro}
@@ -11,6 +12,7 @@
 % 若需要按照中文文献在前，英文文献在后排序，请设置“sorting = centy”。
 \usepackage[backend = biber, style = caspervector, utf8, sorting = none]{biblatex}
 \usepackage{amssymb}
+
 
 % 提供 Verbatim 环境和 \VerbatimInput 命令。
 \usepackage{fancyvrb}
@@ -37,7 +39,7 @@
 	cauthor = {孟繁一},
 	eauthor = {Fanyi Meng},
 	studentid = {00946063},
-	date = {2013年6月},
+	date = {二\chinese{0}一三年六月},
 	school = {元培学院},
 	cmajor = {物理学}, emajor = {Physics},
 	direction = {天体物理},
@@ -119,17 +121,30 @@
 	\frontmatter
 	% 自动生成标题页。
 	\maketitle
-	% 版权声明。
-	\include{chap/copyright}
+
 	% 中英文摘要。
-	\include{chap/abstract}
+\begin{cabstract}
+
+	本文介绍了对 Taurus/Perseus/California 三个分子云复合体中71个 Planck 冷团块气体成分的成图研究。 我们利用中国科学院紫金山天文台青海观测站的13.7 m 毫米波望远镜进行了\coa、\cob 以及 \coc 分子的 $J=1-0$ 转动跃迁谱线观测。全部\numsou个Planck冷团块都被探测到有\coaa和\cobb的辐射，其中55个被探测到有\cocc的辐射。 通过空间分布和线心速度的验证， 我们发现 Taurus 分子云复合体（Taurus Molecular Complex，TMC）、Perseus 分子云复合体（Perseus Molecular Complex，PMC）和 California 分子云复合体（California Molecular Complex，CMC）、\numsoutmc \numsoucmc \numsoupmc 
+
+\end{cabstract}
+
+\begin{eabstract}
+
+	This paper describes the the functions provided by
+	the pkuthss document template,
+	and provides itself as an example to illustrate
+	the usage of the document class.
+
+\end{eabstract}
+
 	% 自动生成目录。
 	\tableofcontents
 	% 以下为正文。
 	\mainmatter
 \chapter{引言}
 	\section{冷暗云（Cold Dark Cloud）}
-	测试引用\cite{LiuTie}
+
 	\section{Planck团块}
 	\section{Taurus/Perseus/California分子云复合体}
 	\section{本文的研究目标和研究方法}

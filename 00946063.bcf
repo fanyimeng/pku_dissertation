@@ -271,6 +271,5 @@
     <bcf:datasource type="file" datatype="bibtex">00946063.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey>LiuTie</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

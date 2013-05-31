@@ -8,11 +8,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Taurus/Perseus/California分子云复合体}{1}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}本文的研究目标和研究方法}{1}{section.1.4}
+\contentsline {section}{\numberline {1.4}研究目标和研究方法}{1}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}对71个Planck冷团块的CO(1-0)观测}{3}{chapter.2}
+\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}观测和数据处理}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}观测方法与数据处理}{3}{section.2.1}
+\contentsline {section}{\numberline {2.1}望远镜参数}{3}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}数据处理方法}{3}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}观测结果}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -34,10 +36,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}云核的成协情况}{7}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{9}{appendix*.2}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}导出参量的计算}{9}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}导出参量的计算}{11}{appendix.A}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}B\hspace {0.3em}}本文中术语的中英对照表}{11}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}B\hspace {0.3em}}本文中术语的中英对照表}{13}{appendix.B}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{15}{appendix*.3}
+\contentsline {chapter}{致谢}{13}{appendix*.6}
