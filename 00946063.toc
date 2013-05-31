@@ -1,0 +1,43 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}引言}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}冷暗云（Cold Dark Cloud）}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Planck团块}{1}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Taurus/Perseus/California分子云复合体}{1}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}本文的研究目标和研究方法}{1}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}对71个Planck冷团块的CO(1-0)观测}{3}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}观测方法与数据处理}{3}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}观测结果}{5}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}观测参量}{5}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}导出参量}{5}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}分析与讨论}{7}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}谱线轮廓}{7}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}云核内的湍动}{7}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}云核的重力稳定性}{7}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}气体-尘埃耦合}{7}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}CO丰度}{7}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}云核的成协情况}{7}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{参考文献}{9}{appendix*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}导出参量的计算}{11}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录\nobreakspace {}B\hspace {0.3em}}本文中术语的中英对照表}{13}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{15}{appendix*.3}
