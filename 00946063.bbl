@@ -977,6 +977,60 @@
     \keyw{infrared: ISM, ISM: clouds, ISM: structure, stars: formation}
   \endentry
 
+  \entry{2000ASPC..217..299G}{inproceedings}{}
+    \name{labelname}{2}{}{%
+      {{hash=1a96363f08f0f3a0adcf8b4a64556d79}{{Guilloteau}}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=aa40e24107109c283e96f389f38e97a4}{{Lucas}}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=1a96363f08f0f3a0adcf8b4a64556d79}{{Guilloteau}}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=aa40e24107109c283e96f389f38e97a4}{{Lucas}}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=8ba928b074a2a87ce9e3a2492dd83c81}{{Mangum}}{M\bibinitperiod}{J.\bibnamedelimi G.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=370d5d7cfd2517143b7d733c8a36cc46}{{Radford}}{R\bibinitperiod}{S.\bibnamedelimi J.\bibnamedelimi E.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7f5181b00e5162d38a7443690cecb281}
+    \strng{fullhash}{7f5181b00e5162d38a7443690cecb281}
+    \field{sortinit}{0}
+    \field{booktitle}{Imaging at Radio through Submillimeter Wavelengths}
+    \field{series}{Astronomical Society of the Pacific Conference Series}
+    \field{title}{{Imaging at the IRAM Plateau de Bure Interferometer}}
+    \field{volume}{217}
+    \field{year}{2000}
+    \field{pages}{299}
+  \endentry
+
+  \entry{1995ASPC...77..433S}{inproceedings}{}
+    \name{labelname}{3}{}{%
+      {{hash=2afa65ff6e8bf47c6558fe7c126611e8}{{Sault}}{S\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=bb8dc9d6837568e7565ee8127f15d320}{{Teuben}}{T\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=7bd8062a2d83f9236a410f82c6d3fc70}{{Wright}}{W\bibinitperiod}{M.\bibnamedelimi C.\bibnamedelimi H.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=2afa65ff6e8bf47c6558fe7c126611e8}{{Sault}}{S\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=bb8dc9d6837568e7565ee8127f15d320}{{Teuben}}{T\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=7bd8062a2d83f9236a410f82c6d3fc70}{{Wright}}{W\bibinitperiod}{M.\bibnamedelimi C.\bibnamedelimi H.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=99a5695268a2ff745160a7e5f60c0cc9}{{Shaw}}{S\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=b7cf3ce4fb222b1dc10bb078aef95585}{{Payne}}{P\bibinitperiod}{H.\bibnamedelimi E.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=972ad5e9804934edd83dd9370e189f1b}{{Hayes}}{H\bibinitperiod}{J.\bibnamedelimi J.\bibnamedelimi E.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{367ac46b9d92e85487041940d70908e1}
+    \strng{fullhash}{367ac46b9d92e85487041940d70908e1}
+    \field{sortinit}{0}
+    \field{booktitle}{Astronomical Data Analysis Software and Systems IV}
+    \field{series}{Astronomical Society of the Pacific Conference Series}
+    \field{title}{{A Retrospective View of MIRIAD}}
+    \field{volume}{77}
+    \field{year}{1995}
+    \field{pages}{433}
+    \verb{eprint}
+    \verb arXiv:astro-ph/0612759
+    \endverb
+  \endentry
+
 \endrefsection
 \endinput
 

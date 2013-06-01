@@ -110,7 +110,11 @@
 \newcommand{\numcompofcores}{27\ }
 \newcommand{\numdiffusecomp}{42\ }
 \newcommand{\numvelcomp}{76\ }
+%%%%%%%%%%%Packages added by Fanyi Meng%%%%%%%%%%%%%%
 \usepackage{changepage}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{float}
 \begin{document}
 	% 以下为正文之前的部分。
 	\frontmatter
@@ -230,9 +234,35 @@
 		值得一提的是，虽然TMC和PMC已经被较多地研究过，人们之前并没有对CMC足够重视，本研究是国际上最早对CMC进行的有针对性的毫米波观测之一，首次揭示了CMC中年轻冷云核的典型性质。
 
 \chapter{观测和数据处理}
-	\section{望远镜参数}
-	\section{数据处理方法}
-\chapter{观测结果}
+		
+		观测设备为中国科学院紫金山天文台青海观测站13.7 m 望远镜。观测时间为2011年1月至5月。观测的谱线为 $J=1 \rightarrow 0 $ 的  \coa， \cob 和 \coc 谱线。观测模式为OTF（On-The-Fly模式）。观测时的设备参数如表 \ref{Fig.Observation}。
+
+		\begin{table}[H]
+        \centering
+        \caption{设备参数\label{Fig.Observation}}
+        \setlength{\tabcolsep}{0.1in}
+        \vspace{0.5em}
+        \begin{tabular}{rl}
+        \toprule
+        \hline
+        天线波束宽度 & 56\arcsec$\times$ 55\arcsec (频率为 92.8 GHz时) \\
+        主波束效率 & $\sim$50\%                               \\
+        指向精度   & 好于 4\arcsec                     \\
+        光谱分辨率  & for \coaa: 0.16 \kms                     \\
+                             & 对于 \cobb, \cocc:  0.17 \kms           \\
+        T$^*_A$ 均方根噪声    & 对于 \coaa: 0.2 K                         \\
+                             & 对于 \cobb, \cocc: 0.1 K               \\
+        OTF 扫描速率          & 20 \arcsec $\rm s^{-1}$\\
+        \hline
+        \bottomrule
+        \end{tabular}
+        \end{table}
+
+
+        为了处理观测数据，我们使用了IRAM提供的GILDAS软件包\supercite{2000ASPC..217..299G}和SMA提供的MIRIAD软件包\supercite{1995ASPC...77..433S}。OTF的数据在处理前被转换为间隔为30\arcsec 的三维数据矩阵（3-D data cube）。
+
+        在观测时，成图范围为20\arcmin \multi 20 \arcmin ， 但是我们发现， 由于成图范围只是对于9波束接收机阵列中的中心接收机而言的，在图的边缘时信噪比会显著降低。于是我们为了保证数据质量 舍弃了边缘的数据，只保留了14\arcmin \multi 14 \arcmin 的范围。
+
 	\section{观测参量}
 	\section{物理参量}
 \chapter{分析与讨论}

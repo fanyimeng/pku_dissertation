@@ -1,6 +1,7 @@
 %\XeTeXinputencoding "GB2312"
 %\documentclass[UTF8, nocolorlinks]{pkuthss}
 \documentclass[UTF8]{pkuthss}
+\bibliographystyle{astron}
 \setCJKmainfont[BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}]{FZJPShuSong-Z01S} % FangZhengFonts
 \setmainfont{CMU Serif Roman}
 %\usepackage{mathptmx}
@@ -109,8 +110,11 @@
 \newcommand{\numcompofcores}{27\ }
 \newcommand{\numdiffusecomp}{42\ }
 \newcommand{\numvelcomp}{76\ }
-
-
+%%%%%%%%%%%Packages added by Fanyi Meng%%%%%%%%%%%%%%
+\usepackage{changepage}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{float}
 \begin{document}
 	% 以下为正文之前的部分。
 	\frontmatter
@@ -131,7 +135,6 @@
     We acquired the observational parameters such as $V_{lsr}$, $T_{A}$ and FWHM of lines. Physical parameters including \texc, \nhyd, \sigmath, \sigmant,  \sigmatd were calculated.
 
     We found that 84\% of the cores have \sigmant larger than \sigmath and 84\% cores in TMC and 69\% cores in CMC have \nhyd lognormal probability distribution function. These suggest the dominance of turbulence in our cores. Most cores （90\% in TMC and 69\% in CMC） are found with $M_{vir}$ and $M_J$ larger than $M_{LTE}$, indicating these cores are neither going to collapse nor gravitationally bound. To compare with the dust properties revealed by Planck ECC catalog, we investigated the coupling of gas and dust components. We found 60\% of the cores are with dust temperature higher than gas temperature. The objects associated with our sources are checked, for 90\% of the core, no associated objects are found within distance of 55\arcsec to their centers. These facts suggest that our samples represent the very early stage of prestellar cores. This research reveals the physical properties and kinematic characteristics of molecular cores which are in their early evolutionary stages.
-
 \end{eabstract}
 
 	% 自动生成目录。
@@ -140,24 +143,29 @@
 	\mainmatter
 \chapter{引言}
 	\section{冷暗云与恒星形成}
-		暗云（Dark Cloud），也称为分子云（molecular cloud），是主要由$H_2$分子（其质量分数占绝对优势）组成的在光学波段暗的一类星际介质。其在光学波段的消光$A_V>1^{m}$\supercite{2007ARA&A..45..339B} 。 需要指出的是，这种消光并非由其气体成分造成，而是由其中的尘埃颗粒对光学波段的电磁波产生吸收造成的。由于尘埃的这种吸收作用，造成了对外界辐射的良好屏蔽，使得分子云本身能够保持较低的温度（例如典型的致密结构温度在$10\sim20\rm\ K$\supercite{1983ApJ...265..223B})，这是我们称其为“冷暗云”（Cold Dark Cloud）的原因。
 
-		分子云是恒星形成的摇篮。此观点由Bart J. Bok于1946年首次提出\supercite{1948HarMo...7...53B}，并在之后的半个多世纪被包括红外和毫米波波段在内的观测所证实\supercite{shu1987star,2007ARA&A..45..339B}。
+		暗云（Dark Cloud），也称为分子云（molecular cloud），是主要由$H_2$分子（其质量分数占绝对优势）组成的在光学波段暗的一类星际介质。其在光学波段的消光$A_V>1^{m}$，故被称为“暗”云\supercite{2007ARA&A..45..339B} 。 需要指出的是，这种消光并非由其气体成分造成，而是由其中的尘埃颗粒对光学波段的电磁波产生吸收造成的。由于尘埃的这种吸收作用，造成了对外界辐射的良好屏蔽，使得分子云本身能够保持较低的温度（例如典型的致密结构温度在$10-20\rm\ K$\supercite{1983ApJ...265..223B})，这是我们称其为“冷暗云”（Cold Dark Cloud）的原因。
 
 		分子云呈现“层级状”结构\supercite{1994ApJ...423..681V}，通常将其分为分子云（Cloud）、团块（Clump）、云核（Core）三个层次\supercite{2007ARA&A..45..339B,2000prpl.conf...97W}:
+		\begin{adjustwidth}{0.5cm}{0cm}
 		\begin{description}
-			\item[分子云:] 质量一般为$10^3\sim10^4\ M_{\odot}$，尺度为$2\sim15\ pc$，平均数密度为$50\sim500\rm\ cm^{-3}$，速度弥散为$2\sim 5\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的分子云有Taurus、Perseus以及Orion等。
-			\item[团块:] 质量一般为$50\sim500\ M_{\odot}$，尺度为$0.3\sim3\ pc$，平均数密度为$10^3\sim10^4\rm\ cm^{-3}$，速度弥散为$0.3\sim 3\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的团块有B213、L1709等\supercite{2007ARA&A..45..339B}。
-			\item[云核:] 质量一般为$0.5\sim5\ M_{\odot}$，尺度为$0.03\sim0.2\ pc$，平均数密度为$10^4\sim10^5\rm\ cm^{-3}$，速度弥散为$0.1\sim 0.3\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的云核有L1544、L1498以及B68等{2007ARA&A..45..339B}。
+			\item[分子云:] 质量一般为$10^3-10^4\ M_{\odot}$，尺度为$2-15\rm\ pc$，平均数密度为$50-500\rm\ cm^{-3}$，速度弥散为$2- 5\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的分子云有Taurus、Perseus以及Orion等。
+
+			\item[团块:] 质量一般为$50-500\ M_{\odot}$，尺度为$0.3-3\rm\ pc$，平均数密度为$10^3-10^4\rm\ cm^{-3}$，速度弥散为$0.3- 3\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的团块有B213、L1709等\supercite{2007ARA&A..45..339B}。
+
+			\item[云核:] 质量一般为$0.5-5\ M_{\odot}$，尺度为$0.03-0.2\rm\ pc$，平均数密度为$10^4-10^5\rm\ cm^{-3}$，速度弥散为$0.1- 0.3\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的云核有L1544、L1498以及B68等\supercite{2007ARA&A..45..339B}。
 		\end{description}
+		\end{adjustwidth}
+
+		分子云是恒星形成的摇篮。此观点由Bart J. Bok于1946年首次提出\supercite{1948HarMo...7...53B}，并在之后的半个多世纪被包括红外和毫米波波段在内的观测所证实\supercite{shu1987star,2007ARA&A..45..339B}。虽然前人对分子云核中的恒星形成做过相当多的研究，但由于之前的选源主要在光学或者红外波段，从而选出的源大都是已经有明显的恒星形成活动的区域，使得人们很难对星前核（prestellar core）进行系统的观测，从而不易研究恒星形成的早期状况。基于此，我们亟需一批更长波段（例如毫米-亚毫米波段）系统地选出的源，从而研究恒星形成早期阶段的云核物理状态，甚至是云核形成早期的物理状态。幸运的是，Planck空间望远镜提供了这样的研究样本。
 
 	\section{Planck团块}
 
 		欧洲航天局于2009年5月发射 Planck空间望远镜，其工作波段为：30、44和70 Hz（以上由LFI接收机实现）；100、143、217、353、545和857 Hz（以上由HFI接收机实现）\supercite{2011A&A...536A...1P}。Planck 的早期结果系统地提供了丰富的银河系内冷团块样本：C3PO（Cold Core Catalogue of Planck Objects） 星表包含10,873个冷云核\supercite{2011yCat.8088....0P,2011A&A...536A..23P}。在C3PO表中，915个可靠探测（$\rm SNR>15$ 且 $T_{\rm ECC}<14\rm\ K$）的源被归入其子表ECC（Planck Early Release Cold Cores Catalogue）\supercite{2011yCat.8088....0P,2011A&A...536A..23P}。
 
-		对于Planck冷团块中尘埃的物理性质，Planck Collaboration进行了的细致研究，从而揭示了C3PO中的冷团块的柱密度$N_ {\rm H_2} \approx 0.1 \rm \sim \ 1.6 \times 10^{22} \rm cm^{-2}$，并且尘埃温度在10 K到15 K之间\supercite{2011A&A...536A..23P}。这些研究利用三个HFI接收机频率（353、545、857 Hz）测得的流量，同时结合IRAS 3000 GHz波段的数据得出相应结果\supercite{2011A&A...536A..23P,2011A&A...536A..22P}。
+		对于Planck冷团块中尘埃的物理性质，Planck Collaboration进行了的细致研究，从而揭示了C3PO中的冷团块的柱密度$N_ {\rm H_2} \approx 0.1 \rm - \ 1.6 \times 10^{22} \rm cm^{-2}$，并且尘埃温度在10 K到15 K之间\supercite{2011A&A...536A..23P}。这些研究利用三个HFI接收机频率（353、545、857 Hz）测得的流量，同时结合IRAS 3000 GHz波段的数据得出相应结果\supercite{2011A&A...536A..23P,2011A&A...536A..22P}。
 
-		除了Planck Collaboration 对于 Planck 冷团块尘埃成分的研究之外， 对其气体成分的单点观测也已经取得成果。 利用中国科学院紫金山天文台青海观测站的13.7 m毫米波望远镜，Wu et al (2012)完成了对674个ECC源的\coaa 、\cobb  和\cocc  三谱线单点观测，并且得出了其动力学温度（$T_k$）、气体柱密度（\nhyd）以及速度弥散（$\sigma$）等物理参量\supercite{wu2012gas}。利用同样的设备，Liu et al (2012)等对Orion分子云复合体中的51个Planck冷团块做了\coaa 、\cobb  和\cocc  三谱线成图观测\supercite{LiuTie}。
+		除了Planck Collaboration 对于 Planck 冷团块尘埃成分的研究之外， 对其气体成分的单点观测也已经取得成果。 利用中国科学院紫金山天文台青海观测站的13.7 m 毫米波望远镜，Wu et al (2012)完成了对674个ECC源的\coaa 、\cobb  和\cocc  三谱线单点观测，并且得出了其动力学温度（$T_k$）、气体柱密度（\nhyd）以及速度弥散（$\sigma$）等物理参量\supercite{wu2012gas}。利用同样的设备，Liu et al (2012)等对Orion分子云复合体中的51个Planck 冷团块做了\coaa 、\cobb  和\cocc  三谱线成图观测\supercite{LiuTie}。本文作为同系列的研究，对Taurus、Perseu、California三个分子云复合体中的71个Planck 冷团块同样做了\coaa 、\cobb  和\cocc  三谱线成图观测。
 
 	\section{研究区域}
 
@@ -165,9 +173,9 @@
 
 			Taurus分子云复合体（Taurus Molecular Complex，下文简称TMC）是典型的小质量恒星形成区， 同时也是距离我们最近（$D\approx 140\rm\ pc$）的巨分子云\supercite{1987ApJ...322..706D}。 因此，在分辨率有限的情况下，TMC是理想的小质量恒星形成研究样本。
 
-			对于TMC，人们已经有大量的分子谱线观测结果。针对TMC和Ophuichus中的90个“微小光学不透明体”（small visual opaques），Myers (1983), Myers and Benson (1983) 进行了\cob 和 \coc 的观测，并且得出其中的云核几何尺度为$0.1\sim0.3 \ \rm pc$，质量为$4\sim30\ \rm M_\odot$以及激发温度\texc $\sim$ 10 K\supercite{1983ApJ...264..517M,1983ApJ...266..309M}。在同一系列的成果中，Meyers et al 对云核的亚音速湍动、CO外向流、形态等也进行了研究\supercite{1983ApJ...270..105M,1988ApJ...324..907M,1991ApJ...376..561M}。
+			对于TMC，人们已经有大量的分子谱线观测结果。针对TMC和Ophuichus中的90个“微小光学不透明体”（small visual opaques），Myers (1983), Myers and Benson (1983) 进行了\cob 和 \coc 的观测，并且得出其中的云核几何尺度为$0.1-0.3 \ \rm pc$，质量为$4-30\ \rm M_\odot$以及激发温度\texc $\sim$ 10 K\supercite{1983ApJ...264..517M,1983ApJ...266..309M}。在同一系列的成果中，Meyers et al 对云核的亚音速湍动、CO 外向流、形态等也进行了研究\supercite{1983ApJ...270..105M,1988ApJ...324..907M,1991ApJ...376..561M}。
 
-			在TMC中，人们发现了丰富的气体动力学过程和多个演化阶段的特征。分子外向流首次在大质量恒星形成区被发现，但由于距离过远其并不能被很好地被分辨\supercite{1976ApJ...209L.137Z}。而之后在TMC中L1551被证认为有分子外向流，并且红瓣（red-lobe）和蓝瓣（blue-lobe）能够良好地被分辨\supercite{1980ApJ...239L..17S}。截至2003年2月发现的400个分子外向流中，有11\% 在TMC中\supercite{2004A&A...426..503W}。不仅分子外向流，人们在TMC中也发现了丰富的的分子内向流：例如对T Tau 双星系统\supercite{1994ApJ...425L..45V}和L 1544的研究\supercite{1998ApJ...504..900T}。和恒星形成密切相关的盘状结构也在TMC中被证认出来：例如在HL Tau周围发现的盘状结构\supercite{1991ApJ...382L..31S}以及DM Tau\supercite{1995ApJ...453..384S}。综上，TMC包含从class 0到class III全部恒星形成阶段的源。这些不同演化阶段的源的特征是恒星形成理论，例如Shu et al (1987) 提出的“恒星形成四个阶段”理论\supercite{shu1987star}的观测基础。
+			在TMC中，人们发现了丰富的气体动力学过程和多个演化阶段的特征。分子外向流首次在大质量恒星形成区被发现，但由于距离过远其并不能被很好地被分辨\supercite{1976ApJ...209L.137Z}。而之后在TMC中L1551被证认为有分子外向流，并且红瓣（red-lobe）和蓝瓣（blue-lobe）能够良好地被分辨\supercite{1980ApJ...239L..17S}。截至2003年2月发现的400个分子外向流中，有11\% 在TMC中\supercite{2004A&A...426..503W}。不仅分子外向流，人们在TMC中也发现了丰富的的分子内向流：例如对T Tau 双星系统\supercite{1994ApJ...425L..45V}和L 1544的研究\supercite{1998ApJ...504..900T}。和恒星形成密切相关的盘状结构也在TMC中被证认出来：例如在HL Tau周围发现的盘状结构\supercite{1991ApJ...382L..31S}以及DM Tau\supercite{1995ApJ...453..384S}。综上，TMC包含从class 0到class III 全部恒星形成阶段的源。这些不同演化阶段的源的特征是恒星形成理论，例如Shu et al (1987) 提出的“恒星形成四个阶段”理论\supercite{shu1987star}的观测基础。
 
 		\subsection{Perseus分子云复合体}
 
@@ -185,11 +193,75 @@
 
 			由于CMC展示出了相对年轻的演化特征，其可以作为研究冷云核早期演化的理想样本。除了上述的研究，我们仍然迫切需要对CMC做更高分辨率的毫米波观测，以更全面而深入地揭示其中冷云核的物理特性。
 
-	\section{研究目标}
+	\section{研究目标和方法}
+
+		不同于对尘埃的连续谱观测，观测和研究团块和云核的气体谱线可以对其物理性质、动力学特征、稳定性等方面作深入分析。
+
+		我们采用最常用的气体成分探针：CO。本研究选用了其三种同位素分子并观测其最低两个转动能级间的跃迁辐射：\coaa 、\cobb  和\cocc 。
+
+		我们通过对TMC、PMC和CMC中的Planck冷团块（特别是团块中的气体云核）的气体成分谱线成图观测，可以得出这些团块和其中的云核的：
+
+		\begin{adjustwidth}{0.5cm}{0cm}
+		\begin{enumerate}
+			\item 激发温度（\texc ）、热速度弥散（\sigmath ）、气体柱密度（\nhyd ）、数密度（\nnhyd ）等物理性质和物质组成。
+
+			\item 本地静止标准速度（\vlsr ）、谱线轮廓、非热速度弥散（\sigmant ）、三维速度弥散（\sigmatd ）等动力学特征。
+
+			\item 云核的几何尺度（$R$）、LTE质量（$M_{LTE}$）、Jeans质量（$M_{J}$）和virial质量（$M_{vir}$）等云核特有的参量。这些参量往往和云核的稳定性以及恒星形成密切相关。
+		\end{enumerate}
+		\end{adjustwidth}
+		
+		根据这些参量，我们进行了如下分析：
+
+		\begin{adjustwidth}{0.5cm}{0cm}
+		\begin{enumerate}
+			\item 通过分析谱线轮廓探究其中是否有分子外向流、内流等剧烈的气体运动过程。
+
+			\item 通过比较\sigmath 和\sigmant ， 以及检验云核的柱密度概率分布函数（PDF） 来分析热压力、湍动和重力三者在云核中起的作用。
+
+			\item 通过比较云核的 $M_{LTE}$ 、$M_{J}$和$M_{vir}$讨论云核的稳定性。
+
+			\item 通过比较我们得出的气体成分的温度$T_k$和从ECC源表提供的尘埃温度$T_D$揭示这些云核中气体和尘埃的耦合状况。
+
+			\item 通过比较我们得出的CO柱密度和从ECC源表提供的流量等数据计算出的（由尘埃观测导出的）\nhyd， 我们可以得出CO丰度在这些云核中的情况，同时也可以检验我们计算（有气体谱线观测导出的）\nhyd 时采用的CO丰度值是否合理。
+
+			\item 通过查找与我们的云核成协的源，来验证Planck团块和其中的云核是否是星前核（prestellar core）。
+		\end{enumerate}
+		\end{adjustwidth}
+
+		通过这些分析和讨论，我们一方面可以揭示与验证Planck冷团块的物理性质和演化阶段。另一方面，我们可以通过这些样本，系统地总结典型恒星形成区中年轻云核的物理性质、动力学状态、物质组成等基本情况，使得我们了解恒星形成的早期阶段特征。
+
+		值得一提的是，虽然TMC和PMC已经被较多地研究过，人们之前并没有对CMC足够重视，本研究是国际上最早对CMC进行的有针对性的毫米波观测之一，首次揭示了CMC中年轻冷云核的典型性质。
+
 \chapter{观测和数据处理}
-	\section{望远镜参数}
-	\section{数据处理方法}
-\chapter{观测结果}
+		
+		观测设备为中国科学院紫金山天文台青海观测站13.7 m 望远镜。观测时间为2011年1月至5月。观测的谱线为 $J=1 \rightarrow 0 $ 的  \coa， \cob 和 \coc 谱线。观测模式为OTF（On-The-Fly模式）。观测时的设备参数如表 \ref{Fig.Observation}。
+
+		\begin{table}[H]
+        \centering
+        \caption{设备参数\label{Fig.Observation}}
+        \setlength{\tabcolsep}{0.1in}
+        \begin{tabular}{rl}
+        \toprule
+        \hline
+        天线波束宽度 & 56\arcsec$\times$ 55\arcsec (频率为 92.8 GHz时) \\
+        主波束效率 & $\sim$50\%                               \\
+        指向精度   & 好于 4\arcsec                     \\
+        光谱分辨率  & for \coaa: 0.16 \kms                     \\
+                             & 对于 \cobb, \cocc:  0.17 \kms           \\
+        T$^*_A$ 均方根噪声    & 对于 \coaa: 0.2 K                         \\
+                             & 对于 \cobb, \cocc: 0.1 K               \\
+        OTF 扫描速率          & 20 \arcsec $\rm s^{-1}$\\
+        \hline
+        \bottomrule
+        \end{tabular}
+        \end{table}
+
+
+        为了处理观测数据，我们使用了IRAM提供的GILDAS软件包\supercite{2000ASPC..217..299G}和SMA提供的MIRIAD软件包\supercite{1995ASPC...77..433S}。OTF的数据在处理前被转换为间隔为30\arcsec的三维数据矩阵（3-D data cube）。
+
+        在观测时，成图范围为20\arcmin \multi 20 \arcmin ， 但是我们发现， 由于成图范围只是对于9波束接收机阵列中的中心接收机而言的，在图的边缘时信噪比会显著降低。于是我们为了保证数据质量 舍弃了边缘的数据，只保留了14\arcmin \multi 14 \arcmin的范围。
+
 	\section{观测参量}
 	\section{物理参量}
 \chapter{分析与讨论}
