@@ -271,5 +271,42 @@
     <bcf:datasource type="file" datatype="bibtex">00946063.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey>2011A&amp;A...536A...1P</bcf:citekey>
+    <bcf:citekey>2011yCat.8088....0P</bcf:citekey>
+    <bcf:citekey>2011A&amp;A...536A..23P</bcf:citekey>
+    <bcf:citekey>2011yCat.8088....0P</bcf:citekey>
+    <bcf:citekey>2011A&amp;A...536A..23P</bcf:citekey>
+    <bcf:citekey>2011A&amp;A...536A..23P</bcf:citekey>
+    <bcf:citekey>2011A&amp;A...536A..23P</bcf:citekey>
+    <bcf:citekey>2011A&amp;A...536A..22P</bcf:citekey>
+    <bcf:citekey>wu2012gas</bcf:citekey>
+    <bcf:citekey>LiuTie</bcf:citekey>
+    <bcf:citekey>1987ApJ...322..706D</bcf:citekey>
+    <bcf:citekey>1983ApJ...264..517M</bcf:citekey>
+    <bcf:citekey>1983ApJ...266..309M</bcf:citekey>
+    <bcf:citekey>1983ApJ...270..105M</bcf:citekey>
+    <bcf:citekey>1988ApJ...324..907M</bcf:citekey>
+    <bcf:citekey>1991ApJ...376..561M</bcf:citekey>
+    <bcf:citekey>1976ApJ...209L.137Z</bcf:citekey>
+    <bcf:citekey>1980ApJ...239L..17S</bcf:citekey>
+    <bcf:citekey>2004A&amp;A...426..503W</bcf:citekey>
+    <bcf:citekey>1994ApJ...425L..45V</bcf:citekey>
+    <bcf:citekey>1998ApJ...504..900T</bcf:citekey>
+    <bcf:citekey>1991ApJ...382L..31S</bcf:citekey>
+    <bcf:citekey>1995ApJ...453..384S</bcf:citekey>
+    <bcf:citekey>shu1987star</bcf:citekey>
+    <bcf:citekey>2010A&amp;A...512A..67L</bcf:citekey>
+    <bcf:citekey>2010ApJ...711..655J</bcf:citekey>
+    <bcf:citekey>2007ApJ...656..293J</bcf:citekey>
+    <bcf:citekey>1979ApJ...233..163S</bcf:citekey>
+    <bcf:citekey>1999ApJ...525..318P</bcf:citekey>
+    <bcf:citekey>2005A&amp;A...440..151H</bcf:citekey>
+    <bcf:citekey>2010A&amp;A...512A..67L</bcf:citekey>
+    <bcf:citekey>2009ApJ...703...52L</bcf:citekey>
+    <bcf:citekey>2009ApJ...703...52L</bcf:citekey>
+    <bcf:citekey>2010A&amp;A...512A..67L</bcf:citekey>
+    <bcf:citekey>2013ApJ...764..133H</bcf:citekey>
+    <bcf:citekey>2013ApJ...764..133H</bcf:citekey>
+    <bcf:citekey>2013ApJ...764..133H</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>

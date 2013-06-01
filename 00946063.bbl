@@ -1,0 +1,868 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% $ biber version 0.9.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber or bibtex as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \entry{2011A&A...536A...1P}{article}{}
+    \name{labelname}{11}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+      {{hash=5bbe5c2607c6ff76dbad114739ce99f1}{{Ade}}{A\bibinitperiod}{P.\bibnamedelimi A.\bibnamedelimi R.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=721d87272201fd063e5e7046d6c8bf94}{{Aghanim}}{A\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=a1530ca93c2235e38bf16eafbbbbd69b}{{Arnaud}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=bb67d1311be76bc1b0eddfa4fb1cce1b}{{Ashdown}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=44a055505848eaaeaff8af943265d124}{{Aumont}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=c59e9913edf77f66e8319258d823f86c}{{Baccigalupi}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=3d414a029e74b6ba5f5fed9208345566}{{Baker}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=f90c6f613a57562f89836473ec7d7cd7}{{Balbi}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=bd656e3cd85f42dc7deef2dfc6ad43a8}{{Banday}}{B\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=c3b2ca4e1cd26593d202b777d068da34}{al.}{a\bibinitperiod}{}{}{et}{e\bibinitperiod}{}{}}%
+    }
+    \name{author}{11}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+      {{hash=5bbe5c2607c6ff76dbad114739ce99f1}{{Ade}}{A\bibinitperiod}{P.\bibnamedelimi A.\bibnamedelimi R.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=721d87272201fd063e5e7046d6c8bf94}{{Aghanim}}{A\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=a1530ca93c2235e38bf16eafbbbbd69b}{{Arnaud}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=bb67d1311be76bc1b0eddfa4fb1cce1b}{{Ashdown}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=44a055505848eaaeaff8af943265d124}{{Aumont}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=c59e9913edf77f66e8319258d823f86c}{{Baccigalupi}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=3d414a029e74b6ba5f5fed9208345566}{{Baker}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=f90c6f613a57562f89836473ec7d7cd7}{{Balbi}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=bd656e3cd85f42dc7deef2dfc6ad43a8}{{Banday}}{B\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=c3b2ca4e1cd26593d202b777d068da34}{al.}{a\bibinitperiod}{}{}{et}{e\bibinitperiod}{}{}}%
+    }
+    \strng{namehash}{1051df95ca7e49ec4b6876a591137642}
+    \strng{fullhash}{2fcd37ebbd85dfdbc989e2ba6102ac88}
+    \field{sortinit}{0}
+    \field{eid}{A1}
+    \field{eprintclass}{astro-ph.IM}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\aap}
+    \field{month}{12}
+    \field{title}{{Planck early results. I. The Planck mission}}
+    \field{volume}{536}
+    \field{year}{2011}
+    \field{pages}{A1}
+    \verb{doi}
+    \verb 10.1051/0004-6361/201116464
+    \endverb
+    \verb{eprint}
+    \verb 1101.2022
+    \endverb
+    \keyw{cosmology: observations, cosmic background radiation, surveys, space vehicles: instruments, instrumentation: detectors, catalogs}
+  \endentry
+
+  \entry{2011yCat.8088....0P}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \strng{namehash}{94c122bef4a4d18cc4b21919b02952ac}
+    \strng{fullhash}{94c122bef4a4d18cc4b21919b02952ac}
+    \field{sortinit}{0}
+    \field{journaltitle}{VizieR Online Data Catalog}
+    \field{month}{01}
+    \field{title}{{Planck Early Release Compact Source Catalogue (Planck, 2011)}}
+    \field{volume}{8088}
+    \field{year}{2011}
+    \field{pages}{}
+    \keyw{Planck}
+  \endentry
+
+  \entry{2011A&A...536A..23P}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \strng{namehash}{94c122bef4a4d18cc4b21919b02952ac}
+    \strng{fullhash}{94c122bef4a4d18cc4b21919b02952ac}
+    \field{sortinit}{0}
+    \field{eid}{A23}
+    \field{journaltitle}{\aap}
+    \field{month}{12}
+    \field{title}{{Planck early results. XXIII. The first all-sky survey of Galactic cold clumps}}
+    \field{volume}{536}
+    \field{year}{2011}
+    \field{pages}{A23}
+    \verb{doi}
+    \verb 10.1051/0004-6361/201116472
+    \endverb
+    \keyw{ISM: clouds, stars: formation, dust, extinction, submillimetre: ISM, ISM: general, catalogs}
+  \endentry
+
+  \entry{2011A&A...536A..22P}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
+    }
+    \strng{namehash}{94c122bef4a4d18cc4b21919b02952ac}
+    \strng{fullhash}{94c122bef4a4d18cc4b21919b02952ac}
+    \field{sortinit}{0}
+    \field{eid}{A22}
+    \field{eprintclass}{astro-ph.GA}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\aap}
+    \field{month}{12}
+    \field{title}{{Planck early results. XXII. The submillimetre properties of a sample of Galactic cold clumps}}
+    \field{volume}{536}
+    \field{year}{2011}
+    \field{pages}{A22}
+    \verb{doi}
+    \verb 10.1051/0004-6361/201116481
+    \endverb
+    \verb{eprint}
+    \verb 1101.2034
+    \endverb
+    \keyw{ISM: clouds, dust, extinction, stars: formation, ISM: structure, submillimeter: ISM, stars: protostars}
+  \endentry
+
+  \entry{wu2012gas}{article}{}
+    \name{labelname}{6}{}{%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=f55c6ea18fa4c867185eb77ee5d6b830}{{Liu}}{L\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=287a089a29f7e63981fdd099011383de}{{Meng}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=f500b28664aeb848c9f9a86092e9e379}{{Li}}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=7ef894762aff8d670273d32858e5c190}{{Qin}}{Q\bibinitperiod}{S.-L.}{S\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+      {{hash=230f1b8f9ccf57c195df81a6d9dfb326}{{Ju}}{J\bibinitperiod}{B.-G.}{B\bibinithyphendelim G\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{6}{}{%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=f55c6ea18fa4c867185eb77ee5d6b830}{{Liu}}{L\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=287a089a29f7e63981fdd099011383de}{{Meng}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=f500b28664aeb848c9f9a86092e9e379}{{Li}}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=7ef894762aff8d670273d32858e5c190}{{Qin}}{Q\bibinitperiod}{S.-L.}{S\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+      {{hash=230f1b8f9ccf57c195df81a6d9dfb326}{{Ju}}{J\bibinitperiod}{B.-G.}{B\bibinithyphendelim G\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{50efe4799c8c70dff1913f8d05759401}
+    \strng{fullhash}{50b8fc26fe85f91f167752dfde7d50a0}
+    \field{sortinit}{0}
+    \field{eid}{76}
+    \field{eprintclass}{astro-ph.SR}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apj}
+    \field{month}{09}
+    \field{title}{{Gas Emissions in Planck Cold Dust Clumps: A Survey of the J = 1-0 Transitions of $^{12}$CO, $^{13}$CO, and C$^{18}$O}}
+    \field{volume}{756}
+    \field{year}{2012}
+    \field{pages}{76}
+    \verb{doi}
+    \verb 10.1088/0004-637X/756/1/76
+    \endverb
+    \verb{eprint}
+    \verb 1206.7027
+    \endverb
+    \keyw{dust, extinction, ISM: clouds, ISM: kinematics and dynamics, ISM: structure, stars: formation, stars: protostars}
+  \endentry
+
+  \entry{LiuTie}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=f55c6ea18fa4c867185eb77ee5d6b830}{{Liu}}{L\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=1dba7954181d04ac67d05bc2ed559ed4}{{Zhang}}{Z\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=f55c6ea18fa4c867185eb77ee5d6b830}{{Liu}}{L\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=1dba7954181d04ac67d05bc2ed559ed4}{{Zhang}}{Z\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{bb7eb166f2df2b91fc51ff35ed43b329}
+    \strng{fullhash}{bb7eb166f2df2b91fc51ff35ed43b329}
+    \field{sortinit}{0}
+    \field{eid}{4}
+    \field{eprintclass}{astro-ph.SR}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apjs}
+    \field{month}{09}
+    \field{title}{{Molecular Environments of 51 Planck Cold Clumps in the Orion Complex}}
+    \field{volume}{202}
+    \field{year}{2012}
+    \field{pages}{4}
+    \verb{doi}
+    \verb 10.1088/0067-0049/202/1/4
+    \endverb
+    \verb{eprint}
+    \verb 1207.0881
+    \endverb
+    \keyw{ISM: clouds, ISM: molecules, ISM: structure, stars: formation}
+  \endentry
+
+  \entry{1987ApJ...322..706D}{article}{}
+    \name{labelname}{9}{}{%
+      {{hash=ae814ce73cc01615ff68815305259224}{{Dame}}{D\bibinitperiod}{T.\bibnamedelimi M.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=09a9832cf521562ed440c21e57fe82c6}{{Ungerechts}}{U\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=a2e75b85da8ef3abbfd53164eaf0a638}{{Cohen}}{C\bibinitperiod}{R.\bibnamedelimi S.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=a5052a51fb2f7ab02b9dfc34d7edfb12}{{de\bibnamedelimb Geus}}{d\bibinitperiod}{E.\bibnamedelimi J.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=f0b2001a957724a16964184d1a75d2dd}{{Grenier}}{G\bibinitperiod}{I.\bibnamedelimi A.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=d42a0994d2b6db9966c7c9ff5f862105}{{May}}{M\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=4b7c5b72bbc776480dc072ff9060a3cd}{{Murphy}}{M\bibinitperiod}{D.\bibnamedelimi C.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=c1d4a4e2878606153d576b849ad73435}{{Nyman}}{N\bibinitperiod}{L.-A.}{L\bibinithyphendelim A\bibinitperiod}{}{}{}{}}%
+      {{hash=7b463df8f03e6d6f754ae2f97d747aeb}{{Thaddeus}}{T\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{9}{}{%
+      {{hash=ae814ce73cc01615ff68815305259224}{{Dame}}{D\bibinitperiod}{T.\bibnamedelimi M.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=09a9832cf521562ed440c21e57fe82c6}{{Ungerechts}}{U\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=a2e75b85da8ef3abbfd53164eaf0a638}{{Cohen}}{C\bibinitperiod}{R.\bibnamedelimi S.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=a5052a51fb2f7ab02b9dfc34d7edfb12}{{de\bibnamedelimb Geus}}{d\bibinitperiod}{E.\bibnamedelimi J.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=f0b2001a957724a16964184d1a75d2dd}{{Grenier}}{G\bibinitperiod}{I.\bibnamedelimi A.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=d42a0994d2b6db9966c7c9ff5f862105}{{May}}{M\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=4b7c5b72bbc776480dc072ff9060a3cd}{{Murphy}}{M\bibinitperiod}{D.\bibnamedelimi C.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=c1d4a4e2878606153d576b849ad73435}{{Nyman}}{N\bibinitperiod}{L.-A.}{L\bibinithyphendelim A\bibinitperiod}{}{}{}{}}%
+      {{hash=7b463df8f03e6d6f754ae2f97d747aeb}{{Thaddeus}}{T\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{a1557c2f37941a291e919f68333dc31f}
+    \strng{fullhash}{08f0b8739008a48196b8d9df4b7527f4}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{11}
+    \field{title}{{A composite CO survey of the entire Milky Way}}
+    \field{volume}{322}
+    \field{year}{1987}
+    \field{pages}{706\bibrangedash 720}
+    \verb{doi}
+    \verb 10.1086/165766
+    \endverb
+    \keyw{ABUNDANCE, CARBON MONOXIDE, INFRARED ASTRONOMY SATELLITE, MILKY WAY GALAXY, MOLECULAR CLOUDS, INTERSTELLAR GAS, NEBULAE, NORMAL DENSITY FUNCTIONS}
+  \endentry
+
+  \entry{1983ApJ...264..517M}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=fd988ab5fe7fa1a918bb4f6784a40751}{{Linke}}{L\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=fd988ab5fe7fa1a918bb4f6784a40751}{{Linke}}{L\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{d7144d359f14ab8180223e0baa966dfb}
+    \strng{fullhash}{d7144d359f14ab8180223e0baa966dfb}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{01}
+    \field{title}{{Dense cores in dark clouds. I - CO observations and column densities of high-extinction regions}}
+    \field{volume}{264}
+    \field{year}{1983}
+    \field{pages}{517\bibrangedash 537}
+    \verb{doi}
+    \verb 10.1086/160619
+    \endverb
+    \keyw{CARBON MONOXIDE, INTERSTELLAR EXTINCTION, INTERSTELLAR MATTER, MOLECULAR CLOUDS, NEBULAE, SPECTRAL LINE WIDTH, ASTRONOMICAL CATALOGS, ASTRONOMICAL SPECTROSCOPY, EMISSION SPECTRA, GAUSS EQUATION, HISTOGRAMS, LINE SPECTRA}
+  \endentry
+
+  \entry{1983ApJ...266..309M}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{6d05ad81b22e944c8a1515bb079af6ff}
+    \strng{fullhash}{6d05ad81b22e944c8a1515bb079af6ff}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{03}
+    \field{title}{{Dense cores in dark clouds. II - NH3 observations and star formation}}
+    \field{volume}{266}
+    \field{year}{1983}
+    \field{pages}{309\bibrangedash 320}
+    \verb{doi}
+    \verb 10.1086/160780
+    \endverb
+    \keyw{AMMONIA, INTERSTELLAR MATTER, MOLECULAR SPECTRA, NEBULAE, STAR FORMATION, AURIGA CONSTELLATION, EMISSION SPECTRA, LINE SPECTRA, STELLAR MASS, TAURUS CONSTELLATION}
+  \endentry
+
+  \entry{1983ApJ...270..105M}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{261702e824a35ea3b07435b0eb40712f}
+    \strng{fullhash}{261702e824a35ea3b07435b0eb40712f}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{07}
+    \field{title}{{Dense cores in dark clouds. III - Subsonic turbulence}}
+    \field{volume}{270}
+    \field{year}{1983}
+    \field{pages}{105\bibrangedash 118}
+    \verb{doi}
+    \verb 10.1086/161101
+    \endverb
+    \keyw{INTERSTELLAR MATTER, MOLECULAR CLOUDS, STELLAR EVOLUTION, TURBULENCE, AMMONIA, CARBON MONOXIDE, DATA CORRELATION, GAS DENSITY, SPECTRAL LINE WIDTH}
+  \endentry
+
+  \entry{1988ApJ...324..907M}{article}{}
+    \name{labelname}{4}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=6c27bbe7b8d55cd59518b87a522597c6}{{Heyer}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=4e922d396288bf51894e927fc1ddef87}{{Snell}}{S\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=eb680709ff8b18a6d230e30afd7f9680}{{Goldsmith}}{G\bibinitperiod}{P.\bibnamedelimi F.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=6c27bbe7b8d55cd59518b87a522597c6}{{Heyer}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=4e922d396288bf51894e927fc1ddef87}{{Snell}}{S\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=eb680709ff8b18a6d230e30afd7f9680}{{Goldsmith}}{G\bibinitperiod}{P.\bibnamedelimi F.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{ffeeeb24db23b48d324b4aba67b9fdda}
+    \strng{fullhash}{b11eab96849f8d80dba6427961304069}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{01}
+    \field{title}{{Dense cores in dark clouds. V - CO outflow}}
+    \field{volume}{324}
+    \field{year}{1988}
+    \field{pages}{907\bibrangedash 919}
+    \verb{doi}
+    \verb 10.1086/165948
+    \endverb
+    \keyw{CARBON MONOXIDE, MOLECULAR CLOUDS, STELLAR CORES, STELLAR WINDS, T TAURI STARS, DARK MATTER, INTERSTELLAR CHEMISTRY, STAR FORMATION, STELLAR LUMINOSITY, STELLAR MASS, STELLAR SPECTRA}
+  \endentry
+
+  \entry{1991ApJ...376..561M}{article}{}
+    \name{labelname}{4}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=2d63f7780f18e4dd724c557686259790}{{Fuller}}{F\bibinitperiod}{G.\bibnamedelimi A.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=67a93fce6b42b7da2f599c583e9128c9}{{Goodman}}{G\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=2d63f7780f18e4dd724c557686259790}{{Fuller}}{F\bibinitperiod}{G.\bibnamedelimi A.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=67a93fce6b42b7da2f599c583e9128c9}{{Goodman}}{G\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{ffeeeb24db23b48d324b4aba67b9fdda}
+    \strng{fullhash}{18f01137ecd937a8ebc0577b3d91cd24}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{08}
+    \field{title}{{Dense cores in dark clouds. VI - Shapes}}
+    \field{volume}{376}
+    \field{year}{1991}
+    \field{pages}{561\bibrangedash 572}
+    \verb{doi}
+    \verb 10.1086/170305
+    \endverb
+    \keyw{DARK MATTER, MOLECULAR CLOUDS, STAR FORMATION, CARBON MONOXIDE, INTERSTELLAR MATTER, NEBULAE}
+  \endentry
+
+  \entry{1976ApJ...209L.137Z}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=1e87bf0242652e80f16487ad359eb365}{{Zuckerman}}{Z\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=3f6248131d79673f13da4b4d67864848}{{Kuiper}}{K\bibinitperiod}{T.\bibnamedelimi B.\bibnamedelimi H.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=c4cdb1760c0095ce0a301de3ffec8844}{{Rodriguez\bibnamedelimb Kuiper}}{R\bibinitperiod}{E.\bibnamedelimi N.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=1e87bf0242652e80f16487ad359eb365}{{Zuckerman}}{Z\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=3f6248131d79673f13da4b4d67864848}{{Kuiper}}{K\bibinitperiod}{T.\bibnamedelimi B.\bibnamedelimi H.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=c4cdb1760c0095ce0a301de3ffec8844}{{Rodriguez\bibnamedelimb Kuiper}}{R\bibinitperiod}{E.\bibnamedelimi N.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{267898584da6b29f5a94576c8ba4768b}
+    \strng{fullhash}{267898584da6b29f5a94576c8ba4768b}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apjl}
+    \field{month}{11}
+    \field{title}{{High-velocity gas in the Orion infrared nebula}}
+    \field{volume}{209}
+    \field{year}{1976}
+    \field{pages}{L137\bibrangedash L142}
+    \verb{doi}
+    \verb 10.1086/182284
+    \endverb
+    \keyw{INFRARED SPECTRA, INTERSTELLAR GAS, NEBULAE, STELLAR MASS EJECTION, GRAVITATIONAL COLLAPSE, MAIN SEQUENCE STARS, MOLECULAR SPECTRA, STELLAR EVOLUTION}
+  \endentry
+
+  \entry{1980ApJ...239L..17S}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=4e922d396288bf51894e927fc1ddef87}{{Snell}}{S\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=0f10f553a89e195bbc6689676a478be5}{{Loren}}{L\bibinitperiod}{R.\bibnamedelimi B.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=79f02c4f7f716aa8ff1152440067f1ee}{{Plambeck}}{P\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=4e922d396288bf51894e927fc1ddef87}{{Snell}}{S\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=0f10f553a89e195bbc6689676a478be5}{{Loren}}{L\bibinitperiod}{R.\bibnamedelimi B.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=79f02c4f7f716aa8ff1152440067f1ee}{{Plambeck}}{P\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{2af0413eea5d68f44e568b158385ad6e}
+    \strng{fullhash}{2af0413eea5d68f44e568b158385ad6e}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apjl}
+    \field{month}{07}
+    \field{title}{{Observations of CO in L1551 - Evidence for stellar wind driven shocks}}
+    \field{volume}{239}
+    \field{year}{1980}
+    \field{pages}{L17\bibrangedash L22}
+    \verb{doi}
+    \verb 10.1086/183283
+    \endverb
+    \keyw{CARBON MONOXIDE, INFRARED SPECTRA, INTERSTELLAR MATTER, STELLAR EVOLUTION, STELLAR STRUCTURE, STELLAR WINDS, EMISSION SPECTRA, HERBIG-HARO OBJECTS, KINETIC ENERGY, PLASMA CLOUDS, SHOCK WAVES, STELLAR MASS EJECTION}
+  \endentry
+
+  \entry{2004A&A...426..503W}{article}{}
+    \name{labelname}{7}{}{%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=e5deb6be74a58df88ca02b438ff5594a}{{Wei}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=f6358b9772806404622709efd531a305}{{Zhao}}{Z\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=3ba3b470e434482412b7d90accb643f2}{{Shi}}{S\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=55220f1b9b255949e510e9989566a6c8}{{Yu}}{Y\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=75c526bab0baea444b464dc131969cf3}{{Qin}}{Q\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=602634acdf0a6cbbd816524baea2c827}{{Huang}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{7}{}{%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=e5deb6be74a58df88ca02b438ff5594a}{{Wei}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=f6358b9772806404622709efd531a305}{{Zhao}}{Z\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=3ba3b470e434482412b7d90accb643f2}{{Shi}}{S\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=55220f1b9b255949e510e9989566a6c8}{{Yu}}{Y\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=75c526bab0baea444b464dc131969cf3}{{Qin}}{Q\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=602634acdf0a6cbbd816524baea2c827}{{Huang}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{50efe4799c8c70dff1913f8d05759401}
+    \strng{fullhash}{4cde55f2feed61b4cbfd943ecab72a2c}
+    \field{sortinit}{0}
+    \field{journaltitle}{\aap}
+    \field{month}{11}
+    \field{title}{{A study of high velocity molecular outflows with an up-to-date sample}}
+    \field{volume}{426}
+    \field{year}{2004}
+    \field{pages}{503\bibrangedash 515}
+    \verb{doi}
+    \verb 10.1051/0004-6361:20035767
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/0410727
+    \endverb
+    \keyw{star: formation, stars: winds, outflows, ISM: jets and outflows, ISM: kinematics and dynamics}
+  \endentry
+
+  \entry{1994ApJ...425L..45V}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=2cbb7a474a7a65d0154b0df60583499c}{{van\bibnamedelimb Langevelde}}{v\bibinitperiod}{H.\bibnamedelimi J.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=8c9b366059355091071c841199dec4e9}{{van\bibnamedelimb Dishoeck}}{v\bibinitperiod}{E.\bibnamedelimi F.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=18b3b123874f7392673522bd3c4e62c5}{{Blake}}{B\bibinitperiod}{G.\bibnamedelimi A.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=2cbb7a474a7a65d0154b0df60583499c}{{van\bibnamedelimb Langevelde}}{v\bibinitperiod}{H.\bibnamedelimi J.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=8c9b366059355091071c841199dec4e9}{{van\bibnamedelimb Dishoeck}}{v\bibinitperiod}{E.\bibnamedelimi F.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=18b3b123874f7392673522bd3c4e62c5}{{Blake}}{B\bibinitperiod}{G.\bibnamedelimi A.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{2fe9e6afd7a8c842830751021e40794d}
+    \strng{fullhash}{2fe9e6afd7a8c842830751021e40794d}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apjl}
+    \field{month}{04}
+    \field{title}{{Evidence for HCO(+) infall toward T Tauri?}}
+    \field{volume}{425}
+    \field{year}{1994}
+    \field{pages}{L45\bibrangedash L48}
+    \verb{doi}
+    \verb 10.1086/187307
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/9402054
+    \endverb
+    \keyw{INTERSTELLAR MATTER, PRE-MAIN SEQUENCE STARS, RADIO ASTRONOMY, RADIO SPECTRA, STELLAR EVOLUTION, STELLAR MASS ACCRETION, T TAURI STARS, CARBON MONOXIDE, EXTREMELY HIGH FREQUENCIES, MILLIMETER WAVES}
+  \endentry
+
+  \entry{1998ApJ...504..900T}{article}{}
+    \name{labelname}{6}{}{%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=a0b811e1218aedcb3b939939fa9f8293}{{Mardones}}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=195b211cdccbc4c5e91cc94a9740d22a}{{Caselli}}{C\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=8500d519956162c7899db2a8e666c81b}{{Bachiller}}{B\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{6}{}{%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=a0b811e1218aedcb3b939939fa9f8293}{{Mardones}}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=195b211cdccbc4c5e91cc94a9740d22a}{{Caselli}}{C\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=8500d519956162c7899db2a8e666c81b}{{Bachiller}}{B\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=99c003d6fa6f1869802b811507b469b0}{{Benson}}{B\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{6cf7a83a224fe2289f8ec0d5f53cbfa3}
+    \strng{fullhash}{3f574bc868c1dfdab1f0d39ac4d45f44}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{09}
+    \field{title}{{L1544: A Starless Dense Core with Extended Inward Motions}}
+    \field{volume}{504}
+    \field{year}{1998}
+    \field{pages}{900}
+    \verb{doi}
+    \verb 10.1086/306115
+    \endverb
+    \keyw{ISM: KINEMATICS AND DYNAMICS, ISM: INDIVIDUAL ALPHANUMERIC: L1544, STARS: FORMATION}
+  \endentry
+
+  \entry{1991ApJ...382L..31S}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=95b63d637a59411afa7266391eecc053}{{Sargent}}{S\bibinitperiod}{A.\bibnamedelimi I.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=a6bbc583e7b376355e9e79519550ceb9}{{Beckwith}}{B\bibinitperiod}{S.\bibnamedelimi V.\bibnamedelimi W.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=95b63d637a59411afa7266391eecc053}{{Sargent}}{S\bibinitperiod}{A.\bibnamedelimi I.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=a6bbc583e7b376355e9e79519550ceb9}{{Beckwith}}{B\bibinitperiod}{S.\bibnamedelimi V.\bibnamedelimi W.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{40de3db6f6363e2d2fed914915a20a13}
+    \strng{fullhash}{40de3db6f6363e2d2fed914915a20a13}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apjl}
+    \field{month}{11}
+    \field{title}{{The molecular structure around HL Tauri}}
+    \field{volume}{382}
+    \field{year}{1991}
+    \field{pages}{L31\bibrangedash L35}
+    \verb{doi}
+    \verb 10.1086/186207
+    \endverb
+    \keyw{MOLECULAR CLOUDS, SHELL STARS, STELLAR ENVELOPES, CARBON MONOXIDE, PRE-MAIN SEQUENCE STARS}
+  \endentry
+
+  \entry{1995ApJ...453..384S}{article}{}
+    \name{labelname}{8}{}{%
+      {{hash=ddcda45da5dde224501167da7989a9fc}{{Saito}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=6b54990fc09aa08e875efee306e518fb}{{Kawabe}}{K\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=9121017d60e162200740097a28a427ec}{{Ishiguro}}{I\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=47357958cd2d3f3d3a0acd5629c849cd}{{Miyama}}{M\bibinitperiod}{S.\bibnamedelimi M.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=c692a4c6b23404c34f41d1e66d6814fa}{{Hayashi}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=ca43caef09aff6ab8555049166731dfd}{{Handa}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=551905f084606b9d51457a9b493b298b}{{Kitamura}}{K\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=71092ba4a1cd75dae7f17d200fa188d7}{{Omodaka}}{O\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{8}{}{%
+      {{hash=ddcda45da5dde224501167da7989a9fc}{{Saito}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=6b54990fc09aa08e875efee306e518fb}{{Kawabe}}{K\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=9121017d60e162200740097a28a427ec}{{Ishiguro}}{I\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=47357958cd2d3f3d3a0acd5629c849cd}{{Miyama}}{M\bibinitperiod}{S.\bibnamedelimi M.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=c692a4c6b23404c34f41d1e66d6814fa}{{Hayashi}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=ca43caef09aff6ab8555049166731dfd}{{Handa}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=551905f084606b9d51457a9b493b298b}{{Kitamura}}{K\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=71092ba4a1cd75dae7f17d200fa188d7}{{Omodaka}}{O\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{708e22e7650037afe3951eaeeacf1b1a}
+    \strng{fullhash}{400a94ead348eccb7682df4b9a5f229c}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{11}
+    \field{title}{{Aperture Synthesis 12CO and 13CO Observations of DM Tauri: 350 AU Radius Circumstellar Gas Disk}}
+    \field{volume}{453}
+    \field{year}{1995}
+    \field{pages}{384}
+    \verb{doi}
+    \verb 10.1086/176398
+    \endverb
+    \keyw{STARS: FORMATION, STARS: PRE-MAIN-SEQUENCE, STARS: CIRCUMSTELLAR MATTER}
+  \endentry
+
+  \entry{shu1987star}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{57a6153867effab00a8e8b90acdbc6cf}
+    \strng{fullhash}{57a6153867effab00a8e8b90acdbc6cf}
+    \field{sortinit}{0}
+    \field{journaltitle}{\araa}
+    \field{title}{{Star formation in molecular clouds - Observation and theory}}
+    \field{volume}{25}
+    \field{year}{1987}
+    \field{pages}{23\bibrangedash 81}
+    \verb{doi}
+    \verb 10.1146/annurev.aa.25.090187.000323
+    \endverb
+    \keyw{ASTROPHYSICS, MOLECULAR CLOUDS, STAR FORMATION, STELLAR MODELS, ASTRONOMICAL MAPS, BINARY STARS, GRAVITATIONAL COLLAPSE, PROTOSTARS, STAR CLUSTERS, STELLAR MASS}
+  \endentry
+
+  \entry{2010A&A...512A..67L}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=82f5c7f0d9843f332d20e0eea28ebc68}{{Lombardi}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=f633fc64b2759dececf959e453a84537}{{Lada}}{L\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=0423c8bb67a3ff0eb178e11ac64d89c3}{{Alves}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=82f5c7f0d9843f332d20e0eea28ebc68}{{Lombardi}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=f633fc64b2759dececf959e453a84537}{{Lada}}{L\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=0423c8bb67a3ff0eb178e11ac64d89c3}{{Alves}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{6d0b4e2672fb0322bdbeb49072b9c3fd}
+    \strng{fullhash}{6d0b4e2672fb0322bdbeb49072b9c3fd}
+    \field{sortinit}{0}
+    \field{eid}{A67}
+    \field{journaltitle}{\aap}
+    \field{month}{03}
+    \field{title}{{2MASS wide field extinction maps. III. The Taurus, Perseus, and California cloud complexes}}
+    \field{volume}{512}
+    \field{year}{2010}
+    \field{pages}{A67}
+    \verb{doi}
+    \verb 10.1051/0004-6361/200912670
+    \endverb
+    \keyw{ISM: clouds, dust, extinction, ISM: individual objects:, Taurus molecular complex, ISM: structure, methods: statistical}
+  \endentry
+
+  \entry{2010ApJ...711..655J}{article}{}
+    \name{labelname}{4}{}{%
+      {{hash=2a754fba13dbc64c51d62206f20b2027}{{Johnstone}}{J\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=dc002332535b76a2b722aacf680471f2}{{Rosolowsky}}{R\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=29415e8a020a3a6454f923d4f12531dd}{{Kirk}}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=2a754fba13dbc64c51d62206f20b2027}{{Johnstone}}{J\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=dc002332535b76a2b722aacf680471f2}{{Rosolowsky}}{R\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=29415e8a020a3a6454f923d4f12531dd}{{Kirk}}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{a88383ecefdb48c7347d2ca14cf1fe87}
+    \strng{fullhash}{0ffb60738923d103e1701ce03718a508}
+    \field{sortinit}{0}
+    \field{eprintclass}{astro-ph.SR}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apj}
+    \field{month}{03}
+    \field{title}{{Dense Gas Tracers in Perseus: Relating the N$_{2}$H$^{+}$, NH$_{3}$, and Dust Continuum Properties of Pre- and Protostellar Cores}}
+    \field{volume}{711}
+    \field{year}{2010}
+    \field{pages}{655\bibrangedash 670}
+    \verb{doi}
+    \verb 10.1088/0004-637X/711/2/655
+    \endverb
+    \verb{eprint}
+    \verb 1001.3680
+    \endverb
+    \keyw{ISM: individual: Perseus, ISM: molecules, radio lines: ISM, stars: formation}
+  \endentry
+
+  \entry{2007ApJ...656..293J}{article}{}
+    \name{labelname}{4}{}{%
+      {{hash=564ca9c2dd3db0395de381fa88eb4e28}{{Jørgensen}}{J\bibinitperiod}{J.\bibnamedelimi K.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=2a754fba13dbc64c51d62206f20b2027}{{Johnstone}}{J\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=29415e8a020a3a6454f923d4f12531dd}{{Kirk}}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=564ca9c2dd3db0395de381fa88eb4e28}{{Jørgensen}}{J\bibinitperiod}{J.\bibnamedelimi K.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=2a754fba13dbc64c51d62206f20b2027}{{Johnstone}}{J\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=29415e8a020a3a6454f923d4f12531dd}{{Kirk}}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{ab18ea4cbccfb07a5adece76d538d1e6}
+    \strng{fullhash}{802c366d6716e351244b6256df93bf2a}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{02}
+    \field{title}{{Current Star Formation in the Perseus Molecular Cloud: Constraints from Unbiased Submillimeter and Mid-Infrared Surveys}}
+    \field{volume}{656}
+    \field{year}{2007}
+    \field{pages}{293\bibrangedash 305}
+    \verb{doi}
+    \verb 10.1086/510150
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/0610381
+    \endverb
+    \keyw{ISM: Clouds, ISM: Evolution, Stars: Formation, Stars: Pre-Main-Sequence}
+  \endentry
+
+  \entry{1979ApJ...233..163S}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=95b63d637a59411afa7266391eecc053}{{Sargent}}{S\bibinitperiod}{A.\bibnamedelimi I.}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=95b63d637a59411afa7266391eecc053}{{Sargent}}{S\bibinitperiod}{A.\bibnamedelimi I.}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{95b63d637a59411afa7266391eecc053}
+    \strng{fullhash}{95b63d637a59411afa7266391eecc053}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{10}
+    \field{title}{{Molecular clouds and star formation. II - Star formation in the Cepheus OB3 and Perseus OB2 molecular clouds}}
+    \field{volume}{233}
+    \field{year}{1979}
+    \field{pages}{163\bibrangedash 181}
+    \verb{doi}
+    \verb 10.1086/157378
+    \endverb
+    \keyw{INTERSTELLAR GAS, MOLECULAR GASES, NEBULAE, PROTOSTARS, STAR FORMATION, ASTRONOMICAL MAPS, CARBON MONOXIDE, CLOUDS, EARLY STARS, FORMALDEHYDE}
+  \endentry
+
+  \entry{1999ApJ...525..318P}{article}{}
+    \name{labelname}{5}{}{%
+      {{hash=f9e3a13e6d98ad1b0eda052086bfd834}{{Padoan}}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=5134553628dc1e96c363600dcc057905}{{Bally}}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=1f002e37dc768aa1d316546fdaa8f968}{{Billawala}}{B\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=1406d6a0781ac6edcfb5331854b15454}{{Juvela}}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=a4eaa057f5dd890ab5c24170c6b31df3}{{Nordlund}}{N\bibinitperiod}{Å.}{Å\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{}{%
+      {{hash=f9e3a13e6d98ad1b0eda052086bfd834}{{Padoan}}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=5134553628dc1e96c363600dcc057905}{{Bally}}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=1f002e37dc768aa1d316546fdaa8f968}{{Billawala}}{B\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=1406d6a0781ac6edcfb5331854b15454}{{Juvela}}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=a4eaa057f5dd890ab5c24170c6b31df3}{{Nordlund}}{N\bibinitperiod}{Å.}{Å\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{c1d5d38e3a5f043de83e74e8fc5e4c11}
+    \strng{fullhash}{db37dda2b435b30257dcb6a3f9f663cb}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{11}
+    \field{title}{{Supersonic Turbulence in the Perseus Molecular Cloud}}
+    \field{volume}{525}
+    \field{year}{1999}
+    \field{pages}{318\bibrangedash 329}
+    \verb{doi}
+    \verb 10.1086/307864
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/9905383
+    \endverb
+    \keyw{ISM: INDIVIDUAL (PERSEUS), ISM: KINEMATICS AND DYNAMICS, ISM: MAGNETIC FIELDS, MAGNETOHYDRODYNAMICS: MHD, TURBULENCE}
+  \endentry
+
+  \entry{2005A&A...440..151H}{article}{}
+    \name{labelname}{6}{}{%
+      {{hash=56a2427cf3e0b41314853ea2152b74ee}{{Hatchell}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=70fa1c0cad6d60f942a4ef5826e14d82}{{Richer}}{R\bibinitperiod}{J.\bibnamedelimi S.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=2d63f7780f18e4dd724c557686259790}{{Fuller}}{F\bibinitperiod}{G.\bibnamedelimi A.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=6a0398244237916b77fbe3c080a00f1e}{{Qualtrough}}{Q\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=87977c60cee799318ceeb242504b374c}{{Ladd}}{L\bibinitperiod}{E.\bibnamedelimi F.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=df38aad11bf2ea5386ea06d1d2ced154}{{Chandler}}{C\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{6}{}{%
+      {{hash=56a2427cf3e0b41314853ea2152b74ee}{{Hatchell}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=70fa1c0cad6d60f942a4ef5826e14d82}{{Richer}}{R\bibinitperiod}{J.\bibnamedelimi S.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=2d63f7780f18e4dd724c557686259790}{{Fuller}}{F\bibinitperiod}{G.\bibnamedelimi A.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=6a0398244237916b77fbe3c080a00f1e}{{Qualtrough}}{Q\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=87977c60cee799318ceeb242504b374c}{{Ladd}}{L\bibinitperiod}{E.\bibnamedelimi F.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=df38aad11bf2ea5386ea06d1d2ced154}{{Chandler}}{C\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{469e97cc151c2440e0c43f8484339efa}
+    \strng{fullhash}{ae1064608789adb02433cdf0b2055174}
+    \field{sortinit}{0}
+    \field{journaltitle}{\aap}
+    \field{month}{09}
+    \field{title}{{Star formation in Perseus. Clusters, filaments and the conditions for star formation}}
+    \field{volume}{440}
+    \field{year}{2005}
+    \field{pages}{151\bibrangedash 161}
+    \verb{doi}
+    \verb 10.1051/0004-6361:20041836
+    \endverb
+    \keyw{stars: formation, submillimeter, dust, extinction, ISM: molecules, ISM: clouds, ISM: structure}
+  \endentry
+
+  \entry{2009ApJ...703...52L}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=f633fc64b2759dececf959e453a84537}{{Lada}}{L\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=82f5c7f0d9843f332d20e0eea28ebc68}{{Lombardi}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=724343375c4613869f52c6e198cb49a9}{{Alves}}{A\bibinitperiod}{J.\bibnamedelimi F.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=f633fc64b2759dececf959e453a84537}{{Lada}}{L\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=82f5c7f0d9843f332d20e0eea28ebc68}{{Lombardi}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=724343375c4613869f52c6e198cb49a9}{{Alves}}{A\bibinitperiod}{J.\bibnamedelimi F.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{0c6941a7688ea5d60f0186e3b3c1dad8}
+    \strng{fullhash}{0c6941a7688ea5d60f0186e3b3c1dad8}
+    \field{sortinit}{0}
+    \field{eprintclass}{astro-ph.GA}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apj}
+    \field{month}{09}
+    \field{title}{{The California Molecular Cloud}}
+    \field{volume}{703}
+    \field{year}{2009}
+    \field{pages}{52\bibrangedash 59}
+    \verb{doi}
+    \verb 10.1088/0004-637X/703/1/52
+    \endverb
+    \verb{eprint}
+    \verb 0908.0646
+    \endverb
+    \keyw{dust, extinction, ISM: clouds, stars: formation}
+  \endentry
+
+  \entry{2013ApJ...764..133H}{article}{}
+    \name{labelname}{10}{}{%
+      {{hash=7474c0c0262ffbcd39c44176f520cd70}{{Harvey}}{H\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=9ba5dddd275b8ac1ed31c58583957311}{{Fallscheer}}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=0f40e09aec1267a37826897f795f39d2}{{Ginsburg}}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=500b15f65fb1a194119f529589815391}{{Terebey}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=4316fff4bebeb4846857be9fe37b2549}{{André}}{A\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=f4a36d8ddacd2e10cd5d13eef8babbcf}{{Bourke}}{B\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=9ce3c24652496883c080351890c461cf}{{Di\bibnamedelimb Francesco}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=ded3613c873999759e28f52f0f219dce}{{Könyves}}{K\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=1b2b65d64c57dce9988b6fc92dedfc8a}{{Matthews}}{M\bibinitperiod}{B.\bibnamedelimi C.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=37e1a4cf228149ae3c440f162b903501}{{Peterson}}{P\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{10}{}{%
+      {{hash=7474c0c0262ffbcd39c44176f520cd70}{{Harvey}}{H\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=9ba5dddd275b8ac1ed31c58583957311}{{Fallscheer}}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=0f40e09aec1267a37826897f795f39d2}{{Ginsburg}}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=500b15f65fb1a194119f529589815391}{{Terebey}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=4316fff4bebeb4846857be9fe37b2549}{{André}}{A\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=f4a36d8ddacd2e10cd5d13eef8babbcf}{{Bourke}}{B\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=9ce3c24652496883c080351890c461cf}{{Di\bibnamedelimb Francesco}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=ded3613c873999759e28f52f0f219dce}{{Könyves}}{K\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=1b2b65d64c57dce9988b6fc92dedfc8a}{{Matthews}}{M\bibinitperiod}{B.\bibnamedelimi C.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=37e1a4cf228149ae3c440f162b903501}{{Peterson}}{P\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7713be601871012a334495b94ee00aca}
+    \strng{fullhash}{4a637e170c36f7048f821783efec93f9}
+    \field{sortinit}{0}
+    \field{eid}{133}
+    \field{eprintclass}{astro-ph.GA}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apj}
+    \field{month}{02}
+    \field{title}{{A First Look at the Auriga-California Giant Molecular Cloud with Herschel and the CSO: Census of the Young Stellar Objects and the Dense Gas}}
+    \field{volume}{764}
+    \field{year}{2013}
+    \field{pages}{133}
+    \verb{doi}
+    \verb 10.1088/0004-637X/764/2/133
+    \endverb
+    \verb{eprint}
+    \verb 1212.6966
+    \endverb
+    \keyw{infrared: ISM, ISM: clouds, ISM: structure, stars: formation}
+  \endentry
+
+\endrefsection
+\endinput
+

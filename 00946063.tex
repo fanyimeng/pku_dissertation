@@ -1,11 +1,11 @@
 %\XeTeXinputencoding "GB2312"
-\documentclass[UTF8, nocolorlinks]{pkuthss}
+%\documentclass[UTF8, nocolorlinks]{pkuthss}
+\documentclass[UTF8]{pkuthss}
 \setCJKmainfont[BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}]{FZJPShuSong-Z01S} % FangZhengFonts
-%\setmainfont{CMU Serif Roman}
-\usepackage{mathptmx}
-\bibliographystyle{astron}
+\setmainfont{CMU Serif Roman}
+%\usepackage{mathptmx}
 %\usepackage{unicode-math}
-\setmainfont{Times New Roman}
+%\setmainfont{Times New Roman}
 %\setsansfont{Myriad Pro}
 %\setmonofont[Scale=MatchLowercase]{Consolas}
 % 若需要按照英文文献在前，中文文献在后排序，请设置“sorting = ecnty”；
@@ -18,10 +18,10 @@
 \usepackage{fancyvrb}
 
 % 章节标题
-\CTEXsetup[nameformat={\zihao{-3}\heiti},titleformat={\zihao{-3}\heiti}]{chapter}
-\CTEXsetup[format={\zihao{4}\heiti\centering}]{section}
-\CTEXsetup[format={\zihao{-4}\heiti}]{subsection}
-\CTEXsetup[format={\normalsize\heiti}]{subsubsection}
+\CTEXsetup[nameformat={\zihao{-3}\bfseries},titleformat={\zihao{-3}\bfseries}]{chapter}
+\CTEXsetup[format={\zihao{4}\bfseries\centering}]{section}
+\CTEXsetup[format={\zihao{-4}\bfseries}]{subsection}
+\CTEXsetup[format={\normalsize\bfseries}]{subsubsection}
 % 使被强调的内容为红色。
 \newcommand{\myemph}[1]{\emph{#1}}
 % pkuthss 文档模版的版本。
@@ -30,7 +30,7 @@
 \pkuthssinfo{
 	cthesisname = {本科生毕业论文}, ethesisname = {Undergraduate Thesis},
 	ctitle = {对71个Planck冷团块的CO(1-0)成图研究},
-	etitle = {CO (1-0) Mapping Study of 71 Planck Cold Clumps},
+	etitle = {CO (1-0) Mapping Study \\of 71 Planck Cold Clumps},
 	cauthor = {孟繁一},
 	eauthor = {Fanyi Meng},
 	studentid = {00946063},
@@ -39,8 +39,8 @@
 	cmajor = {物理学}, emajor = {Physics},
 	direction = {天体物理},
 	cmentor = {吴月芳\ 教授}, ementor = {Prof.\ Yuefang Wu},
-	ckeywords = {\LaTeX2e{}，排版，文档类，\CTeX{}},
-	ekeywords = {\LaTeX2e{}, typesetting, document class, \CTeX{}}
+	ckeywords = {恒星形成，分子云，分子谱线},
+	ekeywords = {Star Formation，Molecular Cloud，Molecular Spectrum}
 }
 % 导入参考文献数据库（注意不要省略“.bib”）。
 \addbibresource{00946063.bib}
@@ -80,14 +80,14 @@
 %Following are command not in AASTeX.
 \newcommand{\jj}{{\rm j}}
 \newcommand{\uph}{$\phi$($^{\circ}$)}
-\newcommand{\apjs}{ApJS}
-\newcommand{\apjl}{ApJL}
-\newcommand{\apj}{ApJ}
-\newcommand{\aap}{A\&A}
-\newcommand{\araa}{ARA\&A}
-\newcommand{\mnras}{MNRAS}
+\newcommand{\apjs}{Astrophysical Journal Supplement}
+\newcommand{\apjl}{Astrophysical Journal Letters}
+\newcommand{\apj}{Astrophysical Journal}
+\newcommand{\aap}{Astronomy and Astrophysics}
+\newcommand{\araa}{Annual Review of Astronomy and Astrophysics}
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
 \newcommand{\nat}{Nature}
-\newcommand{\aj}{AJ}
+\newcommand{\aj}{The Astronomical Journal}
 \newcommand{\arcsec}{$^{\prime\prime}$}
 \newcommand{\arcmin}{$^{\prime}$}
 %Following are important numbers used in the text.
@@ -120,8 +120,9 @@
 	% 中英文摘要。
 \begin{cabstract}
 
-	本文介绍了对 Taurus/Perseus/California 三个分子云复合体中71个 Planck 冷团块气体成分的成图研究。 我们利用中国科学院紫金山天文台青海观测站的13.7 m 毫米波望远镜进行了\coa、\cob 以及 \coc 分子的 $J=1-0$ 转动跃迁谱线观测。全部\numsou 个Planck冷团块都被探测到有\coaa 和\cobb 的辐射，其中55个被探测到有\cocc 的辐射。 通过空间分布和线心速度的验证， 我们发现 Taurus 分子云复合体（Taurus Molecular Complex，TMC）、Perseus 分子云复合体（Perseus Molecular Complex，PMC）和 California 分子云复合体（California Molecular Complex，CMC）、\numsoutmc \numsoucmc \numsoupmc
+	本文介绍了对 Taurus/Perseus/California 三个分子云复合体中71个 Planck 冷团块气体成分的成图研究。 我们利用中国科学院紫金山天文台青海观测站的13.7 m 毫米波望远镜进行了\coa、\cob 以及 \coc 分子的 $J=1-0$ 转动跃迁谱线观测。全部\numsou 个Planck冷团块都被探测到有\coaa 和\cobb 的辐射，其中55个被探测到有\cocc 的辐射。 通过空间分布和线心速度的验证， 我们证认出 Taurus 分子云复合体（TMC）、Perseus 分子云复合体（PMC）和 California 分子云复合体（CMC）中分别有 \numsoutmc 个、 \numsoucmc 个和 \numsoupmc 个Planck冷团块。在这些冷团块中，共证认出\numcore 个云核（Core）， 其中TMC、PMC和CMC分别有\numcoretmc、\numcorepmc 和\numcorecmc 个云核。对于这些云核，我们通过观测数据计算了观测参量：线心速度（\vlsr ）、天线温度（\ta ）、谱线宽度（FWHM）。 通过这些观测参量我们计算出了各个云核的物理参量。 在局部热动平衡（LTE）假设下应用辐射传能方程，我们得到激发温度（\texc ）、气体柱密度（\nhyd ）。同时我们还计算了云核的热速度弥散（\sigmath ）、非热速度弥散（\sigmant ）以及三维速度弥散（\sigmatd ）。根据对云核成图的椭圆高斯拟合，我们得到了云核的几何尺度（$R$），从而计算出气体数密度（\nnhyd ）、LTE质量（$M_{LTE}$）、Jeans质量（$M_{J}$）和virial质量（$M_{vir}$）。
 
+	根据这些物理参量，我们发现84\%的云核有：\sigmant $>$\sigmath ，而TMC中84\%的云核和CMC中69\%的云核的柱密度概率分布函数（PDF）呈对数正态分布（K-S检验中$p>0.05$），表明在我们的样本中湍动的支配地位。大多数（TMC中的90\%、CMC中的60\%）云核的$M_{vir}$和$M_{J}$大于$M_{LTE}$，表明云核无明显的重力塌缩迹象。通过对比此气体观测结果和 Planck 获得的尘埃连续谱辐射数据，我们发现60\%云核的气体温度低于其尘埃温度。同时，CO分子的丰度在正常范围之内。经过查找成协源，90\%的团块被证实无成协物。根据这些计算与分析，我们发现这些Planck团块还没处于恒星形成前，分子云中的致密核未充分演化的早期形态。本研究揭示了它们的物理状态和动力学性质。
 \end{cabstract}
 
 \begin{eabstract}
@@ -129,7 +130,7 @@
 	A mapping study towards \numsou Planck Cold Clumps was made with \coaa, \cobb and \cocc lines, at the 13.7 m telescope of Purple Mountain Observatory. For all the clumps, \coaa and \cobb emissions were detected, while for \numcocc of them, \cocc emissions were detected.  Of the \numsou Clumps, \numsoutmc are in Taurus Molecular Complex, \numsoucmc in California  Molecular Complex and \numsoupmc are in Perseus Molecular Complex. In the \numvelcomp velocity components, \numcore cores are found in \numcompofcores clumps, \numcoretmc cores are in TMC, \numcorecmc in CMC and \numcorepmc are in PMC.
     We acquired the observational parameters such as $V_{lsr}$, $T_{A}$ and FWHM of lines. Physical parameters including \texc, \nhyd, \sigmath, \sigmant,  \sigmatd were calculated.
 
-    We found that most of the cores have \sigmant larger than \sigmath, suggesting dominance of turbulence in our cores. Most cores are found with $M_{vir}$ and $M_J$ larger than $M_{LTE}$, indicating these cores are neither going to collapse nor gravitationally bound. To compare with the dust properties revealed by Planck ECC catalog, we investigated the coupling of gas and dust components. We found most of the cores are with dust temperature higher than gas temperature. The objects associated with our sources are checked, for most of the core, no associated objects are found within distance of 55\arcsec to their centers.
+    We found that 84\% of the cores have \sigmant larger than \sigmath and 84\% cores in TMC and 69\% cores in CMC have \nhyd lognormal probability distribution function. These suggest the dominance of turbulence in our cores. Most cores （90\% in TMC and 69\% in CMC） are found with $M_{vir}$ and $M_J$ larger than $M_{LTE}$, indicating these cores are neither going to collapse nor gravitationally bound. To compare with the dust properties revealed by Planck ECC catalog, we investigated the coupling of gas and dust components. We found 60\% of the cores are with dust temperature higher than gas temperature. The objects associated with our sources are checked, for 90\% of the core, no associated objects are found within distance of 55\arcsec to their centers. These facts suggest that our samples represent the very early stage of prestellar cores. This research reveals the physical properties and kinematic characteristics of molecular cores which are in their early evolutionary stages.
 
 \end{eabstract}
 
@@ -139,15 +140,49 @@
 	\mainmatter
 \chapter{引言}
 	\section{冷暗云（Cold Dark Cloud）}
+		略
+
 	\section{Planck团块}
-	\section{Taurus/Perseus/California分子云复合体}
-	\section{研究目标和研究方法}
+
+		欧洲航天局于2009年5月发射 Planck空间望远镜，其工作波段为：30、44和70 Hz（以上由LFI接收机实现）；100、143、217、353、545和857 Hz（以上由HFI接收机实现）\supercite{2011A&A...536A...1P}。Planck 的早期结果系统地提供了丰富的银河系内冷团块样本：C3PO（Cold Core Catalogue of Planck Objects） 星表包含10,873个冷云核\supercite{2011yCat.8088....0P,2011A&A...536A..23P}。在C3PO表中，915个可靠探测（$\rm SNR>15$ 且 $T_{\rm ECC}<14\rm\ K$）的源被归入其子表ECC（Planck Early Release Cold Cores Catalogue）\supercite{2011yCat.8088....0P,2011A&A...536A..23P}。
+
+		对于Planck冷团块中尘埃的物理性质，Planck Collaboration进行了的细致研究，从而揭示了C3PO中的冷团块的柱密度$N_ {\rm H_2} \approx 0.1 \rm \sim \ 1.6 \times 10^{22} \rm cm^{-2}$，并且尘埃温度在10 K到15 K之间\supercite{2011A&A...536A..23P}。这些研究利用三个HFI接收机频率（353、545、857 Hz）测得的流量，同时结合IRAS 3000 GHz波段的数据得出相应结果\supercite{2011A&A...536A..23P,2011A&A...536A..22P}。
+
+		除了Planck Collaboration 对于 Planck 冷团块尘埃成分的研究之外， 对其气体成分的单点观测也已经取得成果。 利用中国科学院紫金山天文台青海观测站的13.7 m毫米波望远镜，Wu et al (2012)完成了对674个ECC源的\coaa 、\cobb  和\cocc  三谱线单点观测，并且得出了其动力学温度（$T_k$）、气体柱密度（\nhyd）以及速度弥散（$\sigma$）等物理参量\supercite{wu2012gas}。利用同样的设备，Liu et al (2012)等对Orion分子云复合体中的51个Planck冷团块做了\coaa 、\cobb  和\cocc  三谱线成图观测\supercite{LiuTie}。
+
+	\section{研究区域}
+
+		\subsection{Taurus分子云复合体}
+
+			Taurus分子云复合体（Taurus Molecular Complex，下文简称TMC）是典型的小质量恒星形成区， 同时也是距离我们最近（$D\approx 140\rm\ pc$）的巨分子云\supercite{1987ApJ...322..706D}。 因此，在分辨率有限的情况下，TMC是理想的小质量恒星形成研究样本。
+
+			对于TMC，人们已经有大量的分子谱线观测结果。针对TMC和Ophuichus中的90个“微小光学不透明体”（small visual opaques），Myers (1983), Myers and Benson (1983) 进行了\cob 和 \coc 的观测，并且得出其中的云核几何尺度为$0.1\sim0.3 \ \rm pc$，质量为$4\sim30\ \rm M_\odot$以及激发温度\texc $\sim$ 10 K\supercite{1983ApJ...264..517M,1983ApJ...266..309M}。在同一系列的成果中，Meyers et al 对云核的亚音速湍动、CO外向流、形态等也进行了研究\supercite{1983ApJ...270..105M,1988ApJ...324..907M,1991ApJ...376..561M}。
+
+			在TMC中，人们发现了丰富的气体动力学过程和多个演化阶段的特征。分子外向流首次在大质量恒星形成区被发现，但由于距离过远其并不能被很好地被分辨\supercite{1976ApJ...209L.137Z}。而之后在TMC中L1551被证认为有分子外向流，并且红瓣（red-lobe）和蓝瓣（blue-lobe）能够良好地被分辨\supercite{1980ApJ...239L..17S}。截至2003年2月发现的400个分子外向流中，有11\% 在TMC中\supercite{2004A&A...426..503W}。不仅分子外向流，人们在TMC中也发现了丰富的的分子内向流：例如对T Tau 双星系统\supercite{1994ApJ...425L..45V}和L 1544的研究\supercite{1998ApJ...504..900T}。和恒星形成密切相关的盘状结构也在TMC中被证认出来：例如在HL Tau周围发现的盘状结构\supercite{1991ApJ...382L..31S}以及DM Tau\supercite{1995ApJ...453..384S}。综上，TMC包含从class 0到class III全部恒星形成阶段的源。这些不同演化阶段的源的特征是恒星形成理论，例如Shu et al (1987) 提出的“恒星形成四个阶段”理论\supercite{shu1987star}的观测基础。
+
+		\subsection{Perseus分子云复合体}
+
+			Perseus分子云复合体（Persues Molecular Complex，下文简称PMC）同样是著名的恒星形成区， 其中有中等质量原恒星被证认\supercite{2010A&A...512A..67L}。 一般认为，PMC的情形介于以TMC为代表的小质量恒星形成区和以Orion巨分子云为代表的大质量恒星形成区之间\supercite{2010ApJ...711..655J}。对于PMC，人们亦有大量研究。
+
+			结合亚毫米和中红外资料，在PMC中已有49个深嵌埋（deeply embedded）年轻星体（young stellar objects，下文简称YSO）被证认\supercite{2007ApJ...656..293J}。 而在毫米波段，针对PMC人们也已经进行过多次CO观测\supercite{1979ApJ...233..163S,1999ApJ...525..318P, 2005A&A...440..151H}。
+
+			PMC的距离为235$\pm$18 pc\supercite{2010A&A...512A..67L}。
+
+		\subsection{California分子云复合体}
+
+			有别于TMC和PMC，在2009年之前，California分子云复合体（California Molecular Complex，下文简称CMC） 并没有获得足够的重视。对于CMC的开创性工作是Lada et al在2009年作出的，其得出了CMC的距离为$450\pm23\rm\ pc$，空间延伸达80 pc，总质量约为 $10^5 M_\odot$\supercite{2009ApJ...703...52L}。CMC有着和Orion巨分子云相似的距离、质量和形态，但是其恒星形成活跃程度对比Orion巨分子云要低得多\supercite{2009ApJ...703...52L,2010A&A...512A..67L}。
+
+			近期，一项对于CMC区域的成图研究给出了含有78个源的星表\supercite{2013ApJ...764..133H}。其中有60个“致密源”在70 $\mu$m的波段上被证认，所用数据来自Herschel的PACS 和 SPIRE设备\supercite{2013ApJ...764..133H}。而另外18个“冷致密源”则是用的Bolocam 1.1 mm 波段的数据\supercite{2013ApJ...764..133H}。
+
+			由于CMC展示出了相对年轻的演化特征，其可以作为研究冷云核早期演化的理想样本。除了上述的研究，我们仍然迫切需要对CMC做更高分辨率的毫米波观测，以更全面而深入地揭示其中冷云核的物理特性。
+
+	\section{研究目标}
 \chapter{观测和数据处理}
 	\section{望远镜参数}
 	\section{数据处理方法}
 \chapter{观测结果}
 	\section{观测参量}
-	\section{导出参量}
+	\section{物理参量}
 \chapter{分析与讨论}
 	\section{谱线轮廓}
 	\section{云核内的湍动}

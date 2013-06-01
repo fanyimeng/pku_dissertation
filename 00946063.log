@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  1 JUN 2013 00:24
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  1 JUN 2013 14:20
 entering extended mode
 **00946063.tex
 (D:\Dissertation\00946063.tex
@@ -622,82 +622,50 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 File: pkuthss-utf8.def 2013/04/07 v1.4-rc3 Labels and captions in UTF-8 encodin
 g for the pkuthss document class
 )
-(C:\CTEX\MiKTeX\tex\latex\psnfss\mathptmx.sty
-Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
-LaTeX Info: Redefining \hbar on input line 50.
-)
-Requested font "Times New Roman" at 12.05pt
- -> C:/Windows/Fonts/times.ttf
-Requested font "Times New Roman/ICU" at 12.05pt
- -> C:/Windows/Fonts/times.ttf
-\g_fontspec_family_Times New Roman_int=\count186
-Requested font "Times New Roman/B/ICU" at 12.05pt
- -> C:/Windows/Fonts/timesbd.ttf
-Requested font "Times New Roman/B/B/ICU" at 12.05pt
- -> C:/Windows/Fonts/timesbd.ttf
-Requested font "Times New Roman/I/ICU" at 12.05pt
- -> C:/Windows/Fonts/timesi.ttf
-Requested font "Times New Roman/I/I/ICU" at 12.05pt
- -> C:/Windows/Fonts/timesi.ttf
-Requested font "Times New Roman/BI/ICU" at 12.05pt
- -> C:/Windows/Fonts/timesbi.ttf
-Requested font "Times New Roman/BI/BI/ICU" at 12.05pt
- -> C:/Windows/Fonts/timesbi.ttf
+Requested font "CMU Serif Roman" at 12.05pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+Requested font "CMU Serif Roman/ICU" at 12.05pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font CMU Serif Roman does not contain any OpenType `Script' information.
+.................................................
+\g_fontspec_family_CMU Serif Roman_int=\count186
+Requested font "CMU Serif Roman/B/ICU" at 12.05pt
+ -> C:/Windows/Fonts/cmunbx.otf
+Requested font "CMU Serif Roman/B/B/ICU" at 12.05pt
+ -> C:/Windows/Fonts/cmunbx.otf
+Requested font "CMU Serif Roman/I/ICU" at 12.05pt
+ -> C:/Windows/Fonts/cmunti.otf
+Requested font "CMU Serif Roman/I/I/ICU" at 12.05pt
+ -> C:/Windows/Fonts/cmunti.otf
+Requested font "CMU Serif Roman/BI/ICU" at 12.05pt
+ -> C:/Windows/Fonts/cmunbi.otf
+Requested font "CMU Serif Roman/BI/BI/ICU" at 12.05pt
+ -> C:/Windows/Fonts/cmunbi.otf
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
+. Font family 'CMUSerifRoman(0)' created for font 'CMU Serif Roman' with
 . options [Ligatures=TeX,].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"CMU Serif Roman/ICU:mapping=tex-text;"
 . 
 . * 'bold' with NFSS spec.:
-. <->"Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"CMU Serif Roman/B/ICU:mapping=tex-text;"
 . 
 . * 'italic' with NFSS spec.:
-. <->"Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"CMU Serif Roman/I/ICU:mapping=tex-text;"
 . 
 . * 'bold italic' with NFSS spec.:
-. <->"Times New Roman/BI/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. <->"CMU Serif Roman/BI/ICU:mapping=tex-text;"
 .................................................
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 12.05pt
- -> C:/Windows/Fonts/times.ttf
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 12.05pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
 
 (C:\CTEX\MiKTeX\tex\latex\biblatex\biblatex.sty
 Package: biblatex 2011/11/13 v1.7 programmable bibliographies
@@ -907,8 +875,8 @@ Package: amssymb 2009/06/22 v3.00
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks23
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
@@ -1076,6 +1044,78 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
 LaTeX Font Info:    ... okay on input line 114.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
 LaTeX Font Info:    ... okay on input line 114.
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 114.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 114.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 114.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 114.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 114.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 114.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 114.
+LaTeX Font Info:    Redeclaring math accent \check on input line 114.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 114.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 114.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 114.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 114.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 114.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/CMUSerifRoman(0)/m/n on input line 
+114.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 114.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU1/CMUSerifRoman(0)/m/n on input line
+ 114.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/m/n o
+n input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/m/n o
+n input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/CMUSerifRoman(0)/m/it on input lin
+e 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/CMUSerifRoman(0)/bx/n on input lin
+e 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 114.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/bx/n 
+on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/bx/n 
+on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU1/CMUSerifRoman(0)/bx/it on input l
+ine 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 114.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 114.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1112,19 +1152,18 @@ LaTeX Font Info:    ... okay on input line 114.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 114.
-\big@size=\dimen165
+Package hyperref Info: Option `colorlinks' set `true' on input line 114.
 Package biblatex Info: Input encoding 'UTF-8' specified.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'UTF-8'.
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '00946063.bbl' not found.
-No file 00946063.bbl.
+Package biblatex Info: ... file '00946063.bbl' found.
+(D:\Dissertation\00946063.bbl)
 Package biblatex Info: Reference section=0 on input line 114.
 Package biblatex Info: Reference segment=0 on input line 114.
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 114.
-(C:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+Package hyperref Info: Link coloring ON on input line 114.
+ (C:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (C:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
@@ -1141,12 +1180,10 @@ LaTeX Info: Redefining \nameref on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern -0.60252pt
-(hyperref)                removed on input line 118.
+(hyperref)                removing `\\' on input line 118.
 
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 26.1pt
- -> C:/Windows/Fonts/times.ttf
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 26.1pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
 Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
@@ -1156,9 +1193,8 @@ Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 119 replaced by U+FFFD.
 File: img/pkulogo.eps Graphic file (type eps)
 <img/pkulogo.eps>
-Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 26.1pt
- -> C:/Windows/Fonts/timesbd.ttf
+Requested font "CMU Serif Roman/B/ICU:mapping=tex-text;" at 26.1pt
+ -> C:/Windows/Fonts/cmunbx.otf
 Requested font "FZJPShuSong-Z01S" at 26.1pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
@@ -1201,9 +1237,8 @@ Requested font "FZHei-B01S/I/ICU" at 26.1pt
 .................................................
 Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 26.1pt
  -> C:/Windows/Fonts/FZheitiS.TTF
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 22.08pt
- -> C:/Windows/Fonts/times.ttf
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 22.08pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
 Requested font "FZJPShuSong-Z01S" at 22.08pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
@@ -1226,9 +1261,8 @@ Requested font "FZJPShuSong-Z01S/ICU" at 22.08pt
 Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 22.08pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
-Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 22.08pt
- -> C:/Windows/Fonts/timesbd.ttf
+Requested font "CMU Serif Roman/B/ICU:mapping=tex-text;" at 22.08pt
+ -> C:/Windows/Fonts/cmunbx.otf
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1245,92 +1279,55 @@ t;" at 22.08pt
 Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 22.08pt
  -> C:/Windows/Fonts/FZheitiS.TTF
 \pkuthss@tmp@linecount=\count391
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 18.07pt
- -> C:/Windows/Fonts/times.ttf
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
-9.
- (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 18.07pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 15.06pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+Requested font "cmmi12" at 18.07pt
+ -> cmmi12
+Requested font "cmmi12" at 15.06pt
+ -> cmmi12
+Requested font "cmmi12" at 12.05pt
+ -> cmmi12
+Requested font "cmsy10" at 18.07pt
+ -> cmsy10
+Requested font "cmsy10" at 15.06pt
+ -> cmsy10
+Requested font "cmsy10" at 12.05pt
+ -> cmsy10
+Requested font "cmex10" at 18.07pt
+ -> cmex10
+Requested font "cmex10" at 15.06pt
+ -> cmex10
+Requested font "cmex10" at 12.05pt
+ -> cmex10
+LaTeX Font Info:    Try loading font information for U+msa on input line 119.
+ (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-Requested font "zptmcm7t" at 18.07pt
- -> zptmcm7t
-Requested font "zptmcm7t" at 15.06pt
- -> zptmcm7t
-Requested font "zptmcm7t" at 12.05pt
- -> zptmcm7t
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
-9.
-
-(C:\CTEX\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-Requested font "zptmcm7m" at 18.07pt
- -> zptmcm7m
-Requested font "zptmcm7m" at 15.06pt
- -> zptmcm7m
-Requested font "zptmcm7m" at 12.05pt
- -> zptmcm7m
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
-9.
-
-(C:\CTEX\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-Requested font "zptmcm7y" at 18.07pt
- -> zptmcm7y
-Requested font "zptmcm7y" at 15.06pt
- -> zptmcm7y
-Requested font "zptmcm7y" at 12.05pt
- -> zptmcm7y
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
-9.
-
-(C:\CTEX\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-Requested font "zptmcm7v" at 18.07pt
- -> zptmcm7v
-Requested font "zptmcm7v" at 15.06pt
- -> zptmcm7v
-Requested font "zptmcm7v" at 12.05pt
- -> zptmcm7v
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 119.
-
-
-(C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18.07> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
-Requested font "ptmb7t" at 18.07pt
- -> ptmb7t
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.06> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
-Requested font "ptmb7t" at 15.06pt
- -> ptmb7t
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.05> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
-Requested font "ptmb7t" at 12.05pt
- -> ptmb7t
-Requested font "ptmri7t" at 18.07pt
- -> ptmri7t
-Requested font "ptmri7t" at 15.06pt
- -> ptmri7t
-Requested font "ptmri7t" at 12.05pt
- -> ptmri7t
 Requested font "msam10" at 18.07pt
  -> msam10
 Requested font "msam10" at 15.06pt
  -> msam10
 Requested font "msam10" at 12.05pt
  -> msam10
+LaTeX Font Info:    Try loading font information for U+msb on input line 119.
+
+(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
 Requested font "msbm10" at 18.07pt
  -> msbm10
 Requested font "msbm10" at 15.06pt
  -> msbm10
 Requested font "msbm10" at 12.05pt
  -> msbm10
+Requested font "cmr17" at 18.07pt
+ -> cmr17
+Requested font "cmr12" at 15.06pt
+ -> cmr12
+Requested font "cmr12" at 12.05pt
+ -> cmr12
 Requested font "FZJPShuSong-Z01S" at 18.07pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
@@ -1353,9 +1350,8 @@ Requested font "FZJPShuSong-Z01S/ICU" at 18.07pt
 Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 18.07pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
-Requested font "Times New Roman/I/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 18.07pt
- -> C:/Windows/Fonts/timesi.ttf
+Requested font "CMU Serif Roman/I/ICU:mapping=tex-text;" at 18.07pt
+ -> C:/Windows/Fonts/cmunti.otf
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1420,9 +1416,8 @@ Requested font "[SIMKAI.TTF]/ICU:mapping=tex-text;" at 22.08pt
 
 
 ]
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 10.54pt
- -> C:/Windows/Fonts/times.ttf
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 10.54pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
 Requested font "FZJPShuSong-Z01S" at 10.54pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
@@ -1448,49 +1443,25 @@ Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 10.54pt
  [2
 
 ]
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 15.06pt
- -> C:/Windows/Fonts/times.ttf
-Requested font "SimHei" at 18.07pt
- -> C:/Windows/Fonts/simhei.ttf
-Requested font "SimHei/ICU" at 18.07pt
- -> C:/Windows/Fonts/simhei.ttf
+Requested font "CMU Serif Roman/B/ICU:mapping=tex-text;" at 15.06pt
+ -> C:/Windows/Fonts/cmunbx.otf
+Requested font "CMU Serif Roman/B/ICU:mapping=tex-text;" at 18.07pt
+ -> C:/Windows/Fonts/cmunbx.otf
 .................................................
 . fontspec info: "no-scripts"
 . 
-. Font SimHei does not contain any OpenType `Script' information.
-.................................................
-\g_fontspec_family_SimHei_int=\count399
-Requested font "SimHei/I/ICU" at 18.07pt
- -> C:/Windows/Fonts/simhei.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font SimHei/I (it probably doesn't exist).
-.................................................
-Requested font "SimHei/I/ICU" at 18.07pt
- -> C:/Windows/Fonts/simhei.ttf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font SimHei/I (it probably doesn't exist).
+. Font FZJPShuSong-Z01S does not contain any OpenType `Script' information.
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'SimHei(0)' created for font 'SimHei' with options
-. [Ligatures=TeX,BoldFont={SimHei},BoldFeatures={RawFeature={embolden=4}}].
+. Font family 'FZJPShuSong-Z01S(0)' created for font 'FZJPShuSong-Z01S' with
+. options [Ligatures=TeX,BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}].
 . 
 . This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"SimHei/ICU:mapping=tex-text;"
-. 
-. * 'bold' with NFSS spec.:
-. <->"SimHei/ICU:mapping=tex-text;embolden=4;"
 .................................................
-Requested font "SimHei/ICU:mapping=tex-text;" at 18.07pt
- -> C:/Windows/Fonts/simhei.ttf
+Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 18.07pt
+ -> C:/Windows/Fonts/FZheitiS.TTF
 Requested font "FZJPShuSong-Z01S" at 15.06pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
@@ -1513,28 +1484,31 @@ Requested font "FZJPShuSong-Z01S/ICU" at 15.06pt
 Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 15.06pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 14.05pt
- -> C:/Windows/Fonts/times.ttf
-Requested font "SimHei" at 14.05pt
- -> C:/Windows/Fonts/simhei.ttf
-Requested font "SimHei/ICU" at 14.05pt
- -> C:/Windows/Fonts/simhei.ttf
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 14.05pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+Requested font "CMU Serif Roman/B/ICU:mapping=tex-text;" at 14.05pt
+ -> C:/Windows/Fonts/cmunbx.otf
+Requested font "FZJPShuSong-Z01S" at 14.05pt
+ -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
+93.TTF
+Requested font "FZJPShuSong-Z01S/ICU" at 14.05pt
+ -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
+93.TTF
 .................................................
 . fontspec info: "no-scripts"
 . 
-. Font SimHei does not contain any OpenType `Script' information.
+. Font FZJPShuSong-Z01S does not contain any OpenType `Script' information.
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'SimHei(0)' created for font 'SimHei' with options
-. [Ligatures=TeX,BoldFont={SimHei},BoldFeatures={RawFeature={embolden=4}}].
+. Font family 'FZJPShuSong-Z01S(0)' created for font 'FZJPShuSong-Z01S' with
+. options [Ligatures=TeX,BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}].
 . 
 . This font family consists of the following shapes:
 .................................................
-Requested font "SimHei/ICU:mapping=tex-text;" at 14.05pt
- -> C:/Windows/Fonts/simhei.ttf
+Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 14.05pt
+ -> C:/Windows/Fonts/FZheitiS.TTF
 Requested font "FZJPShuSong-Z01S" at 12.05pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
@@ -1557,45 +1531,39 @@ Requested font "FZJPShuSong-Z01S/ICU" at 12.05pt
 Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 12.05pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
-Requested font "zptmcm7t" at 8.0pt
- -> zptmcm7t
-Requested font "zptmcm7t" at 6.0pt
- -> zptmcm7t
-Requested font "zptmcm7m" at 8.0pt
- -> zptmcm7m
-Requested font "zptmcm7m" at 6.0pt
- -> zptmcm7m
-Requested font "zptmcm7y" at 8.0pt
- -> zptmcm7y
-Requested font "zptmcm7y" at 6.0pt
- -> zptmcm7y
-Requested font "zptmcm7v" at 8.0pt
- -> zptmcm7v
-Requested font "zptmcm7v" at 6.0pt
- -> zptmcm7v
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
-Requested font "ptmb7t" at 8.0pt
- -> ptmb7t
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
-Requested font "ptmb7t" at 6.0pt
- -> ptmb7t
-Requested font "ptmri7t" at 8.0pt
- -> ptmri7t
-Requested font "ptmri7t" at 6.0pt
- -> ptmri7t
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 8.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 6.0pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+Requested font "cmmi8" at 8.0pt
+ -> cmmi8
+Requested font "cmmi6" at 6.0pt
+ -> cmmi6
+Requested font "cmsy8" at 8.0pt
+ -> cmsy8
+Requested font "cmsy6" at 6.0pt
+ -> cmsy6
+Requested font "cmex8" at 8.0pt
+ -> cmex8
+Requested font "cmex7" at 6.0pt
+ -> cmex7
 Requested font "msam10" at 8.0pt
  -> msam10
-Requested font "msam10" at 6.0pt
- -> msam10
+Requested font "msam7" at 6.0pt
+ -> msam7
 Requested font "msbm10" at 8.0pt
  -> msbm10
-Requested font "msbm10" at 6.0pt
- -> msbm10
-Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
-t;" at 12.05pt
- -> C:/Windows/Fonts/timesbd.ttf
+Requested font "msbm7" at 6.0pt
+ -> msbm7
+Requested font "cmr8" at 8.0pt
+ -> cmr8
+Requested font "cmr6" at 6.0pt
+ -> cmr6
+ [3
+
+]
+Requested font "CMU Serif Roman/B/ICU:mapping=tex-text;" at 12.05pt
+ -> C:/Windows/Fonts/cmunbx.otf
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1611,44 +1579,28 @@ t;" at 12.05pt
 .................................................
 Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 12.05pt
  -> C:/Windows/Fonts/FZheitiS.TTF
-Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
-" at 8.0pt
- -> C:/Windows/Fonts/times.ttf
- [3
+ [4] [5
 
-] [4
 
-]
-Overfull \hbox (2.41699pt too wide) in paragraph at lines 129--131
-[]\EU1/TimesNewRoman(0)/m/n/12.05 A mapping study towards 71 Planck Cold Clumps
- was made with $[]$CO(1-0) , $[]$CO(1-
- []
-
-[5
-
-] [6
-
-]
-Requested font "SimHei" at 15.06pt
- -> C:/Windows/Fonts/simhei.ttf
-Requested font "SimHei/ICU" at 15.06pt
- -> C:/Windows/Fonts/simhei.ttf
+] [6]
 .................................................
 . fontspec info: "no-scripts"
 . 
-. Font SimHei does not contain any OpenType `Script' information.
+. Font FZJPShuSong-Z01S does not contain any OpenType `Script' information.
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'SimHei(0)' created for font 'SimHei' with options
-. [Ligatures=TeX,BoldFont={SimHei},BoldFeatures={RawFeature={embolden=4}}].
+. Font family 'FZJPShuSong-Z01S(0)' created for font 'FZJPShuSong-Z01S' with
+. options [Ligatures=TeX,BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}].
 . 
 . This font family consists of the following shapes:
 .................................................
-Requested font "SimHei/ICU:mapping=tex-text;" at 15.06pt
- -> C:/Windows/Fonts/simhei.ttf
- (D:\Dissertation\00946063.toc [7
+Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 15.06pt
+ -> C:/Windows/Fonts/FZheitiS.TTF
+
+(D:\Dissertation\00946063.toc [7
+
 
 ])
 \tf@toc=\write6
@@ -1657,56 +1609,58 @@ Requested font "SimHei/ICU:mapping=tex-text;" at 15.06pt
 [1
 
 
-] [2
+] [2] [3] [4
 
 ]
 第二章
-[3] [4
-
-]
-第三章
 [5] [6
 
 ]
-第四章
-
-LaTeX Warning: Empty bibliography on input line 161.
-
+第三章
 [7] [8
 
 ]
-附录\nobreakspace {}A
+第四章
 [9] [10
 
 ]
-附录\nobreakspace {}B
-[11] [12
+Requested font "CMU Serif Roman/I/ICU:mapping=tex-text;" at 12.05pt
+ -> C:/Windows/Fonts/cmunti.otf
+ [11] [12] [13] [14
 
-] (D:\Dissertation\include/acknowledge.tex) [13
+]
+附录\nobreakspace {}A
+[15] [16
+
+]
+附录\nobreakspace {}B
+[17] [18
+
+] (D:\Dissertation\include/acknowledge.tex) [19
 
 
 ]
-(D:\Dissertation\include/originauth.tex [14
+(D:\Dissertation\include/originauth.tex [20
 
 
 
-]) [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 450.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 450.
+]) [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 485.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 485.
 
 (D:\Dissertation\00946063.aux (D:\Dissertation\include/acknowledge.aux)
 (D:\Dissertation\include/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 450.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 450.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 485.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 485.
 Package logreq Info: Writing requests to '00946063.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 26207 strings out of 430478
- 491962 string characters out of 3191502
- 757498 words of memory out of 3000000
- 28942 multiletter control sequences out of 15000+200000
- 20114 words of font info for 116 fonts, out of 3000000 for 9000
+ 26363 strings out of 430478
+ 496074 string characters out of 3191502
+ 762732 words of memory out of 3000000
+ 29105 multiletter control sequences out of 15000+200000
+ 12268 words of font info for 107 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,11n,59p,996b,665s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,59p,1032b,1115s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 00946063.pdf (23 pages).
+Output written on 00946063.pdf (29 pages).

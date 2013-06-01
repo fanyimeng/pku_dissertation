@@ -1,4 +1,4 @@
-\XeTeXinputencoding "GB2312"
+%\XeTeXinputencoding "GB2312"
 \documentclass[UTF8, nocolorlinks]{pkuthss}
 \setCJKmainfont[BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}]{FZJPShuSong-Z01S} % FangZhengFonts
 %\setmainfont{CMU Serif Roman}
@@ -8,46 +8,41 @@
 \setmainfont{Times New Roman}
 %\setsansfont{Myriad Pro}
 %\setmonofont[Scale=MatchLowercase]{Consolas}
-% ÈôĞèÒª°´ÕÕÓ¢ÎÄÎÄÏ×ÔÚÇ°£¬ÖĞÎÄÎÄÏ×ÔÚºóÅÅĞò£¬ÇëÉèÖÃ¡°sorting = ecnty¡±£»
-% ÈôĞèÒª°´ÕÕÖĞÎÄÎÄÏ×ÔÚÇ°£¬Ó¢ÎÄÎÄÏ×ÔÚºóÅÅĞò£¬ÇëÉèÖÃ¡°sorting = centy¡±¡£
+% è‹¥éœ€è¦æŒ‰ç…§è‹±æ–‡æ–‡çŒ®åœ¨å‰ï¼Œä¸­æ–‡æ–‡çŒ®åœ¨åæ’åºï¼Œè¯·è®¾ç½®â€œsorting = ecntyâ€ï¼›
+% è‹¥éœ€è¦æŒ‰ç…§ä¸­æ–‡æ–‡çŒ®åœ¨å‰ï¼Œè‹±æ–‡æ–‡çŒ®åœ¨åæ’åºï¼Œè¯·è®¾ç½®â€œsorting = centyâ€ã€‚
 \usepackage[backend = biber, style = caspervector, utf8, sorting = none]{biblatex}
 \usepackage{amssymb}
 
 
-% Ìá¹© Verbatim »·¾³ºÍ \VerbatimInput ÃüÁî¡£
+% æä¾› Verbatim ç¯å¢ƒå’Œ \VerbatimInput å‘½ä»¤ã€‚
 \usepackage{fancyvrb}
 
-\setCJKfamilyfont{song}[BoldFont={·½ÕıËÎºÚÌå_GB18030},AutoFakeSlant]{·½ÕıÊéËÎ_GB18030}
-\setCJKfamilyfont{kai}[BoldFont={·½Õı±±Îº¿¬Êé_GBK}]{·½Õı¿¬Ìå_GBK} % ¿¬Ìå
-\setCJKfamilyfont{hei}[BoldFont={·½ÕıºÚÌå},AutoFakeSlant]{·½ÕıÏ¸ºÚÒ»_GBK}
-\setCJKfamilyfont{fs}[Mono=Scale,AutoFakeBold,AutoFakeSlant]{·½Õı·ÂËÎ}
-% ÕÂ½Ú±êÌâ
+% ç« èŠ‚æ ‡é¢˜
 \CTEXsetup[nameformat={\zihao{-3}\heiti},titleformat={\zihao{-3}\heiti}]{chapter}
 \CTEXsetup[format={\zihao{4}\heiti\centering}]{section}
 \CTEXsetup[format={\zihao{-4}\heiti}]{subsection}
 \CTEXsetup[format={\normalsize\heiti}]{subsubsection}
-% Ê¹±»Ç¿µ÷µÄÄÚÈİÎªºìÉ«¡£
+% ä½¿è¢«å¼ºè°ƒçš„å†…å®¹ä¸ºçº¢è‰²ã€‚
 \newcommand{\myemph}[1]{\emph{#1}}
-\setCJKfamilyfont{kai}[BoldFont={·½Õı±±Îº¿¬Êé_GBK}]{·½Õı¿¬Ìå_GBK} % ¿¬Ìå
-% pkuthss ÎÄµµÄ£°æµÄ°æ±¾¡£
+% pkuthss æ–‡æ¡£æ¨¡ç‰ˆçš„ç‰ˆæœ¬ã€‚
 \newcommand{\docversion}{v1.4 rc3}
-% Éè¶¨ÎÄµµµÄ»ù±¾ĞÅÏ¢¡£
+% è®¾å®šæ–‡æ¡£çš„åŸºæœ¬ä¿¡æ¯ã€‚
 \pkuthssinfo{
-	cthesisname = {±¾¿ÆÉú±ÏÒµÂÛÎÄ}, ethesisname = {Undergraduate Thesis},
-	ctitle = {¶Ô71¸öPlanckÀäÍÅ¿éµÄCO(1-0)³ÉÍ¼ÑĞ¾¿},
+	cthesisname = {æœ¬ç§‘ç”Ÿæ¯•ä¸šè®ºæ–‡}, ethesisname = {Undergraduate Thesis},
+	ctitle = {å¯¹71ä¸ªPlanckå†·å›¢å—çš„CO(1-0)æˆå›¾ç ”ç©¶},
 	etitle = {CO (1-0) Mapping Study of 71 Planck Cold Clumps},
-	cauthor = {ÃÏ·±Ò»},
+	cauthor = {å­Ÿç¹ä¸€},
 	eauthor = {Fanyi Meng},
 	studentid = {00946063},
-	date = {¶ş\chinese{0}Ò»ÈıÄêÁùÔÂ},
-	school = {ÔªÅàÑ§Ôº},
-	cmajor = {ÎïÀíÑ§}, emajor = {Physics},
-	direction = {ÌìÌåÎïÀí},
-	cmentor = {ÎâÔÂ·¼\ ½ÌÊÚ}, ementor = {Prof.\ Yuefang Wu},
-	ckeywords = {\LaTeX2e{}£¬ÅÅ°æ£¬ÎÄµµÀà£¬\CTeX{}},
+	date = {äºŒ\chinese{0}ä¸€ä¸‰å¹´å…­æœˆ},
+	school = {å…ƒåŸ¹å­¦é™¢},
+	cmajor = {ç‰©ç†å­¦}, emajor = {Physics},
+	direction = {å¤©ä½“ç‰©ç†},
+	cmentor = {å´æœˆèŠ³\ æ•™æˆ}, ementor = {Prof.\ Yuefang Wu},
+	ckeywords = {\LaTeX2e{}ï¼Œæ’ç‰ˆï¼Œæ–‡æ¡£ç±»ï¼Œ\CTeX{}},
 	ekeywords = {\LaTeX2e{}, typesetting, document class, \CTeX{}}
 }
-% µ¼Èë²Î¿¼ÎÄÏ×Êı¾İ¿â£¨×¢Òâ²»ÒªÊ¡ÂÔ¡°.bib¡±£©¡£
+% å¯¼å…¥å‚è€ƒæ–‡çŒ®æ•°æ®åº“ï¼ˆæ³¨æ„ä¸è¦çœç•¥â€œ.bibâ€ï¼‰ã€‚
 \addbibresource{00946063.bib}
 %Following are the substitution of commonly used text in the paper.
 \newcommand{\vdag}{(v)^\dagger}
@@ -82,7 +77,7 @@
 \newcommand{\sigmatd}{$\sigma _{3D}$\ }
 \newcommand{\lp}{lognormal}
 \newcommand{\np}{normal{}{}{}}
-%Following are command not in AASTeX. 
+%Following are command not in AASTeX.
 \newcommand{\jj}{{\rm j}}
 \newcommand{\uph}{$\phi$($^{\circ}$)}
 \newcommand{\apjs}{ApJS}
@@ -117,65 +112,66 @@
 
 
 \begin{document}
-	% ÒÔÏÂÎªÕıÎÄÖ®Ç°µÄ²¿·Ö¡£
+	% ä»¥ä¸‹ä¸ºæ­£æ–‡ä¹‹å‰çš„éƒ¨åˆ†ã€‚
 	\frontmatter
-	% ×Ô¶¯Éú³É±êÌâÒ³¡£
+	% è‡ªåŠ¨ç”Ÿæˆæ ‡é¢˜é¡µã€‚
 	\maketitle
 
-	% ÖĞÓ¢ÎÄÕªÒª¡£
+	% ä¸­è‹±æ–‡æ‘˜è¦ã€‚
 \begin{cabstract}
 
-	±¾ÎÄ½éÉÜÁË¶Ô Taurus/Perseus/California Èı¸ö·Ö×ÓÔÆ¸´ºÏÌåÖĞ71¸ö Planck ÀäÍÅ¿éÆøÌå³É·ÖµÄ³ÉÍ¼ÑĞ¾¿¡£ ÎÒÃÇÀûÓÃÖĞ¹ú¿ÆÑ§Ôº×Ï½ğÉ½ÌìÎÄÌ¨Çàº£¹Û²âÕ¾µÄ13.7 m ºÁÃ×²¨ÍûÔ¶¾µ½øĞĞÁË\coa¡¢\cob ÒÔ¼° \coc ·Ö×ÓµÄ $J=1-0$ ×ª¶¯Ô¾Ç¨Æ×Ïß¹Û²â¡£È«²¿\numsou¸öPlanckÀäÍÅ¿é¶¼±»Ì½²âµ½ÓĞ\coaaºÍ\cobbµÄ·øÉä£¬ÆäÖĞ55¸ö±»Ì½²âµ½ÓĞ\coccµÄ·øÉä¡£ Í¨¹ı¿Õ¼ä·Ö²¼ºÍÏßĞÄËÙ¶ÈµÄÑéÖ¤£¬ ÎÒÃÇ·¢ÏÖ Taurus ·Ö×ÓÔÆ¸´ºÏÌå£¨Taurus Molecular Complex£¬TMC£©¡¢Perseus ·Ö×ÓÔÆ¸´ºÏÌå£¨Perseus Molecular Complex£¬PMC£©ºÍ California ·Ö×ÓÔÆ¸´ºÏÌå£¨California Molecular Complex£¬CMC£©¡¢\numsoutmc \numsoucmc \numsoupmc 
+	æœ¬æ–‡ä»‹ç»äº†å¯¹ Taurus/Perseus/California ä¸‰ä¸ªåˆ†å­äº‘å¤åˆä½“ä¸­71ä¸ª Planck å†·å›¢å—æ°”ä½“æˆåˆ†çš„æˆå›¾ç ”ç©¶ã€‚ æˆ‘ä»¬åˆ©ç”¨ä¸­å›½ç§‘å­¦é™¢ç´«é‡‘å±±å¤©æ–‡å°é’æµ·è§‚æµ‹ç«™çš„13.7 m æ¯«ç±³æ³¢æœ›è¿œé•œè¿›è¡Œäº†\coaã€\cob ä»¥åŠ \coc åˆ†å­çš„ $J=1-0$ è½¬åŠ¨è·ƒè¿è°±çº¿è§‚æµ‹ã€‚å…¨éƒ¨\numsou ä¸ªPlanckå†·å›¢å—éƒ½è¢«æ¢æµ‹åˆ°æœ‰\coaa å’Œ\cobb çš„è¾å°„ï¼Œå…¶ä¸­55ä¸ªè¢«æ¢æµ‹åˆ°æœ‰\cocc çš„è¾å°„ã€‚ é€šè¿‡ç©ºé—´åˆ†å¸ƒå’Œçº¿å¿ƒé€Ÿåº¦çš„éªŒè¯ï¼Œ æˆ‘ä»¬è¯è®¤å‡º Taurus åˆ†å­äº‘å¤åˆä½“ï¼ˆTMCï¼‰ã€Perseus åˆ†å­äº‘å¤åˆä½“ï¼ˆPMCï¼‰å’Œ California åˆ†å­äº‘å¤åˆä½“ï¼ˆCMCï¼‰ä¸­åˆ†åˆ«æœ‰ \numsoutmc ä¸ªã€ \numsoucmcä¸ªå’Œ \numsoupmc ä¸ªPlanckå†·å›¢å—ã€‚åœ¨è¿™äº›å†·å›¢å—ä¸­ï¼Œå…±è¯è®¤å‡º\numcoreä¸ªäº‘æ ¸ï¼ˆCoreï¼‰ï¼Œ å…¶ä¸­TMCã€PMCå’ŒCMCåˆ†åˆ«æœ‰\numcoretmcã€\numcorepmcå’Œ\numcorecmcä¸ªäº‘æ ¸ã€‚å¯¹äºè¿™äº›äº‘æ ¸ï¼Œæˆ‘ä»¬é€šè¿‡è§‚æµ‹æ•°æ®è®¡ç®—äº†è§‚æµ‹å‚é‡ï¼šçº¿å¿ƒé€Ÿåº¦ï¼ˆ\vlsrï¼‰ã€å¤©çº¿æ¸©åº¦ï¼ˆ\taï¼‰ã€è°±çº¿å®½åº¦ï¼ˆFWHMï¼‰ã€‚ é€šè¿‡è¿™äº›è§‚æµ‹å‚é‡ï¼Œåœ¨å±€éƒ¨çƒ­åŠ¨å¹³è¡¡ï¼ˆLTEï¼‰å‡è®¾ä¸‹åº”ç”¨è¾å°„ä¼ èƒ½æ–¹ç¨‹ï¼Œæˆ‘ä»¬è®¡ç®—å‡ºäº†å„ä¸ªäº‘æ ¸çš„å¯¼å‡ºå‚é‡ï¼šæ¿€å‘æ¸©åº¦ï¼ˆ\texcï¼‰ã€æ°”ä½“æŸ±å¯†åº¦ï¼ˆ\nhydï¼‰ã€‚åŒæ—¶æˆ‘ä»¬è¿˜å¾—å‡ºäº†äº‘æ ¸çš„çƒ­é€Ÿåº¦å¼¥æ•£ï¼ˆ\sigmathï¼‰ã€éçƒ­é€Ÿåº¦å¼¥æ•£ï¼ˆ\sigmantï¼‰ä»¥åŠä¸‰ç»´é€Ÿåº¦å¼¥æ•£ï¼ˆ\sigmatdï¼‰ã€‚æ ¹æ®å¯¹äº‘æ ¸æˆå›¾çš„æ¤­åœ†é«˜æ–¯æ‹Ÿåˆï¼Œæˆ‘ä»¬å¾—åˆ°äº†äº‘æ ¸çš„å‡ ä½•å°ºåº¦ï¼ˆ$R$ï¼‰ï¼Œä»è€Œè®¡ç®—å‡ºæ°”ä½“æ•°å¯†åº¦ï¼ˆ\nnhydï¼‰ã€LTEè´¨é‡ï¼ˆ$M_{LTE}$ï¼‰ã€Jeansè´¨é‡ï¼ˆ$M_{J}$ï¼‰å’Œvirialè´¨é‡ï¼ˆ$M_{vir}$ï¼‰ã€‚
+
 
 \end{cabstract}
 
 \begin{eabstract}
 
-	This paper describes the the functions provided by
-	the pkuthss document template,
-	and provides itself as an example to illustrate
-	the usage of the document class.
+	A mapping study towards \numsou Planck Cold Clumps was made with \coaa, \cobb and \cocc lines, at the 13.7 m telescope of Purple Mountain Observatory. For all the clumps, \coaa and \cobb emissions were detected, while for \numcocc of them, \cocc emissions were detected.  Of the \numsou Clumps, \numsoutmc are in Taurus Molecular Complex, \numsoucmc in California  Molecular Complex and \numsoupmc are in Perseus Molecular Complex. In the \numvelcomp velocity components, \numcore cores are found in \numcompofcores clumps, \numcoretmc cores are in TMC, \numcorecmc in CMC and \numcorepmc are in PMC.
+    We acquired the observational parameters such as $V_{lsr}$, $T_{A}$ and FWHM of lines. Physical parameters including \texc, \nhyd, \sigmath, \sigmant,  \sigmatd were calculated.
+
+    We found that most of the cores have \sigmant larger than \sigmath, suggesting dominance of turbulence in our cores. Most cores are found with $M_{vir}$ and $M_J$ larger than $M_{LTE}$, indicating these cores are neither going to collapse nor gravitationally bound. To compare with the dust properties revealed by Planck ECC catalog, we investigated the coupling of gas and dust components. We found most of the cores are with dust temperature higher than gas temperature. The objects associated with our sources are checked, for most of the core, no associated objects are found within distance of 55\arcsec to their centers.
 
 \end{eabstract}
 
-	% ×Ô¶¯Éú³ÉÄ¿Â¼¡£
+	% è‡ªåŠ¨ç”Ÿæˆç›®å½•ã€‚
 	\tableofcontents
-	% ÒÔÏÂÎªÕıÎÄ¡£
+	% ä»¥ä¸‹ä¸ºæ­£æ–‡ã€‚
 	\mainmatter
-\chapter{ÒıÑÔ}
-	\section{Àä°µÔÆ£¨Cold Dark Cloud£©}
-
-	\section{PlanckÍÅ¿é}
-	\section{Taurus/Perseus/California·Ö×ÓÔÆ¸´ºÏÌå}
-	\section{±¾ÎÄµÄÑĞ¾¿Ä¿±êºÍÑĞ¾¿·½·¨}
-\chapter{¶Ô71¸öPlanckÀäÍÅ¿éµÄCO(1-0)¹Û²â}
-	\section{¹Û²â·½·¨ÓëÊı¾İ´¦Àí}
-\chapter{¹Û²â½á¹û}
-	\section{¹Û²â²ÎÁ¿}
-	\section{µ¼³ö²ÎÁ¿}
-\chapter{·ÖÎöÓëÌÖÂÛ}
-	\section{Æ×ÏßÂÖÀª}
-	\section{ÔÆºËÄÚµÄÍÄ¶¯}
-	\section{ÔÆºËµÄÖØÁ¦ÎÈ¶¨ĞÔ}
-	\section{ÆøÌå-³¾°£ñîºÏ}
-	\section{CO·á¶È}
-	\section{ÔÆºËµÄ³ÉĞ­Çé¿ö}
-	% ÕıÎÄÖĞµÄ¸½Â¼²¿·Ö¡£
+\chapter{å¼•è¨€}
+	\section{å†·æš—äº‘ï¼ˆCold Dark Cloudï¼‰}
+	\section{Planckå›¢å—}
+	\section{Taurus/Perseus/Californiaåˆ†å­äº‘å¤åˆä½“}
+	\section{ç ”ç©¶ç›®æ ‡å’Œç ”ç©¶æ–¹æ³•}
+\chapter{è§‚æµ‹å’Œæ•°æ®å¤„ç†}
+	\section{æœ›è¿œé•œå‚æ•°}
+	\section{æ•°æ®å¤„ç†æ–¹æ³•}
+\chapter{è§‚æµ‹ç»“æœ}
+	\section{è§‚æµ‹å‚é‡}
+	\section{å¯¼å‡ºå‚é‡}
+\chapter{åˆ†æä¸è®¨è®º}
+	\section{è°±çº¿è½®å»“}
+	\section{äº‘æ ¸å†…çš„æ¹åŠ¨}
+	\section{äº‘æ ¸çš„é‡åŠ›ç¨³å®šæ€§}
+	\section{æ°”ä½“-å°˜åŸƒè€¦åˆ}
+	\section{COä¸°åº¦}
+	\section{äº‘æ ¸çš„æˆåæƒ…å†µ}
+	% æ­£æ–‡ä¸­çš„é™„å½•éƒ¨åˆ†ã€‚
 	\appendix
-	% ÅÅ°æ²Î¿¼ÎÄÏ×ÁĞ±í¡£
+	% æ’ç‰ˆå‚è€ƒæ–‡çŒ®åˆ—è¡¨ã€‚
 	\printbibliography[
-		% Ê¹¡°²Î¿¼ÎÄÏ×¡±³öÏÖÔÚÄ¿Â¼ÖĞ£»Èç¹ûÍ¬Ê±ÒªÊ¹²Î¿¼ÎÄÏ×ÁĞ±í²ÎÓëÕÂ½Ú±àºÅ£¬
-		% ¿É½«¡°bibintoc¡±¸ÄÎª¡°bibnumbered¡±¡£
+		% ä½¿â€œå‚è€ƒæ–‡çŒ®â€å‡ºç°åœ¨ç›®å½•ä¸­ï¼›å¦‚æœåŒæ—¶è¦ä½¿å‚è€ƒæ–‡çŒ®åˆ—è¡¨å‚ä¸ç« èŠ‚ç¼–å·ï¼Œ
+		% å¯å°†â€œbibintocâ€æ”¹ä¸ºâ€œbibnumberedâ€ã€‚
 		heading = bibintoc,
-		% µ¥¶ÀÉè¶¨ÅÅĞò·½°¸¡£´ËÉè¶¨»á¾Ö²¿¸²¸ÇÖ®Ç°µÄÈ«¾ÖÉèÖÃ¡£
-		% ×¢£ºÖ»ÓĞÍ¬Ê±Ê¹ÓÃ 2.x »òÖ®ºó°æ±¾µÄ biblatex ºÍÏàÓ¦¼æÈİ°æ±¾µÄ biber£¬
-		% ²ÅÄÜ¶ÔÃ¿¸ö \printbibliography ÃüÁî²ÉÓÃ²»Í¬µÄÅÅĞò·½°¸£¬
-		% ·ñÔòÖ»ÄÜÔÚµ¼Èë biblatex ºê°üÊ±¾Í£¨È«¾Ö£©Ö¸¶¨ÅÅĞò·½°¸¡£
+		% å•ç‹¬è®¾å®šæ’åºæ–¹æ¡ˆã€‚æ­¤è®¾å®šä¼šå±€éƒ¨è¦†ç›–ä¹‹å‰çš„å…¨å±€è®¾ç½®ã€‚
+		% æ³¨ï¼šåªæœ‰åŒæ—¶ä½¿ç”¨ 2.x æˆ–ä¹‹åç‰ˆæœ¬çš„ biblatex å’Œç›¸åº”å…¼å®¹ç‰ˆæœ¬çš„ biberï¼Œ
+		% æ‰èƒ½å¯¹æ¯ä¸ª \printbibliography å‘½ä»¤é‡‡ç”¨ä¸åŒçš„æ’åºæ–¹æ¡ˆï¼Œ
+		% å¦åˆ™åªèƒ½åœ¨å¯¼å…¥ biblatex å®åŒ…æ—¶å°±ï¼ˆå…¨å±€ï¼‰æŒ‡å®šæ’åºæ–¹æ¡ˆã€‚
 		%sorting = none
 	]
-	% ¸÷¸½Â¼¡£
+	% å„é™„å½•ã€‚
 \iffalse
-\chapter{ÆøÌåºËµÄÖĞĞÄÆ×Ïß}
+\chapter{æ°”ä½“æ ¸çš„ä¸­å¿ƒè°±çº¿}
 
 	\begin{figure}[ht]
 	\includegraphics[totalheight=72mm]{{SpatiaDist_Velocity_Overlay}.eps}
@@ -295,7 +291,7 @@
 	\includegraphics[width=48mm,height=32mm]{{G177.97-09.72_spec}.ps}\\
 	\end{figure}\clearpage
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{ÆøÌåºËµÄ³ÉÍ¼½á¹û}
+\chapter{æ°”ä½“æ ¸çš„æˆå›¾ç»“æœ}
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{figure}[ht]
@@ -444,13 +440,13 @@
 	\caption{$T_D-T_K$ relationship, the $T_K$ are the \texc of our cores while the $T_D$ are from \cite{2011yCat.8088....0P}.\label{Fig.GasDust}}
 	\end{figure}
 \fi
-\chapter{µ¼³ö²ÎÁ¿µÄ¼ÆËã}
-\chapter{±¾ÎÄÖĞÊõÓïµÄÖĞÓ¢¶ÔÕÕ±í}
-% ÒÔÏÂÎªÕıÎÄÖ®ºóµÄ²¿·Ö¡£
+\chapter{å¯¼å‡ºå‚é‡çš„è®¡ç®—}
+\chapter{æœ¬æ–‡ä¸­æœ¯è¯­çš„ä¸­è‹±å¯¹ç…§è¡¨}
+% ä»¥ä¸‹ä¸ºæ­£æ–‡ä¹‹åçš„éƒ¨åˆ†ã€‚
 \backmatter
-% ÖÂĞ»¡£
+% è‡´è°¢ã€‚
 \include{include/acknowledge}
-% Ô­´´ĞÔÉùÃ÷ºÍÊ¹ÓÃÊÚÈ¨ËµÃ÷¡£
+% åŸåˆ›æ€§å£°æ˜å’Œä½¿ç”¨æˆæƒè¯´æ˜ã€‚
 \include{include/originauth}
 \end{document}
 
