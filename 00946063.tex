@@ -80,14 +80,14 @@
 %Following are command not in AASTeX.
 \newcommand{\jj}{{\rm j}}
 \newcommand{\uph}{$\phi$($^{\circ}$)}
-\newcommand{\apjs}{Astrophysical Journal Supplement}
-\newcommand{\apjl}{Astrophysical Journal Letters}
-\newcommand{\apj}{Astrophysical Journal}
-\newcommand{\aap}{Astronomy and Astrophysics}
-\newcommand{\araa}{Annual Review of Astronomy and Astrophysics}
-\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand{\apjs}{ApJS}
+\newcommand{\apjl}{ApJL}
+\newcommand{\apj}{ApJ}
+\newcommand{\aap}{A\&A}
+\newcommand{\araa}{ARA\&A}
+\newcommand{\mnras}{MNRAS}
 \newcommand{\nat}{Nature}
-\newcommand{\aj}{The Astronomical Journal}
+\newcommand{\aj}{AJ}
 \newcommand{\arcsec}{$^{\prime\prime}$}
 \newcommand{\arcmin}{$^{\prime}$}
 %Following are important numbers used in the text.
@@ -109,8 +109,7 @@
 \newcommand{\numcompofcores}{27\ }
 \newcommand{\numdiffusecomp}{42\ }
 \newcommand{\numvelcomp}{76\ }
-
-
+\usepackage{changepage}
 \begin{document}
 	% 以下为正文之前的部分。
 	\frontmatter
@@ -139,8 +138,22 @@
 	% 以下为正文。
 	\mainmatter
 \chapter{引言}
-	\section{冷暗云（Cold Dark Cloud）}
-		略
+	\section{冷暗云与恒星形成}
+
+		暗云（Dark Cloud），也称为分子云（molecular cloud），是主要由$H_2$分子（其质量分数占绝对优势）组成的在光学波段暗的一类星际介质。其在光学波段的消光$A_V>1^{m}$，故被称为“暗”云\supercite{2007ARA&A..45..339B} 。 需要指出的是，这种消光并非由其气体成分造成，而是由其中的尘埃颗粒对光学波段的电磁波产生吸收造成的。由于尘埃的这种吸收作用，造成了对外界辐射的良好屏蔽，使得分子云本身能够保持较低的温度（例如典型的致密结构温度在$10-20\rm\ K$\supercite{1983ApJ...265..223B})，这是我们称其为“冷暗云”（Cold Dark Cloud）的原因。
+
+		分子云呈现“层级状”结构\supercite{1994ApJ...423..681V}，通常将其分为分子云（Cloud）、团块（Clump）、云核（Core）三个层次\supercite{2007ARA&A..45..339B,2000prpl.conf...97W}:
+		\begin{adjustwidth}{0.5cm}{0.5cm}
+		\begin{description}
+			\item[分子云:] 质量一般为$10^3-10^4\ M_{\odot}$，尺度为$2-15\rm\ pc$，平均数密度为$50-500\rm\ cm^{-3}$，速度弥散为$2- 5\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的分子云有Taurus、Perseus以及Orion等。
+
+			\item[团块:] 质量一般为$50-500\ M_{\odot}$，尺度为$0.3-3\rm\ pc$，平均数密度为$10^3-10^4\rm\ cm^{-3}$，速度弥散为$0.3- 3\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的团块有B213、L1709等\supercite{2007ARA&A..45..339B}。
+
+			\item[云核:] 质量一般为$0.5-5\ M_{\odot}$，尺度为$0.03-0.2\rm\ pc$，平均数密度为$10^4-10^5\rm\ cm^{-3}$，速度弥散为$0.1- 0.3\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}。典型的云核有L1544、L1498以及B68等\supercite{2007ARA&A..45..339B}。
+		\end{description}
+		\end{adjustwidth}
+		
+		分子云是恒星形成的摇篮。此观点由Bart J. Bok于1946年首次提出\supercite{1948HarMo...7...53B}，并在之后的半个多世纪被包括红外和毫米波波段在内的观测所证实\supercite{shu1987star,2007ARA&A..45..339B}。虽然前人对分子云核中的恒星形成做过相当多的研究，但由于之前的选源主要在光学或者红外波段，从而选出的源大都是已经有明显的恒星形成活动的区域，使得人们很难对星前核（prestellar core）进行系统的观测，从而不易研究恒星形成的早期状况。基于此，我们亟需一批更长波段（例如毫米-亚毫米波段）系统地选出的源，从而研究恒星形成早期阶段的云核物理状态，甚至是云核形成早期的物理状态。幸运的是，Planck空间望远镜提供了这样的研究样本。
 
 	\section{Planck团块}
 
@@ -148,7 +161,7 @@
 
 		对于Planck冷团块中尘埃的物理性质，Planck Collaboration进行了的细致研究，从而揭示了C3PO中的冷团块的柱密度$N_ {\rm H_2} \approx 0.1 \rm \sim \ 1.6 \times 10^{22} \rm cm^{-2}$，并且尘埃温度在10 K到15 K之间\supercite{2011A&A...536A..23P}。这些研究利用三个HFI接收机频率（353、545、857 Hz）测得的流量，同时结合IRAS 3000 GHz波段的数据得出相应结果\supercite{2011A&A...536A..23P,2011A&A...536A..22P}。
 
-		除了Planck Collaboration 对于 Planck 冷团块尘埃成分的研究之外， 对其气体成分的单点观测也已经取得成果。 利用中国科学院紫金山天文台青海观测站的13.7 m毫米波望远镜，Wu et al (2012)完成了对674个ECC源的\coaa 、\cobb  和\cocc  三谱线单点观测，并且得出了其动力学温度（$T_k$）、气体柱密度（\nhyd）以及速度弥散（$\sigma$）等物理参量\supercite{wu2012gas}。利用同样的设备，Liu et al (2012)等对Orion分子云复合体中的51个Planck冷团块做了\coaa 、\cobb  和\cocc  三谱线成图观测\supercite{LiuTie}。
+		除了Planck Collaboration 对于 Planck 冷团块尘埃成分的研究之外， 对其气体成分的单点观测也已经取得成果。 利用中国科学院紫金山天文台青海观测站的13.7 m 毫米波望远镜，Wu et al (2012)完成了对674个ECC源的\coaa 、\cobb  和\cocc  三谱线单点观测，并且得出了其动力学温度（$T_k$）、气体柱密度（\nhyd）以及速度弥散（$\sigma$）等物理参量\supercite{wu2012gas}。利用同样的设备，Liu et al (2012)等对Orion分子云复合体中的51个Planck 冷团块做了\coaa 、\cobb  和\cocc  三谱线成图观测\supercite{LiuTie}。本文作为同系列的研究，对Taurus、Perseu、California三个分子云复合体中的71个Planck 冷团块同样做了\coaa 、\cobb  和\cocc  三谱线成图观测。
 
 	\section{研究区域}
 
@@ -156,9 +169,9 @@
 
 			Taurus分子云复合体（Taurus Molecular Complex，下文简称TMC）是典型的小质量恒星形成区， 同时也是距离我们最近（$D\approx 140\rm\ pc$）的巨分子云\supercite{1987ApJ...322..706D}。 因此，在分辨率有限的情况下，TMC是理想的小质量恒星形成研究样本。
 
-			对于TMC，人们已经有大量的分子谱线观测结果。针对TMC和Ophuichus中的90个“微小光学不透明体”（small visual opaques），Myers (1983), Myers and Benson (1983) 进行了\cob 和 \coc 的观测，并且得出其中的云核几何尺度为$0.1\sim0.3 \ \rm pc$，质量为$4\sim30\ \rm M_\odot$以及激发温度\texc $\sim$ 10 K\supercite{1983ApJ...264..517M,1983ApJ...266..309M}。在同一系列的成果中，Meyers et al 对云核的亚音速湍动、CO外向流、形态等也进行了研究\supercite{1983ApJ...270..105M,1988ApJ...324..907M,1991ApJ...376..561M}。
+			对于TMC，人们已经有大量的分子谱线观测结果。针对TMC和Ophuichus中的90个“微小光学不透明体”（small visual opaques），Myers (1983), Myers and Benson (1983) 进行了\cob 和 \coc 的观测，并且得出其中的云核几何尺度为$0.1\sim0.3 \ \rm pc$，质量为$4\sim30\ \rm M_\odot$以及激发温度\texc $\sim$ 10 K\supercite{1983ApJ...264..517M,1983ApJ...266..309M}。在同一系列的成果中，Meyers et al 对云核的亚音速湍动、CO 外向流、形态等也进行了研究\supercite{1983ApJ...270..105M,1988ApJ...324..907M,1991ApJ...376..561M}。
 
-			在TMC中，人们发现了丰富的气体动力学过程和多个演化阶段的特征。分子外向流首次在大质量恒星形成区被发现，但由于距离过远其并不能被很好地被分辨\supercite{1976ApJ...209L.137Z}。而之后在TMC中L1551被证认为有分子外向流，并且红瓣（red-lobe）和蓝瓣（blue-lobe）能够良好地被分辨\supercite{1980ApJ...239L..17S}。截至2003年2月发现的400个分子外向流中，有11\% 在TMC中\supercite{2004A&A...426..503W}。不仅分子外向流，人们在TMC中也发现了丰富的的分子内向流：例如对T Tau 双星系统\supercite{1994ApJ...425L..45V}和L 1544的研究\supercite{1998ApJ...504..900T}。和恒星形成密切相关的盘状结构也在TMC中被证认出来：例如在HL Tau周围发现的盘状结构\supercite{1991ApJ...382L..31S}以及DM Tau\supercite{1995ApJ...453..384S}。综上，TMC包含从class 0到class III全部恒星形成阶段的源。这些不同演化阶段的源的特征是恒星形成理论，例如Shu et al (1987) 提出的“恒星形成四个阶段”理论\supercite{shu1987star}的观测基础。
+			在TMC中，人们发现了丰富的气体动力学过程和多个演化阶段的特征。分子外向流首次在大质量恒星形成区被发现，但由于距离过远其并不能被很好地被分辨\supercite{1976ApJ...209L.137Z}。而之后在TMC中L1551被证认为有分子外向流，并且红瓣（red-lobe）和蓝瓣（blue-lobe）能够良好地被分辨\supercite{1980ApJ...239L..17S}。截至2003年2月发现的400个分子外向流中，有11\% 在TMC中\supercite{2004A&A...426..503W}。不仅分子外向流，人们在TMC中也发现了丰富的的分子内向流：例如对T Tau 双星系统\supercite{1994ApJ...425L..45V}和L 1544的研究\supercite{1998ApJ...504..900T}。和恒星形成密切相关的盘状结构也在TMC中被证认出来：例如在HL Tau周围发现的盘状结构\supercite{1991ApJ...382L..31S}以及DM Tau\supercite{1995ApJ...453..384S}。综上，TMC包含从class 0到class III 全部恒星形成阶段的源。这些不同演化阶段的源的特征是恒星形成理论，例如Shu et al (1987) 提出的“恒星形成四个阶段”理论\supercite{shu1987star}的观测基础。
 
 		\subsection{Perseus分子云复合体}
 
@@ -170,7 +183,7 @@
 
 		\subsection{California分子云复合体}
 
-			有别于TMC和PMC，在2009年之前，California分子云复合体（California Molecular Complex，下文简称CMC） 并没有获得足够的重视。对于CMC的开创性工作是Lada et al在2009年作出的，其得出了CMC的距离为$450\pm23\rm\ pc$，空间延伸达80 pc，总质量约为 $10^5 M_\odot$\supercite{2009ApJ...703...52L}。CMC有着和Orion巨分子云相似的距离、质量和形态，但是其恒星形成活跃程度对比Orion巨分子云要低得多\supercite{2009ApJ...703...52L,2010A&A...512A..67L}。
+			有别于TMC和PMC，在2009年之前，California 分子云复合体（California Molecular Complex，下文简称CMC） 并没有获得足够的重视。对于CMC的开创性工作是Lada et al在2009年作出的，其得出了CMC的距离为$450\pm23\rm\ pc$，空间延伸达80 pc，总质量约为 $10^5 M_\odot$\supercite{2009ApJ...703...52L}。CMC有着和Orion巨分子云相似的距离、质量和形态，但是其恒星形成活跃程度对比Orion巨分子云要低得多\supercite{2009ApJ...703...52L,2010A&A...512A..67L}。
 
 			近期，一项对于CMC区域的成图研究给出了含有78个源的星表\supercite{2013ApJ...764..133H}。其中有60个“致密源”在70 $\mu$m的波段上被证认，所用数据来自Herschel的PACS 和 SPIRE设备\supercite{2013ApJ...764..133H}。而另外18个“冷致密源”则是用的Bolocam 1.1 mm 波段的数据\supercite{2013ApJ...764..133H}。
 

@@ -19,6 +19,145 @@
 
 
 \refsection{0}
+  \entry{2007ARA&A..45..339B}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=44c2ea0fb575619f07b2f801ea0dcf80}{{Bergin}}{B\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=44c2ea0fb575619f07b2f801ea0dcf80}{{Bergin}}{B\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{267f1afe9c45ca1361aa1f662b573cf2}
+    \strng{fullhash}{267f1afe9c45ca1361aa1f662b573cf2}
+    \field{sortinit}{0}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\araa}
+    \field{month}{09}
+    \field{title}{{Cold Dark Clouds: The Initial Conditions for Star Formation}}
+    \field{volume}{45}
+    \field{year}{2007}
+    \field{pages}{339\bibrangedash 396}
+    \verb{doi}
+    \verb 10.1146/annurev.astro.45.071206.100404
+    \endverb
+    \verb{eprint}
+    \verb 0705.3765
+    \endverb
+  \endentry
+
+  \entry{1983ApJ...265..223B}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=5e2b566c4f978314728ccb4b67b1787d}{{Burke}}{B\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=e2349414b798d381a14653971857305a}{{Hollenbach}}{H\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=5e2b566c4f978314728ccb4b67b1787d}{{Burke}}{B\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=e2349414b798d381a14653971857305a}{{Hollenbach}}{H\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{4fc210de443a2df5b1365b040b898706}
+    \strng{fullhash}{4fc210de443a2df5b1365b040b898706}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{02}
+    \field{title}{{The gas-grain interaction in the interstellar medium-Thermal accommodation and trapping}}
+    \field{volume}{265}
+    \field{year}{1983}
+    \field{pages}{223\bibrangedash 234}
+    \verb{doi}
+    \verb 10.1086/160667
+    \endverb
+    \keyw{ACCOMMODATION COEFFICIENT, ASTRONOMICAL MODELS, GAS-SOLID INTERACTIONS, INTERSTELLAR GAS, INTERSTELLAR MATTER, TRAPPING, COSMIC DUST, GAS TEMPERATURE, INTERSTELLAR CHEMISTRY, MATHEMATICAL MODELS, MOLECULAR CLOUDS, TRAPPED PARTICLES}
+  \endentry
+
+  \entry{1994ApJ...423..681V}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=941dfb58e62d2790d367bb76e3271c78}{{Vazquez-Semadeni}}{V\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=941dfb58e62d2790d367bb76e3271c78}{{Vazquez-Semadeni}}{V\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{941dfb58e62d2790d367bb76e3271c78}
+    \strng{fullhash}{941dfb58e62d2790d367bb76e3271c78}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{03}
+    \field{title}{{Hierarchical Structure in Nearly Pressureless Flows as a Consequence of Self-similar Statistics}}
+    \field{volume}{423}
+    \field{year}{1994}
+    \field{pages}{681}
+    \verb{doi}
+    \verb 10.1086/173847
+    \endverb
+    \keyw{HYDRODYNAMICS, ISM: CLOUDS, ISM: STRUCTURE, TURBULENCE}
+  \endentry
+
+  \entry{2000prpl.conf...97W}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=aa96cccdf45bfd9aabf6fcd8d6a776bf}{{Williams}}{W\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=5e03e704225e7cfc699960f937102851}{{Blitz}}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=eec62d6948f92b9ba5c972c842092b64}{{McKee}}{M\bibinitperiod}{C.\bibnamedelimi F.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=aa96cccdf45bfd9aabf6fcd8d6a776bf}{{Williams}}{W\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=5e03e704225e7cfc699960f937102851}{{Blitz}}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=eec62d6948f92b9ba5c972c842092b64}{{McKee}}{M\bibinitperiod}{C.\bibnamedelimi F.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{d2a358acc6254545992c6cb39f768ce3}
+    \strng{fullhash}{d2a358acc6254545992c6cb39f768ce3}
+    \field{sortinit}{0}
+    \field{journaltitle}{Protostars and Planets IV}
+    \field{month}{05}
+    \field{title}{{The Structure and Evolution of Molecular Clouds: from Clumps to Cores to the IMF}}
+    \field{year}{2000}
+    \field{pages}{97}
+    \verb{eprint}
+    \verb arXiv:astro-ph/9902246
+    \endverb
+  \endentry
+
+  \entry{1948HarMo...7...53B}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=90df15c1c57f746548a0e4517c40553d}{{Bok}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=90df15c1c57f746548a0e4517c40553d}{{Bok}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{90df15c1c57f746548a0e4517c40553d}
+    \strng{fullhash}{90df15c1c57f746548a0e4517c40553d}
+    \field{sortinit}{0}
+    \field{journaltitle}{Harvard Observatory Monographs}
+    \field{title}{{Dimensions and Masses of Dark Nebulae}}
+    \field{volume}{7}
+    \field{year}{1948}
+    \field{pages}{53}
+  \endentry
+
+  \entry{shu1987star}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{57a6153867effab00a8e8b90acdbc6cf}
+    \strng{fullhash}{57a6153867effab00a8e8b90acdbc6cf}
+    \field{sortinit}{0}
+    \field{journaltitle}{\araa}
+    \field{title}{{Star formation in molecular clouds - Observation and theory}}
+    \field{volume}{25}
+    \field{year}{1987}
+    \field{pages}{23\bibrangedash 81}
+    \verb{doi}
+    \verb 10.1146/annurev.aa.25.090187.000323
+    \endverb
+    \keyw{ASTROPHYSICS, MOLECULAR CLOUDS, STAR FORMATION, STELLAR MODELS, ASTRONOMICAL MAPS, BINARY STARS, GRAVITATIONAL COLLAPSE, PROTOSTARS, STAR CLUSTERS, STELLAR MASS}
+  \endentry
+
   \entry{2011A&A...536A...1P}{article}{}
     \name{labelname}{11}{}{%
       {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
@@ -581,31 +720,6 @@
     \verb 10.1086/176398
     \endverb
     \keyw{STARS: FORMATION, STARS: PRE-MAIN-SEQUENCE, STARS: CIRCUMSTELLAR MATTER}
-  \endentry
-
-  \entry{shu1987star}{article}{}
-    \name{labelname}{3}{}{%
-      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-    }
-    \name{author}{3}{}{%
-      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-    }
-    \strng{namehash}{57a6153867effab00a8e8b90acdbc6cf}
-    \strng{fullhash}{57a6153867effab00a8e8b90acdbc6cf}
-    \field{sortinit}{0}
-    \field{journaltitle}{\araa}
-    \field{title}{{Star formation in molecular clouds - Observation and theory}}
-    \field{volume}{25}
-    \field{year}{1987}
-    \field{pages}{23\bibrangedash 81}
-    \verb{doi}
-    \verb 10.1146/annurev.aa.25.090187.000323
-    \endverb
-    \keyw{ASTROPHYSICS, MOLECULAR CLOUDS, STAR FORMATION, STELLAR MODELS, ASTRONOMICAL MAPS, BINARY STARS, GRAVITATIONAL COLLAPSE, PROTOSTARS, STAR CLUSTERS, STELLAR MASS}
   \endentry
 
   \entry{2010A&A...512A..67L}{article}{}
