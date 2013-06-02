@@ -1031,6 +1031,35 @@
     \endverb
   \endentry
 
+  \entry{2001ApJ...547..792D}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=ae814ce73cc01615ff68815305259224}{{Dame}}{D\bibinitperiod}{T.\bibnamedelimi M.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=4592816604fc65c6d4ce1482bb97ef56}{{Hartmann}}{H\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=7b463df8f03e6d6f754ae2f97d747aeb}{{Thaddeus}}{T\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=ae814ce73cc01615ff68815305259224}{{Dame}}{D\bibinitperiod}{T.\bibnamedelimi M.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=4592816604fc65c6d4ce1482bb97ef56}{{Hartmann}}{H\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=7b463df8f03e6d6f754ae2f97d747aeb}{{Thaddeus}}{T\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{a6f0ed83044cbcafd08e0ab03f30560e}
+    \strng{fullhash}{a6f0ed83044cbcafd08e0ab03f30560e}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{02}
+    \field{title}{{The Milky Way in Molecular Clouds: A New Complete CO Survey}}
+    \field{volume}{547}
+    \field{year}{2001}
+    \field{pages}{792\bibrangedash 813}
+    \verb{doi}
+    \verb 10.1086/318388
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/0009217
+    \endverb
+    \keyw{Galaxy: Structure, ISM: Clouds, ISM: Molecules, Radio Lines: ISM, Galaxy: Solar Neighborhood, Stars: Formation}
+  \endentry
+
 \endrefsection
 \endinput
 
