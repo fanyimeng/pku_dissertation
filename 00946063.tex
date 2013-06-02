@@ -79,6 +79,17 @@
 \newcommand{\sigmatd}{$\sigma _{3D}$\ }
 \newcommand{\lp}{lognormal}
 \newcommand{\np}{normal{}{}{}}
+%Following is to insert spectra.
+\newcommand{\insertspec}[1]{
+\includegraphics[width=45mm,height=30mm]{img_spec/{#1}.ps}
+}
+%Following are command to insert maps.
+\newcommand{\insertmap}[1]{
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[width=48mm,height=42mm]{img_maps/{#1}.eps}
+\end{minipage}
+}
 %Following are command not in AASTeX.
 \newcommand{\jj}{{\rm j}}
 \newcommand{\uph}{$\phi$($^{\circ}$)}
@@ -276,7 +287,7 @@
 
 		\begin{figure}[H]
 		\centering
-		\includegraphics[totalheight=72mm]{SpatiaDist_Velocity_Overlay.eps}
+		\includegraphics[totalheight=72mm]{img_plot/SpatiaDist_Velocity_Overlay.eps}
 		\caption{\small 源的空间分布。背景灰度图来自 1.2 m 望远镜\cob 巡天的积分强度图\supercite{2001ApJ...547..792D}，点的颜色代表相应源的几何中心位置的\vlsr 。
 		虚线表示TMC、PMC、CMC三个区域的分界，根据\parencite{2010A&A...512A..67L}。
 		\label{Fig.SpatialDistribution}}
@@ -317,80 +328,7 @@
 			\tablelasttail{\hline\bottomrule}
 			%%%%%%%%%%%Star data.
 			\begin{supertabular}{lllcccclr}
-			G153.34-08.00 & 153.34715 &   -8.0086632  & 03 48 42.73 & +44 08 46.62 & 03 45 14.92 & +43 59 37.01   & CMC  & N\\
-			G154.68-15.34 & 154.68748 &  -15.346058   & 03 30 35.18 & +37 31 28.11 & 03 27 21.01 & +37 21 14.40   & PMC  & N\\
-			G155.52-08.93 & 155.52245 &   -8.9326496  & 03 54 34.60 & +42 03 48.96 & 03 51 09.75 & +41 55 01.08   & CMC  & N\\
-			G156.53-08.63 & 156.53319 &   -8.6306944  & 03 59 41.99 & +41 38 26.63 & 03 56 17.21 & +41 29 57.92   & CMC  & N\\
-			G156.90-08.49 & 156.90672 &   -8.4986649  & 04 01 38.87 & +41 29 43.41 & 03 58 14.09 & +41 21 22.06   & CMC  & Y\\
-			G156.92-09.72 & 156.9287  &   -9.7264977  & 03 57 26.44 & +40 33 29.15 & 03 54 03.85 & +40 24 52.02   & CMC  & N\\
-			G157.10-08.70 & 157.10448 &   -8.7061596  & 04 01 41.53 & +41 12 37.45 & 03 58 17.25 & +41 04 16.29   & CMC  & Y\\
-			G157.12-11.56 & 157.12645 &  -11.567412   & 03 51 59.15 & +39 01 55.10 & 03 48 39.82 & +38 52 57.79   & CMC  & N\\
-			G157.19-08.81 & 157.19237 &   -8.8193874  & 04 01 38.24 & +41 04 05.05 & 03 58 14.22 & +40 55 43.68   & CMC  & N\\
-			G157.58-08.89 & 157.58788 &   -8.8948917  & 04 02 54.80 & +40 45 04.96 & 03 59 31.18 & +40 36 48.44   & CMC  & Y\\
-			G157.60-12.17 & 157.60985 &  -12.177292   & 03 51 49.54 & +38 15 38.76 & 03 48 31.47 & +38 06 40.89   & CMC  & N\\
-			G157.91-08.23 & 157.91747 &   -8.2347422  & 04 06 32.28 & +41 01 15.73 & 04 03 07.73 & +40 53 13.02   & CMC  & Y\\
-			G158.20-20.28 & 158.20311 &  -20.284357   & 03 29 19.31 & +31 33 54.87 & 03 26 13.37 & +31 23 37.03   & PMC  & Y\\
-			G158.22-20.14 & 158.22508 &  -20.145231   & 03 29 47.61 & +31 39 49.38 & 03 26 41.50 & +31 29 33.16   & PMC  & Y\\
-			G158.24-21.80 & 158.24706 &  -21.803167   & 03 25 13.67 & +30 19 30.39 & 03 22 09.71 & +30 08 58.61   & PMC  & Y\\
-			G158.37-20.72 & 158.37889 &  -20.722431   & 03 28 41.99 & +31 06 59.39 & 03 25 36.68 & +30 56 39.43   & PMC  & Y\\
-			G158.40-21.86 & 158.40086 &  -21.863445   & 03 25 35.50 & +30 11 29.55 & 03 22 31.67 & +30 00 59.01   & PMC  & Y\\
-			G159.01-08.46 & 159.0161  &   -8.4609509  & 04 09 55.13 & +40 06 54.78 & 04 06 31.79 & +39 59 05.11   & CMC  & Y\\
-			G159.03-08.32 & 159.03807 &   -8.3289795  & 04 10 28.53 & +40 11 46.78 & 04 07 04.98 & +40 03 59.25   & CMC  & Y\\
-			G159.14-08.76 & 159.14793 &   -8.7627697  & 04 09 20.14 & +39 48 21.73 & 04 05 57.40 & +39 40 29.83   & CMC  & Y\\
-			G159.16-05.58 & 159.16991 &   -5.5854774  & 04 21 08.38 & +42 04 14.47 & 04 17 40.18 & +41 57 08.54   & CMC  & N\\
-			G159.21-20.12 & 159.21385 &  -20.125366   & 03 33 17.90 & +31 06 48.54 & 03 30 12.10 & +30 56 44.50   & PMC  & Y\\
-			G159.65-19.68 & 159.65331 &  -19.688967   & 03 36 04.66 & +31 12 02.60 & 03 32 58.46 & +31 02 08.29   & PMC  & Y\\
-			G159.67-05.71 & 159.67528 &   -5.7166719  & 04 22 32.37 & +41 37 15.79 & 04 19 04.87 & +41 30 15.43   & CMC  & N\\
-			G159.82-10.48 & 159.82909 &  -10.484298   & 04 05 49.63 & +38 05 19.15 & 04 02 30.19 & +37 57 13.88   & CMC  & N\\
-			G160.35-06.37 & 160.35643 &   -6.3731093  & 04 22 34.71 & +40 40 40.18 & 04 19 08.95 & +40 33 40.04   & CMC  & N\\
-			G160.51-16.84 & 160.51024 &  -16.840801   & 03 47 34.31 & +32 53 12.17 & 03 44 24.67 & +32 43 58.95   & PMC  & Y\\
-			G160.51-17.07 & 160.51024 &  -17.074787   & 03 46 51.18 & +32 42 28.95 & 03 43 41.85 & +32 33 13.12   & PMC  & Y\\
-			G160.53-09.84 & 160.53221 &   -9.8400545  & 04 10 37.94 & +38 05 04.82 & 04 07 17.99 & +37 57 18.02   & CMC  & Y\\
-			G160.53-19.72 & 160.53221 &  -19.72859    & 03 38 58.11 & +30 39 04.72 & 03 35 52.31 & +30 29 20.65   & PMC  & N\\
-			G160.62-16.70 & 160.6201  &  -16.704443   & 03 48 22.46 & +32 55 21.25 & 03 45 12.68 & +32 46 10.96   & PMC  & Y\\
-			G161.08-21.78 & 161.08153 &  -21.783081   & 03 34 51.38 & +28 43 51.87 & 03 31 48.37 & +28 33 53.36   & PMC  & N\\
-			G161.21-08.72 & 161.21336 &   -8.725029   & 04 17 02.75 & +38 24 57.50 & 04 13 41.57 & +38 17 35.66   & CMC  & Y\\
-			G162.24-09.04 & 162.24608 &   -9.0459471  & 04 19 33.27 & +37 28 03.29 & 04 16 13.43 & +37 20 51.37   & CMC  & N\\
-			G162.46-08.70 & 162.46581 &   -8.7061596  & 04 21 32.60 & +37 33 04.74 & 04 18 12.44 & +37 26 00.67   & CMC  & Y\\
-			G162.86-05.24 & 162.86131 &   -5.2482533  & 04 35 48.53 & +39 38 08.62 & 04 32 23.40 & +39 32 01.70   & CMC  & N\\
-			G163.32-08.42 & 163.32274 &   -8.4232397  & 04 25 31.80 & +37 08 19.15 & 04 22 11.95 & +37 01 30.96   & CMC  & Y\\
-			G164.13-08.85 & 164.13573 &   -8.8571377  & 04 26 43.25 & +36 15 25.18 & 04 23 24.76 & +36 08 41.79   & CMC  & Y\\
-			G164.57-24.48 & 164.57518 &  -24.480778   & 03 38 12.61 & +24 36 13.41 & 03 35 14.17 & +24 26 26.86   & TMC  & Y\\
-			G164.75-24.19 & 164.75096 &  -24.194195   & 03 39 34.02 & +24 42 59.94 & 03 36 35.34 & +24 33 18.21   & TMC  & Y\\
-			G164.81-05.67 & 164.81688 &   -5.6791844  & 04 40 47.51 & +37 53 40.02 & 04 37 25.07 & +37 47 53.55   & TMC  & N\\
-			G164.92-12.65 & 164.92674 &  -12.654734   & 04 16 04.53 & +33 03 27.18 & 04 12 51.94 & +32 56 01.81   & TMC  & N\\
-			G166.99-15.34 & 166.99217 &  -15.346058   & 04 13 42.01 & +29 44 26.31 & 04 10 34.35 & +29 36 51.83   & TMC  & N\\
-			G168.00-15.69 & 168.00291 &  -15.694481   & 04 15 40.46 & +28 48 00.55 & 04 12 33.93 & +28 40 33.81   & TMC  & Y\\
-			G168.13-16.39 & 168.13475 &  -16.393131   & 04 13 47.56 & +28 13 22.16 & 04 10 41.95 & +28 05 48.10   & TMC  & Y\\
-			G169.76-16.15 & 169.76073 &  -16.159975   & 04 19 25.47 & +27 15 16.21 & 04 16 20.77 & +27 08 04.27   & TMC  & Y\\
-			G169.82-19.39 & 169.82664 &  -19.392105   & 04 09 12.03 & +24 58 39.00 & 04 06 10.93 & +24 50 47.28   & TMC  & Y\\
-			G169.98-18.97 & 169.98045 &  -18.977402   & 04 10 57.74 & +25 09 42.12 & 04 07 56.29 & +25 01 57.19   & TMC  & Y\\
-			G170.13-16.06 & 170.13426 &  -16.062908   & 04 20 50.61 & +27 03 29.08 & 04 17 46.07 & +26 56 22.76   & TMC  & Y\\
-			G170.26-16.02 & 170.2661  &  -16.024094   & 04 21 21.47 & +26 59 29.26 & 04 18 16.99 & +26 52 24.97   & TMC  & Y\\
-			G170.57-07.85 & 170.57372 &   -7.8580132  & 04 50 38.52 & +32 07 05.91 & 04 47 24.92 & +32 02 00.48   & TMC  & N\\
-			G170.88-10.92 & 170.88133 &  -10.920865   & 04 40 32.71 & +29 55 42.61 & 04 37 22.97 & +29 49 55.56   & TMC  & Y\\
-			G171.43-17.36 & 171.43065 &  -17.367682   & 04 20 19.19 & +25 15 38.94 & 04 17 17.04 & +25 08 30.63   & TMC  & Y\\
-			G171.51-10.59*& 171.51854 &  -10.598125   & 04 43 32.45 & +29 39 25.68 & 04 40 22.93 & +29 33 50.96   & TMC  & Y\\
-			G172.13-16.93 & 172.13377 &  -16.938259   & 04 23 43.24 & +25 03 07.38 & 04 20 41.16 & +24 56 12.56   & TMC  & N\\
-			G172.83-05.17 & 172.8369  &   -5.1733398  & 05 07 09.50 & +31 59 19.44 & 05 03 55.27 & +31 55 23.51   & TMC  & Y\\
-			G172.85-14.74 & 172.85887 &  -14.747349   & 04 33 03.17 & +25 58 33.47 & 04 29 59.36 & +25 52 16.07   & TMC  & Y\\
-			G172.92-16.74 & 172.92479 &  -16.743393   & 04 26 34.88 & +24 36 58.52 & 04 23 33.20 & +24 30 15.13   & TMC  & Y\\
-			G172.94-05.49 & 172.94676 &   -5.491785   & 05 06 15.78 & +31 42 39.02 & 05 03 02.03 & +31 38 39.30   & TMC  & Y\\
-			G173.07-17.89 & 173.0786  &  -17.896084   & 04 23 13.65 & +23 44 29.43 & 04 20 13.27 & +23 37 32.71   & TMC  & Y\\
-			G173.45-05.43 & 173.45213 &   -5.4355769  & 05 07 52.92 & +31 20 25.45 & 05 04 39.67 & +31 16 32.63   & TMC  & N\\
-			G173.60-17.89 & 173.60594 &  -17.896084   & 04 24 40.82 & +23 21 57.79 & 04 21 40.84 & +23 15 06.86   & TMC  & N\\
-			G173.91-16.25 & 173.91356 &  -16.25709    & 04 30 55.66 & +24 13 14.78 & 04 27 54.26 & +24 06 48.88   & TMC  & Y\\
-			G174.06-15.81 & 174.06737 &  -15.810754   & 04 32 50.26 & +24 23 55.66 & 04 29 48.54 & +24 17 37.46   & TMC  & Y\\
-			G174.39-13.43 & 174.39696 &  -13.439694   & 04 41 46.05 & +25 40 35.79 & 04 38 42.19 & +25 34 53.96   & TMC  & Y\\
-			G174.70-15.48 & 174.70457 &  -15.481486   & 04 35 40.77 & +24 08 34.46 & 04 32 39.23 & +24 02 27.81   & TMC  & Y\\
-			G174.81-15.15*& 174.81444 &  -15.152741   & 04 37 05.01 & +24 16 21.02 & 04 34 03.25 & +24 10 20.08   & TMC  & N\\
-			G175.16-16.74 & 175.166   &  -16.743393   & 04 32 42.66 & +22 59 28.59 & 04 29 42.75 & +22 53 09.94   & TMC  & Y\\
-			G175.58-16.60*& 175.58348 &  -16.607105   & 04 34 16.84 & +22 46 21.58 & 04 31 17.14 & +22 40 09.30   & TMC  & N\\
-			G175.97-20.38 & 175.97899 &  -20.38381    & 04 22 57.43 & +20 02 28.95 & 04 20 01.62 & +19 55 31.30   & TMC  & Y\\
-			G176.46-21.10 & 176.46239 &  -21.101789   & 04 21 54.04 & +19 13 48.81 & 04 18 59.24 & +19 06 46.99   & TMC  & Y\\
-			G177.60-20.58 & 177.60497 &  -20.582909   & 04 26 29.82 & +18 45 06.57 & 04 23 35.40 & +18 38 23.09   & TMC  & Y\\
-			G177.89-20.16 & 177.89061 &  -20.165098   & 04 28 34.65 & +18 48 48.70 & 04 25 40.07 & +18 42 13.56   & TMC  & Y\\
-			G177.97-09.72 & 177.9785  &   -9.7264977  & 05 04 17.30 & +25 11 00.36 & 05 01 13.18 & +25 06 52.61   & TMC  & Y\\
+			\input{data/sourcelist}
 			\end{supertabular}		
 			\end{center}
 			$\dagger$：表示有（Y）无（N）IRAC/MIPS成协物。
@@ -401,7 +339,7 @@
 		\textbf{在积分强度图中强度为局部峰值的60\% \cob 之等值线需完全包括在成图区域内。}
 		这样，我们很好地区分了云核和其所在的团块。同时，由于这样定义的云核有清晰的界限，使得我们可以对其进行较为精确的椭圆高斯拟合。
 
-		为了明确，我们将制定了云核的命名规则： 
+		为了明确，我们将制定了云核的命名规则：
 		\textbf{Planck冷团块名称+a（线心速度小的速度成分）或b（线心速度大的速度成分）或为空（无双重速度成分）+C(云核) + 云核编号 。}
 
 		在所有\numvelcomp 个团块中，\numcompofcores 个含有云核。在这\numcompofcores 个团块其中，我们证认出了总计\numcore 个云核。其中， \numcoretmc 个云核在TMC中、\numcorecmc 个云核在 CMC中，而PMC只有\numcorepmc 个云核。由于PMC中云核过少，我们在后面使用统计方法的分析讨论中将不涉及之。
@@ -436,258 +374,33 @@
 	]
 	% 各附录。
 \chapter{云核中心光谱}\label{App.Spectra}
-	本附录出示云核中心的光谱。对于每个光谱图，\coaa 、 \cobb 和 \cocc   的谱线分别以红、绿、蓝表示。光谱选取的位置（相对于Planck冷团块几何中心的偏移）标示在云核名称的下方，形式为“(RA,DEC)”， 单位为角分。
+	本附录出示云核中心的光谱，如图\ref{Fig.Spectra}。
 
-	\begin{figure}[ht]
-	\centering
-	\includegraphics[width=48mm,height=32mm]{{G153.34-08.00C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G153.34-08.00C2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G154.68-15.34C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G155.52-08.93_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G156.53-08.63_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G156.90-08.49_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G156.92-09.72C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G157.10-08.70_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G157.12-11.56C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G157.12-11.56C2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G157.12-11.56C3_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G157.19-08.81_spec}.ps}\\
-	\end{figure}\clearpage
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%\iffalse
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\begin{figure}[ht]
-	\includegraphics[width=48mm,height=32mm]{{G157.58-08.89_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G157.60-12.17a_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G157.60-12.17bC1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G157.60-12.17bC2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G157.91-08.23C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G158.20-20.28_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G158.22-20.14_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G158.24-21.80_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G158.37-20.72_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G158.40-21.86_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.01-08.46_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.03-08.32_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G159.14-08.76_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.16-05.58_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.21-20.12C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G159.65-19.68a_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.65-19.68b_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.67-05.71aC1_spec}.ps}\\
-	\end{figure}\clearpage
-	\begin{figure}[ht]
-	\includegraphics[width=48mm,height=32mm]{{G159.67-05.71aC2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.67-05.71bC1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G159.82-10.48C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G159.82-10.48C2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G160.35-06.37_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G160.51-16.84_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G160.51-17.07_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G160.53-09.84_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G160.53-19.72C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G160.62-16.70_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G161.08-21.78_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G161.21-08.72_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G162.24-09.04C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G162.46-08.70_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G162.86-05.24_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G163.32-08.42_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G164.13-08.85C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G164.57-24.48C1_spec}.ps}\\
-	\end{figure}\clearpage
-	\begin{figure}[ht]
-	\includegraphics[width=48mm,height=32mm]{{G164.57-24.48C2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G164.57-24.48C3_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G164.75-24.19C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G164.75-24.19C2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G164.81-05.67C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G164.92-12.65C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G164.92-12.65C2_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G164.92-12.65C3_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G166.99-15.34C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G168.00-15.69_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G168.13-16.39a_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G168.13-16.39b_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G169.76-16.15a_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G169.76-16.15b_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G169.82-19.39_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G169.98-18.97_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G170.13-16.06a_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G170.13-16.06b_spec}.ps}\\
-	\end{figure}\clearpage
-	\begin{figure}[ht]
-	\includegraphics[width=48mm,height=32mm]{{G170.26-16.02_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G170.57-07.85_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G170.88-10.92_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G171.43-17.36_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G172.13-16.93_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G172.83-05.17C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G172.85-14.74_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G172.92-16.74a_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G172.92-16.74b_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G172.94-05.49C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G173.07-17.89C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G173.07-17.89C2_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G173.45-05.43_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G173.60-17.89C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G173.60-17.89C2_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G173.91-16.25_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G174.06-15.81_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G174.39-13.43_spec}.ps}\\
-	\end{figure}\clearpage
-	\begin{figure}[ht]
-	\includegraphics[width=48mm,height=32mm]{{G174.70-15.48C1_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G175.16-16.74_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G175.97-20.38C1_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G176.46-21.10_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G177.60-20.58_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G177.89-20.16a_spec}.ps}\\
-	\includegraphics[width=48mm,height=32mm]{{G177.89-20.16b_spec}.ps}
-	\includegraphics[width=48mm,height=32mm]{{G177.97-09.72_spec}.ps}\\
-	\end{figure}\clearpage
-	%\fi
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{figure}[h]
+		\caption{云核中心的光谱。对于每个光谱图，\coaa 、 \cobb 和 \cocc   的谱线分别以红、绿、蓝表示。光谱选取的位置（相对于Planck冷团块几何中心的偏移）标示在云核名称的下方，形式为“(RA,DEC)”， 单位为角分。\label{Fig.Spectra}}
+	\end{figure}
+		\vspace{-18mm}
+		%\input{filelist/spectra}
+
+
 \chapter{各团块积分强度图}\label{App.Map}
 	
-	本附录出示每个团块的积分强度图，如图  \ref{Fig.Spectra}。
+	本附录出示每个团块的积分强度图，如图\ref{Fig.Map}。
 
-	\begin{figure}[ht]
-	\caption{等值线图表示\cobb 谱线的积分强度，灰度背景表示\coaa 谱线的积分强度。等值线表示的积分强度范围：由峰值强度的30\% 到 90\%；相邻等值线表示的积分强度差：峰值强度的10\%。图上的蓝色或黄色符号\footnote{使用两种颜色是为了配合背景灰度，以利辨识。}表示成协物：$\times$(X-ray object)、 $\triangle$(radio, \textsc{H i}, Maser)、$\Diamond$(IR object)、HH(Herbig-Haro object)、YSO(Young Stellar Object)。成协物的种类、位置以及代表符号均根据SIMBAD数据库中的Aladin应用程序。\label{Fig.Spectra}}
+	\begin{figure}[h]
+		\caption{等值线图表示\cobb 谱线的积分强度，灰度背景表示\coaa 谱线的积分强度。等值线表示的积分强度范围：由峰值强度的30\% 到 90\%；相邻等值线表示的积分强度差：峰值强度的10\%。图上的蓝色或黄色符号表示成协物：$\times$(X-ray object)、 $\triangle$(radio, {HI}, Maser)、$\Diamond$(IR object)、HH(Herbig-Haro object)、YSO(Young Stellar Object)。成协物的种类、位置以及代表符号均根据SIMBAD数据库中的Aladin应用程序。\label{Fig.Map}}
 	\end{figure}
+		\vspace{-18mm}
+		%\input{filelist/maps}	
 
-	\begin{center}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G153.34-08.00}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G154.68-15.34}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G155.52-08.93}.eps}   \end{minipage}\\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G156.53-08.63}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G156.90-08.49}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G156.92-09.72}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G157.10-08.70}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G157.12-11.56}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G157.19-08.81}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G157.58-08.89}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G157.60-12.17}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G157.60-12.17b}.eps}  \end{minipage}\\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G157.91-08.23}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G158.20-20.28}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G158.22-20.14}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G158.24-21.80}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G158.37-20.72}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G158.40-21.86}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.01-08.46}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.03-08.32}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.14-08.76}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.16-05.58}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.21-20.12}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.65-19.68}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.65-19.68b}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.67-05.71}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G159.82-10.48}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G160.35-06.37}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G160.51-16.84}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G160.51-17.07}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G160.53-09.84}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G160.53-19.72}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G160.62-16.70}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G161.08-21.78}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G161.21-08.72}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G162.24-09.04}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G162.46-08.70}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G162.86-05.24}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G163.32-08.42}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G164.13-08.85}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G164.57-24.48}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G164.75-24.19}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G164.81-05.67}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G164.92-12.65}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G166.99-15.34}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G168.00-15.69}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G168.13-16.39}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G169.76-16.15}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G169.76-16.15b}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G169.82-19.39}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G169.98-18.97}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G170.13-16.06}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G170.26-16.02}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G170.57-07.85}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G170.88-10.92}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G171.43-17.36}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G172.13-16.93}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G172.83-05.17}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G172.85-14.74}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G172.92-16.74}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G172.92-16.74b}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G172.94-05.49}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G173.07-17.89}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G173.45-05.43}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G173.60-17.89}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G173.91-16.25}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G174.06-15.81}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G174.39-13.43}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G174.70-15.48}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G175.16-16.74}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G175.97-20.38}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G176.46-21.10}.eps}   \end{minipage} \\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G177.60-20.58}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G177.89-20.16}.eps}   \end{minipage}
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G177.89-20.16b}.eps}   \end{minipage}\\
-		\begin{minipage}[c]{0.3\textwidth}  \centering   \includegraphics[width=48mm,height=42mm]{{G177.97-09.72}.eps}   \end{minipage}
-	\end{center}
-	%\fi
-	%%%%%%%%%END%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\iffalse
-	\begin{figure}[ht]
-	\includegraphics[totalheight=82mm]{{1813}.eps}
-	\caption{The distribution of ${N_{\rm H_2}(\rm C^{18}O)}/{N_{\rm H_2}(\rm ^{13}CO)}$ of 17 cores with \cocc detection. As we have ruled out cores in PMC from discussion, the two cores in PMC that detected with \cocc emission are excluded. \label{Fig.1813}}.
-	\end{figure}
-
-
-	\begin{figure}[ht]
-	\includegraphics[totalheight=52mm]{{pv_G164.75-24.19}.eps}
-	\includegraphics[totalheight=52mm]{{pv_G173.07-17.89}.eps}
-	\caption{P-V diagram of two cores. Left is taken from RA offset 0', DEC offset from -5' to 5'; Right is taken from RA offset -0.5', DEC offset from -5' to 5'. The positions are plotted over the contour maps of the two cores in Figure \ref{Maps}, as yellow solid lines. \label{Fig. PV_diagram}}.
-	\end{figure}
-
-	\begin{figure}[ht]
-	\includegraphics[totalheight=120mm]{{VelocityComparison}.eps}
-	\caption{The distribution of \sigmath, \sigmant and \sigmath/\sigmant.\label{Fig.SigmaTH/SigmaNT}}
-	\end{figure}
-
-	\begin{figure}[ht]
-	\includegraphics[totalheight=62mm]{{PDF_G173.60-17.89C2_final}.eps}
-	\includegraphics[totalheight=62mm]{{PDF_G159.21-20.12C1_final}.eps}
-	\includegraphics[totalheight=62mm]{{PDF_G157.60-12.17bC2_final}.eps}
-	\caption{The examples of \nhyd PDF of cores in three regions, with lognormal fit.\label{Fig. PDF}}.
-	\end{figure}
-
-	\begin{figure}[ht]
-	\includegraphics[totalheight=62mm]{{M_vir_tmc}.eps}
-	\includegraphics[totalheight=62mm]{{M_j_tmc}.eps}
-	\addtocounter{figure}{1}
-	%\figurenum{\arabic{figure}a}
-	\caption{Left panel: The correlation between $M_{LTE}$ and $M_{vir}$ in TMC. Right panel: The correlation between $M_{LTE}$ and $M_{J}$ in TMC. The red line is the power law fitting function, while the blue dotted line is the $M_{LTE}=M_{vir}$line, which also is the critical line for gravitational bound state (below the line).\label{mass_tmc}}
-	\end{figure}
-
-	\begin{figure}[ht]
-	\includegraphics[totalheight=62mm]{{M_vir_cmc}.eps}
-	\includegraphics[totalheight=62mm]{{M_j_cmc}.eps}
-	%\figurenum{\arabic{figure}b}
-	\caption{Left panel: The correlation between $M_{LTE}$ and $M_{vir}$ in CMC. Right panel: The correlation between $M_{LTE}$ and $M_{J}$ in CMC. The red line is the power law fitting function, while the blue dotted line is the $M_{LTE}=M_{vir}$line, which also is the critical line for gravitational bound state (below the line). \label{mass_cmc}}
-	\end{figure}
-
-	\begin{figure}[ht]
-	\includegraphics[totalheight=62mm]{{Gas-Dust_EB_Core}.eps}
-	\caption{$T_D-T_K$ relationship, the $T_K$ are the \texc of our cores while the $T_D$ are from \cite{2011yCat.8088....0P}.\label{Fig.GasDust}}
-	\end{figure}
-	\fi
 \chapter{导出参量的计算}
+
 \chapter{本文中术语的中英对照表}
 % 以下为正文之后的部分。
 \backmatter
 % 致谢。
-\include{include/acknowledge}
+\include{tail/acknowledge}
 % 原创性声明和使用授权说明。
-\include{include/originauth}
+\include{tail/originauth}
 \end{document}
 
