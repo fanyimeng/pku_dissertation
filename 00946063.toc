@@ -24,30 +24,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}观测参量}{13}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}物理参量}{13}{section.3.3}
+\contentsline {section}{\numberline {3.3}物理参量}{16}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}分析与讨论}{15}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}分析与讨论}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}谱线轮廓}{15}{section.4.1}
+\contentsline {section}{\numberline {4.1}谱线轮廓}{17}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}云核内的湍动}{15}{section.4.2}
+\contentsline {section}{\numberline {4.2}云核内的湍动}{17}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}云核的重力稳定性}{15}{section.4.3}
+\contentsline {section}{\numberline {4.3}云核的重力稳定性}{17}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}气体-尘埃耦合}{15}{section.4.4}
+\contentsline {section}{\numberline {4.4}气体-尘埃耦合}{17}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}CO丰度}{15}{section.4.5}
+\contentsline {section}{\numberline {4.5}CO丰度}{17}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}云核的成协情况}{15}{section.4.6}
+\contentsline {section}{\numberline {4.6}云核的成协情况}{17}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{17}{appendix*.8}
+\contentsline {chapter}{参考文献}{19}{appendix*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}云核中心光谱}{21}{appendix.A}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}云核中心光谱}{23}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}B\hspace {0.3em}}各团块积分强度图}{23}{appendix.B}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}B\hspace {0.3em}}各团块积分强度图}{25}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}C\hspace {0.3em}}导出参量的计算}{25}{appendix.C}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}C\hspace {0.3em}}导出参量的计算}{27}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}D\hspace {0.3em}}本文中术语的中英对照表}{27}{appendix.D}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}D\hspace {0.3em}}本文中术语的中英对照表}{29}{appendix.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{29}{appendix*.11}
+\contentsline {chapter}{致谢}{31}{appendix*.12}

@@ -123,6 +123,8 @@
 \newcommand{\numdiffusecomp}{42\ }
 \newcommand{\numvelcomp}{76\ }
 %%%%%%%%%%%Packages added by Fanyi Meng%%%%%%%%%%%%%%
+\usepackage{multirow}
+\usepackage{lscape}
 \usepackage{changepage}
 \usepackage{longtable}
 \usepackage{supertabular}
@@ -255,26 +257,27 @@
 		观测设备为中国科学院紫金山天文台青海观测站13.7 m 望远镜。观测时间为2011年1月至5月。观测的谱线为 $J=1 \rightarrow 0 $ 的  \coa， \cob 和 \coc 谱线。观测模式为OTF（On-The-Fly模式）。观测时的设备参数如表 \ref{Fig.Observation}。
 
 		\begin{table}[H]
-        \centering
-        \caption{设备参数\label{Fig.Observation}}
-        \setlength{\tabcolsep}{0.1in}
-        \vspace{0.5em}
-        \begin{tabular}{rl}
-        \toprule
-        \hline
-        天线波束宽度 & 56\arcsec$\times$ 55\arcsec (频率为 92.8 GHz时) \\
-        主波束效率 & $\sim$50\%                               \\
-        指向精度   & 好于 4\arcsec                     \\
-        光谱分辨率  & for \coaa: 0.16 \kms                     \\
-                             & 对于 \cobb, \cocc:  0.17 \kms           \\
-        T$^*_A$ 均方根噪声    & 对于 \coaa: 0.2 K                         \\
-                             & 对于 \cobb, \cocc: 0.1 K               \\
-        OTF 扫描速率          & 20 \arcsec $\rm s^{-1}$\\
-        \hline
-        \bottomrule
-        \end{tabular}
+			\begin{footnotesize}
+	        \centering
+	        \caption{设备参数\label{Fig.Observation}}
+	        \setlength{\tabcolsep}{0.1in}
+	        \vspace{0.5em}
+	        \begin{tabular}{rl}
+	        \toprule
+	        \hline
+	        天线波束宽度 & 56\arcsec$\times$ 55\arcsec (频率为 92.8 GHz时) \\
+	        主波束效率 & $\sim$50\%                               \\
+	        指向精度   & 好于 4\arcsec                     \\
+	        光谱分辨率  & for \coaa: 0.16 \kms                     \\
+	                             & 对于 \cobb, \cocc:  0.17 \kms           \\
+	        T$^*_A$ 均方根噪声    & 对于 \coaa: 0.2 K                         \\
+	                             & 对于 \cobb, \cocc: 0.1 K               \\
+	        OTF 扫描速率          & 20 \arcsec $\rm s^{-1}$\\
+	        \hline
+	        \bottomrule
+	        \end{tabular}
+	        \end{footnotesize}
         \end{table}
-
 
         为了处理观测数据，我们使用了IRAM提供的GILDAS软件包\supercite{2000ASPC..217..299G}和SMA提供的MIRIAD软件包\supercite{1995ASPC...77..433S}。OTF的数据在处理前被转换为间隔为30\arcsec 的三维数据矩阵（3-D data cube）。
 
@@ -296,7 +299,7 @@
 		我们在下文以“团块”称这些源和源中的不同速度成分，这是沿用了Planck Collaboration使用的“冷团块”的称呼\supercite{2011A&A...536A..23P}。不仅如此，由于我们的成图区域是14 \arcmin $\times$ 14 \arcmin ， 对于TMC、PMC和CMC来说，成图的尺度分别为$0.6\times0.6$ pc、 $0.9\times0.9$ pc、 和 $1.7\times1.7$ pc。这样的成图尺度恰好符合第\ref{Sec.ColdDarkCloud}节中关于团块尺度（0.3$\sim$3 pc）的界定。
 
 		所有完成观测的源的源名和坐标参见表 \ref{Tab.SourceList} 。有3个源由于没有好的参考位置，被排除出后续讨论，其源名之后有“*”为记。对于剩余的\numsou 个团块，我们全部探测到了\coaa  和 \cobb 发射线， 而对于其中的 \numcocc 个, 我们探测到了\cocc 发射信号。在5个Planck团块中，我们发现了双重速度成分: 我们检视了每个团块几何中心处的谱线，在这5个源中发现了双重的发射峰；之后为了验证，对于两个峰分别作积分强度图，发现明显分离的辐射区域，从而将其认证为双重速度成分。为了方便和明确，在下文，我们将这10个速度成分视作单独的团块。
-		
+
 		\topcaption{{观测源表}}\label{Tab.SourceList}
 			%%%%%%%%%%%Supertabular Starts！
 			\begin{footnotesize}
@@ -306,8 +309,8 @@
 			\tablefirsthead{%
 			\toprule
 			\hline
-			Name         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &Region&$\dagger$ \\
-						 &deg   &deg & (h m s)         & (d m s)        & (h m s)        & (d m s)     &      &          \\
+				Name         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &Region&$\dagger$ \\
+							 &deg   &deg & (h m s)         & (d m s)        & (h m s)        & (d m s)     &      &          \\
 			\hline}
 			%%%%%%%%%%%Table tail (except for last page).
 			\tabletail{%
@@ -320,9 +323,9 @@
 			%\hline  %It looks better without this line.
 			\multicolumn{9}{c}{接上页}\\
 			\toprule
-			%\hline %Suggest that it is not a new table by removing this top rule.
-			Name         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &Region&$\dagger$ \\
-						 &deg   &deg & (h m s)         & (d m s)        & (h m s)        & (d m s)     &      &          \\
+				%\hline %Suggest that it is not a new table by removing this top rule.
+				Name         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &Region&$\dagger$ \\
+							 &deg   &deg & (h m s)         & (d m s)        & (h m s)        & (d m s)     &      &          \\
 			\hline}
 			%%%%%%%%%%%Table tail in last page.
 			\tablelasttail{\hline\bottomrule}
@@ -348,7 +351,59 @@
 
 	\section{观测参量}
 
+		通过对谱线的高斯拟合，我们得到了观测参量：\vlsr、\ta 和 FWHM。每个云核中心处的观测参量如表 \ref{Tab.ObservedPara}。对于全部 \numcore 个云核、 TMC 和 CMC，我们分别对这些观测参量做了统计。统计结果如表 \ref{Tab.ObservedParaStat}。
 
+		\begin{landscape}
+		\topcaption{{观测参量}}\label{Tab.ObservedPara}
+			%%%%%%%%%%%Supertabular Starts！
+			\begin{footnotesize}
+			\begin{center}
+			\setlength{\tabcolsep}{0.04in}
+			%%%%%%%%%%%Table head in first page.
+			\tablefirsthead{%
+			\toprule
+			\hline
+			Source           &  $v_{lsr}$(12)&     FWHM  (12) &   Ta	 (12)           &   $v_{lsr}$(13)   &   FWHM(13)      &  Ta(13)              &     $v_{lsr}$ (18) &  FWHM (18)   &  Ta (18)   &Line Profile$^{\dag}$&\\
+                   &     (km/s)    &     (km/s)     &     (K)              &         (km/s)    &     (km/s)      &     (K)              &    (km/s)          &     (km/s)   &      (K)   &    &\\
+			\hline}
+			%%%%%%%%%%%Table tail (except for last page).
+			\tabletail{%
+			\bottomrule
+			\multicolumn{12}{c}{续下页}\\
+			%\hline %It looks better without this line.
+			}
+			%%%%%%%%%%%Table head in following pages.
+			\tablehead{%
+			%\hline  %It looks better without this line.
+			\multicolumn{12}{c}{接上页}\\
+			\toprule
+			Source           &  $v_{lsr}$(12)&     FWHM  (12) &   Ta	 (12)           &   $v_{lsr}$(13)   &   FWHM(13)      &  Ta(13)              &     $v_{lsr}$ (18) &  FWHM (18)   &  Ta (18)   &Line Profile$^{\dag}$&\\
+                   &     (km/s)    &     (km/s)     &     (K)              &         (km/s)    &     (km/s)      &     (K)              &    (km/s)          &     (km/s)   &      (K)   &    &\\
+			\hline}
+			%%%%%%%%%%%Table tail in last page.
+			\tablelasttail{\hline\bottomrule}
+			%%%%%%%%%%%Star data.
+			\begin{supertabular}{cccccccccccl}
+			\input{data/observedpara}
+			\end{supertabular}		
+			\end{center}
+			\end{footnotesize}
+			%%%%%%%%%%%Supertabular Ends！
+		\end{landscape}
+		
+		\begin{table}[H]
+			\begin{footnotesize}
+	        \begin{center}
+	        \caption{观测参量统计结果\label{Tab.ObservedParaStat}}
+
+	        \setlength{\tabcolsep}{0.04in}
+	        \vspace{0.5em}
+
+	        \input{data/observedpara_stat}
+
+	        \end{center}
+	        \end{footnotesize}
+        \end{table}
 
 	\section{物理参量}
 
@@ -362,17 +417,8 @@
 
 \appendix % 正文中的附录部分。
 
-\printbibliography[ % 排版参考文献列表。
-		% 使“参考文献”出现在目录中；如果同时要使参考文献列表参与章节编号，
-		% 可将“bibintoc”改为“bibnumbered”。
-		heading = bibintoc,
-		% 单独设定排序方案。此设定会局部覆盖之前的全局设置。
-		% 注：只有同时使用 2.x 或之后版本的 biblatex 和相应兼容版本的 biber，
-		% 才能对每个 \printbibliography 命令采用不同的排序方案，
-		% 否则只能在导入 biblatex 宏包时就（全局）指定排序方案。
-		%sorting = none
-	]
-	% 各附录。
+\printbibliography[heading = bibintoc]
+
 \chapter{云核中心光谱}\label{App.Spectra}
 	本附录出示云核中心的光谱，如图\ref{Fig.Spectra}。
 
@@ -381,7 +427,6 @@
 	\end{figure}
 		\vspace{-18mm}
 		%\input{filelist/spectra}
-
 
 \chapter{各团块积分强度图}\label{App.Map}
 	
