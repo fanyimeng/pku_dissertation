@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  2 JUN 2013 17:41
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  2 JUN 2013 20:22
 entering extended mode
 **00946063.tex
 (D:\Dissertation\00946063.tex
@@ -1124,32 +1124,32 @@ File: english.lbx 2011/11/13 v1.7 biblatex localization
 
 (D:\Dissertation\00946063.aux (D:\Dissertation\tail/acknowledge.aux)
 (D:\Dissertation\tail/originauth.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 136.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 136.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 137.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 137.
  (C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1157,71 +1157,71 @@ LaTeX Font Info:    ... okay on input line 136.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 136.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 136.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 136.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 136.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 136.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 136.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 136.
-LaTeX Font Info:    Redeclaring math accent \check on input line 136.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 136.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 136.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 136.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 136.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 136.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 137.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 137.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 137.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 137.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 137.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 137.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 137.
+LaTeX Font Info:    Redeclaring math accent \check on input line 137.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 137.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 137.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 137.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 137.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 136.
+(Font)              `operators' in the math version `normal' on input line 137.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/CMUSerifRoman(0)/m/n on input line 
-136.
+137.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 136.
+(Font)              `operators' in the math version `bold' on input line 137.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/CMUSerifRoman(0)/m/n on input line
- 136.
+ 137.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/m/n o
-n input line 136.
+n input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/m/n o
-n input line 136.
+n input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/CMUSerifRoman(0)/m/it on input lin
-e 136.
+e 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/CMUSerifRoman(0)/bx/n on input lin
-e 136.
+e 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 136.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 136.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 137.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/bx/n 
-on input line 136.
+on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/CMUSerifRoman(0)/m/n --> EU1/CMUSerifRoman(0)/bx/n 
-on input line 136.
+on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/CMUSerifRoman(0)/bx/it on input l
-ine 136.
+ine 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 136.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 136.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 137.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -1257,20 +1257,20 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 136.
+Package hyperref Info: Option `colorlinks' set `false' on input line 137.
 Package biblatex Info: Input encoding 'UTF-8' specified.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'UTF-8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '00946063.bbl' found.
 (D:\Dissertation\00946063.bbl)
-Package biblatex Info: Reference section=0 on input line 136.
-Package biblatex Info: Reference segment=0 on input line 136.
+Package biblatex Info: Reference section=0 on input line 137.
+Package biblatex Info: Reference segment=0 on input line 137.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 136.
+Package hyperref Info: Link coloring OFF on input line 137.
  (C:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1279,26 +1279,26 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count403
 )
-LaTeX Info: Redefining \ref on input line 136.
-LaTeX Info: Redefining \pageref on input line 136.
-LaTeX Info: Redefining \nameref on input line 136.
+LaTeX Info: Redefining \ref on input line 137.
+LaTeX Info: Redefining \pageref on input line 137.
+LaTeX Info: Redefining \nameref on input line 137.
 
 (D:\Dissertation\00946063.out) (D:\Dissertation\00946063.out)
 \@outlinefile=\write5
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 140.
+(hyperref)                removing `\\' on input line 141.
 
 Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 26.1pt
  -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
-Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 141 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 142 replaced by U+FFFD.
 File: img/pkulogo.eps Graphic file (type eps)
 <img/pkulogo.eps>
 Requested font "CMU Serif Roman/B/ICU:mapping=tex-text;" at 26.1pt
@@ -1409,7 +1409,7 @@ Requested font "cmex10" at 15.06pt
  -> cmex10
 Requested font "cmex10" at 12.05pt
  -> cmex10
-LaTeX Font Info:    Try loading font information for U+msa on input line 141.
+LaTeX Font Info:    Try loading font information for U+msa on input line 142.
  (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
@@ -1419,7 +1419,7 @@ Requested font "msam10" at 15.06pt
  -> msam10
 Requested font "msam10" at 12.05pt
  -> msam10
-LaTeX Font Info:    Try loading font information for U+msb on input line 141.
+LaTeX Font Info:    Try loading font information for U+msb on input line 142.
 
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -1712,7 +1712,7 @@ Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 12.05pt
 Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 15.06pt
  -> C:/Windows/Fonts/FZheitiS.TTF
 
-Overfull \hbox (14.28133pt too wide) in paragraph at lines 168--169
+Overfull \hbox (14.28133pt too wide) in paragraph at lines 170--171
 []\xeCJK@rm/m/n/12.05 分 子 云 呈 现 |“层 级 状”| 结 构$[]$，| �
 �� 常 将 其 分 为 分 子 云 |（\EU1/CMUSerifRoman(0)/m/n/12.05 Cloud\xe
 CJK@rm/m/n/12.05 ）|、| 团 块 |（\EU1/CMUSerifRoman(0)/m/n/12.05 Clump\xeC
@@ -1780,14 +1780,14 @@ Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 9.03pt
 93.TTF
  (D:\Dissertation\data/sourcelist.tex [8] [9]) [10]
 第三章
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
 File: img_plot/SpatiaDist_Velocity_Overlay.eps Graphic file (type eps)
 <img_plot/SpatiaDist_Velocity_Overlay.eps>
 Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 7.0pt
@@ -1818,57 +1818,111 @@ Requested font "cmr10" at 10.54pt
 ]) [14]
 (D:\Dissertation\data/observedpara_stat.tex) [15
 
-] [16
+]
+Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 7.53pt
+ -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+Requested font "cmmi7" at 7.53pt
+ -> cmmi7
+Requested font "cmsy7" at 7.53pt
+ -> cmsy7
+Requested font "cmex8" at 7.53pt
+ -> cmex8
+Requested font "msam7" at 7.53pt
+ -> msam7
+Requested font "msbm7" at 7.53pt
+ -> msbm7
+Requested font "cmr7" at 7.53pt
+ -> cmr7
+Requested font "FZJPShuSong-Z01S" at 7.53pt
+ -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
+93.TTF
+Requested font "FZJPShuSong-Z01S/ICU" at 7.53pt
+ -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
+93.TTF
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font FZJPShuSong-Z01S does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FZJPShuSong-Z01S(0)' created for font 'FZJPShuSong-Z01S' with
+. options [Ligatures=TeX,BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 7.53pt
+ -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
+93.TTF
+
+(D:\Dissertation\data/physicalpara.tex [16
+
+]) [17]
+(D:\Dissertation\data/physicalpara_stat.tex)
+Overfull \hbox (25.64844pt too wide) in paragraph at lines 1--472
+ [] 
+ []
+
+[18
+
+]
+File: img_plot/1813.eps Graphic file (type eps)
+ <img_plot/1813.eps>
+Underfull \vbox (badness 2065) has occurred while \output is active []
+
+ [19]
+[20] [21] [22
 
 ]
 第四章
-[17] [18
+[23] [24
 
 ]
 Requested font "CMU Serif Roman/I/ICU:mapping=tex-text;" at 12.05pt
  -> C:/Windows/Fonts/cmunti.otf
- [19] [20] [21] [22]
-附录\nobreakspace {}A
-[23
+ [25] [26] [27]
+Overfull \hbox (2.40533pt too wide) in paragraph at lines 586--586
+[]\EU1/CMUSerifRoman(0)/m/n/12.05 A. Penzias. “\EU1/CMUSerifRoman(0)/m/it/12.
+05 Nuclear Processing and Isotopes in the Galaxy\EU1/CMUSerifRoman(0)/m/n/12.05
+ ”. \EU1/CMUSerifRoman(0)/m/it/12.05 Science\EU1/CMUSerifRoman(0)/m/n/12.05 ,
+ 1980[]05:
+ []
 
-] [24
+[28]
+附录\nobreakspace {}A
+[29
+
+] [30
 
 ]
 附录\nobreakspace {}B
-[25] [26
+[31] [32
 
-]
-附录\nobreakspace {}C
-[27] [28
-
-]
-附录\nobreakspace {}D
-[29] [30
-
-] (D:\Dissertation\tail/acknowledge.tex) [31
+] (D:\Dissertation\tail/acknowledge.tex) [33
 
 
 ]
-(D:\Dissertation\tail/originauth.tex [32
+(D:\Dissertation\tail/originauth.tex [34
 
 
 
-]) [33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
+]) [35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
  (D:\Dissertation\00946063.aux
 (D:\Dissertation\tail/acknowledge.aux) (D:\Dissertation\tail/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 464.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 464.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 613.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 613.
 Package logreq Info: Writing requests to '00946063.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27813 strings out of 430478
- 520394 string characters out of 3191502
- 796608 words of memory out of 3000000
- 30502 multiletter control sequences out of 15000+200000
- 16700 words of font info for 131 fonts, out of 3000000 for 9000
+ 27860 strings out of 430478
+ 521394 string characters out of 3191502
+ 802617 words of memory out of 3000000
+ 30538 multiletter control sequences out of 15000+200000
+ 18290 words of font info for 141 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,12n,92p,1032b,1337s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 00946063.pdf (41 pages).
+Output written on 00946063.pdf (43 pages).

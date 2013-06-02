@@ -59,7 +59,7 @@
 \newcommand{\cocc}{$\rm C^{18}O(1-0)$ }
 \newcommand{\multi}{$\times$}
 \newcommand{\vlsr}{${\rm V } _{lsr}$}
-\newcommand{\kms}{km s$^{-1}$}
+\newcommand{\kms}{$\rm km\ s^{-1}$}
 \newcommand{\ta}{$T_{\rm A}$}
 \newcommand{\texc}{$T_{\rm {ex}}$ }
 \newcommand{\taub}{$\tau _{13}$}
@@ -103,6 +103,7 @@
 \newcommand{\aj}{AJ}
 \newcommand{\arcsec}{$^{\prime\prime}$}
 \newcommand{\arcmin}{$^{\prime}$}
+\newcommand{\arcdeg}{$^{\circ}$}
 %Following are important numbers used in the text.
 \newcommand{\numallsou}{74\ }
 \newcommand{\numsou}{71\ }
@@ -161,6 +162,7 @@
 	\mainmatter
 
 \chapter{引言}
+
 	\section{冷暗云与恒星形成}\label{Sec.ColdDarkCloud}
 
 		暗云（Dark Cloud），也称为分子云（molecular cloud），是主要由$H_2$分子（其质量分数占绝对优势）组成的在光学波段暗的一类星际介质。其在光学波段的消光$A_V>1^{m}$，故被称为“暗”云\supercite{2007ARA&A..45..339B} 。 需要指出的是，这种消光并非由其气体成分造成，而是由其中的尘埃颗粒对光学波段的电磁波产生吸收造成的。由于尘埃的这种吸收作用，造成了对外界辐射的良好屏蔽，使得分子云本身能够保持较低的温度（例如典型的致密结构温度在$10-20\rm\ K$\supercite{1983ApJ...265..223B})，这是我们称其为“冷暗云”（Cold Dark Cloud）的原因。
@@ -253,6 +255,7 @@
 		值得一提的是，虽然TMC和PMC已经被较多地研究过，人们之前并没有对CMC足够重视，本研究是国际上最早对CMC进行的有针对性的毫米波观测之一，首次揭示了CMC中年轻冷云核的典型性质。
 
 \chapter{观测方法与数据处理}
+
 	\section{观测设备}
 		观测设备为中国科学院紫金山天文台青海观测站13.7 m 望远镜。观测时间为2011年1月至5月。观测的谱线为 $J=1 \rightarrow 0 $ 的  \coa， \cob 和 \coc 谱线。观测模式为OTF（On-The-Fly模式）。观测时的设备参数如表 \ref{Fig.Observation}。
 
@@ -326,10 +329,9 @@
 
         在观测时，成图范围为20\arcmin \multi 20 \arcmin ， 但是我们发现， 由于成图范围只是对于9波束接收机阵列中的中心接收机而言的，在图的边缘时信噪比会显著降低。于是我们为了保证数据质量 舍弃了边缘的数据，只保留了14\arcmin \multi 14 \arcmin 的范围。
 
-
 \chapter{观测结果与参量计算}
 
-	\section{观测结果综述}
+	\section{结果综述}
 
 		我们观测的71个源的空间分布如图 \ref{Fig.SpatialDistribution}。
 
@@ -416,10 +418,172 @@
 	        \end{footnotesize}
         \end{table}
 
-
 	\section{物理参量}
 
+		通过已经求得的观测参量我们计算出了各个云核的物理参量。 在局部热动平衡（LTE）假设下应用辐射传能方程，我们可以计算出云核的激发温度（\texc ）、气体柱密度（\nhyd ）、热速度弥散（\sigmath ）、非热速度弥散（\sigmant ）以及三维速度弥散（\sigmatd ）等物理参量。通过对云核成图进行椭圆高斯拟合，我们还得到了云核的几何尺度（$R$），进而计算出气体数密度（\nnhyd ）、LTE质量（$M_{LTE}$）、Jeans质量（$M_{J}$）和virial质量（$M_{vir}$）。
 
+		我们对于每个云核中各观测位置均计算了物理参量，结合得到的云核边界，我们在云核内部对这些物理参量进行了平均。得到了云核的平均物理参量，如表 \ref{Tab.PhysicalPara}。另外，我们对于全部云核、TMC中的云核以及CMC中的云核分别统计了其平均物理参量的情况，如表 \ref{Tab.PhysicalParaStat}。
+
+		\begin{landscape}
+		\topcaption{{物理参量}}\label{Tab.PhysicalPara}
+			%%%%%%%%%%%Supertabular Starts！
+			\begin{scriptsize}
+			\begin{center}
+			\setlength{\tabcolsep}{0.08cm}
+			%%%%%%%%%%%Table head in first page.
+			\tablefirsthead{%
+			\toprule
+			\hline
+			云核名称 & \vlsr& \multicolumn{2}{r}{偏移}  & \multicolumn{3}{r}{几何尺度} & $R$ & \texc& $\tau(^{13}\rm CO)$& \nhyd& \sigmath& \sigmant& \sigmatd& \nnhyd& $M_{LTE}$& $M_{J}$& $M_{vir}$& 区域\\
+			&(\kms)&\multicolumn{2}{r}{(\arcsec,\arcsec)} &\multicolumn{3}{r}{(\arcsec$\times$\arcsec(\arcdeg))}&($pc$) &($K$)&&(10$^{21}$ cm$^{-2}$)&(\kms)&(\kms)&(\kms)&(10$^{3}$ cm$^{-3}$) &{($M_{\odot}$)} &{($M_{\odot}$)} &{($M_{\odot}$)}&\\			\hline}
+			%%%%%%%%%%%Table tail (except for last page).
+			\tabletail{%
+			\bottomrule
+			\multicolumn{19}{c}{续下页}\\
+			%\hline %It looks better without this line.
+			}
+			%%%%%%%%%%%Table head in following pages.
+			\tablehead{%
+			%\hline  %It looks better without this line.
+			\multicolumn{19}{c}{接上页}\\
+			\toprule
+			云核名称 & \vlsr& \multicolumn{2}{r}{偏移}  & \multicolumn{3}{r}{几何尺度} & $R$ & \texc& $\tau(^{13}\rm CO)$& \nhyd& \sigmath& \sigmant& \sigmatd& \nnhyd& $M_{LTE}$& $M_{J}$& $M_{vir}$& 区域\\
+			&(\kms)&\multicolumn{2}{r}{(\arcsec,\arcsec)} &\multicolumn{3}{r}{(\arcsec$\times$\arcsec(\arcdeg))}&($pc$) &($K$)&&(10$^{21}$ cm$^{-2}$)&(\kms)&(\kms)&(\kms)&(10$^{3}$ cm$^{-3}$) &{($M_{\odot}$)} &{($M_{\odot}$)} &{($M_{\odot}$)}&\\			\hline}
+			%%%%%%%%%%%Table tail in last page.
+			\tablelasttail{\hline\bottomrule}
+			%%%%%%%%%%%Star data.
+			\begin{supertabular}{lrrrrrrrrrrrrrrrrrr}
+			\input{data/physicalpara}
+			\end{supertabular}		
+			\end{center}
+			\end{scriptsize}
+			%%%%%%%%%%%Supertabular Ends！
+		\end{landscape}
+
+		\begin{table}
+			\begin{footnotesize}
+	        \begin{center}
+	        \caption{物理参量统计结果\label{Tab.PhysicalParaStat}}
+
+	        \setlength{\tabcolsep}{0.04in}
+	        \vspace{0.5em}
+
+	        \input{data/physicalpara_stat}
+
+	        \end{center}
+	        \end{footnotesize}
+        \end{table}
+
+        \subsection{激发温度}
+
+	        在LTE假设下，我们可以认为\texc 在视线方向上为定值，于是可以通过辐射传能方程（radiation transfer equation）得到：
+
+		    \begin{equation}
+		    	T_{ex} = T_0 / \ln[T_0 (T^*_R + T_0 \exp{(-T_0/T_{bg})}-1)]
+		    \end{equation}
+
+		    $T^*_R$是经过主波束效率改正后的天线温度。$T_0 = h\nu /k$，$k$ 是 Boltzmann 常量. $T_{bg} = 2.73 /k$ 是宇宙微波背景辐射能谱的拟合黑体谱对应的温度。
+
+		\subsection{柱密度}
+
+			在LTE假设下，如果我们假设\cobb 的发射是光薄的，我们可以计算出\cob 。采用的方法和Garden et al. （1991）所用方法相同\supercite{1991ApJ...374..540G}。之后我们使用典型的丰度比：$\rm [H_2]/[ ^{12}CO]=10^4$,  $\rm [^{12}CO]/[^{13}CO]=60$来计算\nhyd。(考虑到之前的研究\supercite{1987ApJ...317..926H}证实太阳系附近的$\rm [^{12}CO]/[^{13}CO]\sim 50$而另一研究\supercite{1980Sci...208..663P}揭示$\rm [^{12}CO]/[^{13}CO]\sim 70$：我们采用$\rm [^{12}CO]/[^{13}CO]=60$。)
+
+			由于\numcompofcores 个云核测到有\cocc 的辐射，我们检验了他们的光厚效应：分别用\coc 和\cob 计算其中心附近的\nhyd，并分别记为\nhyd(\coc) 和 \nhyd(\cob)。计算方法同前\supercite{1991ApJ...374..540G}。表 \ref{Tab.13/18}显示了对于每个云核用两种同位素计算的\nhyd 数值。图 \ref{Fig.1813}显示了二者的差异。我们发现 ${N_{\rm H_2}(\rm C^{18}O)}/{ N_{\rm H_2}(\rm ^{13}CO)}$ 的范围为从 0.4 到 2.1，平均值为 0.96, 中位数为 0.90， 而其标准差为 0.48。
+
+			\begin{table}
+				\begin{center}
+				\begin{footnotesize}
+				\setlength{\tabcolsep}{0.05cm}
+				\caption{由\cob 和 \coc 谱线计算得到的\nhyd 的比较\label{Tab.13/18}}
+				\begin{tabular}{lrrrr}
+				\toprule
+				\hline
+				云核名称         &\nhyd(\coc)&\nhyd(\cob)& $\frac{N_{\rm H_2}(\rm C^{18}O)}{N_{\rm H_2}(\rm ^{13}CO)}$  &区域\\
+				              &(10$^{21}$ cm$^{-2}$)&(10$^{21}$ cm$^{-2}$)& &\\
+				
+				\hline
+				G153.34-08.00C1  &   2.8	 &  3.1	&0.9   &  CMC \\
+				G156.92-09.72C1  &   2.9	 &  2.6	&1.1   &  CMC \\
+				G157.12-11.56C1  &   4.0	 &  4.2	&1.0   &  CMC \\
+				G157.12-11.56C2  &   2.7	 &  3.6	&0.8   &  CMC \\
+				G157.60-12.17C1  &   4.8	 &  3.8	&1.3   &  CMC \\
+				G157.60-12.17bC1 &   1.9	 &  5.3	&0.4   &  CMC \\
+				G157.91-08.23C1  &   6.6	 &  3.2	&2.1   &  CMC \\
+				G159.21-20.12C1  &  27.0     & 10.0	&2.7   &  PMC \\
+				G160.53-19.72C1  &   6.4	 &  5.0	&1.3   &  PMC \\
+				G164.13-08.85C1  &   3.4	 &  2.1	&1.6   &  CMC \\
+				G166.99-15.34C1  &   2.4	 &  2.1	&1.1   &  TMC \\
+				G172.83-05.17C1  &   2.1	 &  4.9	&0.4   &  TMC \\
+				G172.94-05.49C1  &   4.7	 &  5.7	&0.8   &  TMC \\
+				G173.07-17.89C1  &   3.8	 &  4.2	&0.9   &  TMC \\
+				G173.07-17.89C2  &   1.3	 &  3.6	&0.4   &  TMC \\
+				G173.60-17.89C1  &   1.8	 &  3.0	&0.6   &  TMC \\
+				G173.60-17.89C2  &   1.8	 &  3.5	&0.5   &  TMC \\
+				G174.70-15.48C1  &   9.6	 &  7.0	&1.4   &  TMC \\
+				\hline
+				\bottomrule
+				\end{tabular}
+				\end{footnotesize}
+				\end{center}
+			\end{table}
+
+
+			\begin{figure}[H]
+				\centering
+				\includegraphics[totalheight=70mm]{img_plot/1813.eps}
+				\caption{\small 18个云核的${N_{\rm H_2}(\rm C^{18}O)}/{ N_{\rm H_2}(\rm ^{13}CO)}$分布。}
+				\label{Fig.1813}
+			\end{figure}
+
+			首先，通过 $\overline{{N_{\rm H_2}(\rm C^{18}O)}/{N_{\rm H_2}(\rm ^{13}CO)}}\approx 1$我们可以看到，在我们的样本中，通过\cob、\coc 两种同位素求得的\nhyd 之间并无系统偏差。这说明光厚效应本身并不显著或我们采用的方法已经考虑了光厚效应并将其很好地反应在了计算结果上，而根据我们的统计，$\tau(^{13}\rm CO)$总体上相对较小，所以至少前者是成立的。
+
+			其次，我们注意到 ${N_{\rm H_2}(\rm C^{18}O)}/{ N_{\rm H_2}(\rm ^{13}CO)}$的统计结果中，标准差高达0.48，这很可能是由我们观测的\cocc 信号的低信噪比造成。
+
+			综合以上两点，同时基于提高精确度的考虑，我们仍然采用\cob 来计算\nhyd。
+
+		\subsection{速度弥散}
+
+			对于所有的云核，\sigmath 可如下导出：
+
+      		\begin{equation}
+      		   \sigma_{Therm}=\left( \frac{kT_{ex}}{m_H \mu} \right)^{1/2}
+      		\end{equation}
+
+      		其中，$m_H$ 是H原子的质量， $\mu=2.33 $ 是气体分子的平均质量\supercite{2008A&A...487..993K}（以氢原子质量为单位）. 
+
+      		对于无\coc 信号的云核，我们假设\cobb 谱线是光薄的，从而可以计算出\sigmant :
+
+      		\begin{equation}\label{Eq.Calcu_sNT}
+      		   \sigma_{NT}=\left(\sigma ^2 _{^{13}{\rm CO}}- \frac{kT_{ex}}{m_{^{13}{\rm CO}}} \right)^{		1/2}
+      		\end{equation}
+
+      		其中 $\sigma _{^{13}{\rm CO}} = \frac{\Delta V_{13}}{\sqrt{8\ln2}}$ 是\cob 的一维速度弥散，而$m_{^{13}{\rm CO}}$ 是\cob 的分子质量.
+
+      		而对于有\coc 信号的云核，我们假设\cocc 谱线是光薄的。我们用$\sigma _{\rm C^{18}O}$ 和 $m_{\rm C^{18}O}$ 来替换\ref{Eq.Calcu_sNT}式中的 $\sigma_{^{13}{\rm CO}}$ 和 ${m_{^{13}{\rm CO}}}$，从而可以计算出相应的\sigmant :
+
+      		 \begin{equation}\label{Eq.Calcu_sNT2}
+      		   \sigma_{NT}=\left(\sigma ^2 _{{\rm C^{18}O}}- \frac{kT_{ex}}{m_{{\rm C^{18}O}}} \right)^{		1/2}
+      		\end{equation}
+		
+      		结合 \sigmath 与 \sigmant ，我们可以得出 \sigmatd :
+
+      		\begin{equation}
+      		   \sigma_{3D}=\sqrt{3(\sigma _{Therm}^2+\sigma _{NT}^2)}
+      		\end{equation}
+
+		\subsection{云核参量}
+
+			
+
+		Because of the distinct boundaries of cores, we can estimated their sizes. Then \nnhyd and $M_{LTE}$, which are related to size, can be derived. We call these parameters "core parameters" to emphasis that they depend on the definition of cores. Elliptic Gaussian fitting was adopted to calculate the offset, $a$, $b$ and $R=\sqrt{ab}D$ for each core.
+
+      	Volume densities of each core are derived as $n_{\rm H_2}=N_{\rm H_2} /2R$. As the $R$ is obtained  from fitting of 50\% isoline, to avoid overestimation of \nnhyd, we adopted mean \nhyd rather than peak value.
+
+      	Thus, $M_{LTE}$, which represent the core mass under LTE assumption, can be calculated as:
+      	\begin{equation}
+         M_{LTE}=\frac{4}{3}\pi R^3 m_H \mu N_{H_2}
+      	\end{equation}
+      	$m_H$ is the mass of H atom and $\mu=2.33$ is the mean molecular weight (\citealt{2008A&A...487..993K}).
 
 \chapter{分析与讨论}
 	\section{谱线轮廓}
@@ -452,9 +616,6 @@
 		\vspace{-18mm}
 		%\input{filelist/maps}	
 
-\chapter{导出参量的计算}
-
-\chapter{本文中术语的中英对照表}
 % 以下为正文之后的部分。
 \backmatter
 % 致谢。

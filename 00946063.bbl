@@ -1060,6 +1060,115 @@
     \keyw{Galaxy: Structure, ISM: Clouds, ISM: Molecules, Radio Lines: ISM, Galaxy: Solar Neighborhood, Stars: Formation}
   \endentry
 
+  \entry{1991ApJ...374..540G}{article}{}
+    \name{labelname}{5}{}{%
+      {{hash=3cdf9d89c129671c376fc738f6fae095}{{Garden}}{G\bibinitperiod}{R.\bibnamedelimi P.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=c692a4c6b23404c34f41d1e66d6814fa}{{Hayashi}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=cdb172de8529201de6d3a48e6e433008}{{Hasegawa}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=d7716bb2062cafec44ff75acd618216c}{{Gatley}}{G\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=2f27898df5da9d60611a95e033b1275d}{{Kaifu}}{K\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{}{%
+      {{hash=3cdf9d89c129671c376fc738f6fae095}{{Garden}}{G\bibinitperiod}{R.\bibnamedelimi P.}{R\bibinitperiod}{}{}{}{}}%
+      {{hash=c692a4c6b23404c34f41d1e66d6814fa}{{Hayashi}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=cdb172de8529201de6d3a48e6e433008}{{Hasegawa}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=d7716bb2062cafec44ff75acd618216c}{{Gatley}}{G\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=2f27898df5da9d60611a95e033b1275d}{{Kaifu}}{K\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{1e45a3775187691186efb94bc172020b}
+    \strng{fullhash}{2dfb61067bb882961ca2f4f287a6cc05}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{06}
+    \field{title}{{A spectroscopic study of the DR 21 outflow source. III - The CO line emission}}
+    \field{volume}{374}
+    \field{year}{1991}
+    \field{pages}{540\bibrangedash 554}
+    \verb{doi}
+    \verb 10.1086/170143
+    \endverb
+    \keyw{ASTRONOMICAL SPECTROSCOPY, CARBON ISOTOPES, CARBON MONOXIDE, EMISSION SPECTRA, LINE SPECTRA, ANGULAR RESOLUTION, HIGH RESOLUTION, HYDROGEN RECOMBINATIONS}
+  \endentry
+
+  \entry{1987ApJ...317..926H}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=22c0a1922dede5d52ed3421ec51c781c}{{Hawkins}}{H\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=935aea7ae55746a3c7a08a9880c09a96}{{Jura}}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=22c0a1922dede5d52ed3421ec51c781c}{{Hawkins}}{H\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=935aea7ae55746a3c7a08a9880c09a96}{{Jura}}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{d03ad8a29070448bf468406c839b7c1d}
+    \strng{fullhash}{d03ad8a29070448bf468406c839b7c1d}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{06}
+    \field{title}{{The C-12/C-13 isotope ratio of the interstellar medium in the neighborhood of the sun}}
+    \field{volume}{317}
+    \field{year}{1987}
+    \field{pages}{926\bibrangedash 950}
+    \verb{doi}
+    \verb 10.1086/165342
+    \endverb
+    \keyw{ABUNDANCE, CARBON 12, CARBON 13, INTERSTELLAR MATTER, SOLAR NEIGHBORHOOD, CHEMICAL EVOLUTION, RATIOS, STAR FORMATION}
+  \endentry
+
+  \entry{1980Sci...208..663P}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=c8b0c941d89789e1e96bba733d310ac3}{{Penzias}}{P\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=c8b0c941d89789e1e96bba733d310ac3}{{Penzias}}{P\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{c8b0c941d89789e1e96bba733d310ac3}
+    \strng{fullhash}{c8b0c941d89789e1e96bba733d310ac3}
+    \field{sortinit}{0}
+    \field{journaltitle}{Science}
+    \field{month}{05}
+    \field{title}{{Nuclear Processing and Isotopes in the Galaxy}}
+    \field{volume}{208}
+    \field{year}{1980}
+    \field{pages}{663\bibrangedash 669}
+    \verb{doi}
+    \verb 10.1126/science.208.4445.663
+    \endverb
+  \endentry
+
+  \entry{2008A&A...487..993K}{article}{}
+    \name{labelname}{5}{}{%
+      {{hash=75ee37727323e7dbb5e701ab47991819}{{Kauffmann}}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=b64fe8bfd58ed1306bf5d114c91b0a5e}{{Bertoldi}}{B\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=f4a36d8ddacd2e10cd5d13eef8babbcf}{{Bourke}}{B\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=c5342d8c1ec87b9d73f2142e47c4f5b0}{{Evans}}{E\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod}{}{}{II}{I\bibinitperiod}}%
+      {{hash=94b19278c719f46e83429beb7b14d69c}{{Lee}}{L\bibinitperiod}{C.\bibnamedelimi W.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{}{%
+      {{hash=75ee37727323e7dbb5e701ab47991819}{{Kauffmann}}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=b64fe8bfd58ed1306bf5d114c91b0a5e}{{Bertoldi}}{B\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=f4a36d8ddacd2e10cd5d13eef8babbcf}{{Bourke}}{B\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=c5342d8c1ec87b9d73f2142e47c4f5b0}{{Evans}}{E\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod}{}{}{II}{I\bibinitperiod}}%
+      {{hash=94b19278c719f46e83429beb7b14d69c}{{Lee}}{L\bibinitperiod}{C.\bibnamedelimi W.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{e546c2612c54391bd862dbe68836e12b}
+    \strng{fullhash}{b541b996714fb6517acb71932a477fe9}
+    \field{sortinit}{0}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\aap}
+    \field{month}{09}
+    \field{title}{{MAMBO mapping of Spitzer c2d small clouds and cores}}
+    \field{volume}{487}
+    \field{year}{2008}
+    \field{pages}{993\bibrangedash 1017}
+    \verb{doi}
+    \verb 10.1051/0004-6361:200809481
+    \endverb
+    \verb{eprint}
+    \verb 0805.4205
+    \endverb
+    \keyw{stars: formation, ISM: evolution, ISM: structure, ISM: dust, extinction, ISM: clouds}
+  \endentry
+
 \endrefsection
 \endinput
 

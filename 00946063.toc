@@ -20,40 +20,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}观测设备}{7}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}观测源}{7}{section.2.2}
+\contentsline {section}{\numberline {2.2}观测源表}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}数据处理}{10}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}观测结果与参量计算}{11}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}观测结果综述}{11}{section.3.1}
+\contentsline {section}{\numberline {3.1}结果综述}{11}{section.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}观测参量}{12}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}物理参量}{15}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}分析与讨论}{17}{chapter.4}
+\contentsline {subsection}{\numberline {3.3.1}激发温度}{18}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}谱线轮廓}{17}{section.4.1}
+\contentsline {subsection}{\numberline {3.3.2}柱密度}{18}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}云核内的湍动}{17}{section.4.2}
+\contentsline {subsection}{\numberline {3.3.3}速度弥散}{20}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}云核的重力稳定性}{17}{section.4.3}
+\contentsline {subsection}{\numberline {3.3.4}云核参量}{21}{subsection.3.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}气体-尘埃耦合}{17}{section.4.4}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}分析与讨论}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}CO丰度}{17}{section.4.5}
+\contentsline {section}{\numberline {4.1}谱线轮廓}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}云核的成协情况}{17}{section.4.6}
+\contentsline {section}{\numberline {4.2}云核内的湍动}{23}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{19}{appendix*.9}
+\contentsline {section}{\numberline {4.3}云核的重力稳定性}{23}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}云核中心光谱}{23}{appendix.A}
+\contentsline {section}{\numberline {4.4}气体-尘埃耦合}{23}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}B\hspace {0.3em}}各团块积分强度图}{25}{appendix.B}
+\contentsline {section}{\numberline {4.5}CO丰度}{23}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}C\hspace {0.3em}}导出参量的计算}{27}{appendix.C}
+\contentsline {section}{\numberline {4.6}云核的成协情况}{23}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录\nobreakspace {}D\hspace {0.3em}}本文中术语的中英对照表}{29}{appendix.D}
+\contentsline {chapter}{参考文献}{25}{appendix*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{31}{appendix*.12}
+\contentsline {chapter}{\numberline {附录\nobreakspace {}A\hspace {0.3em}}云核中心光谱}{29}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录\nobreakspace {}B\hspace {0.3em}}各团块积分强度图}{31}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{33}{appendix*.15}
