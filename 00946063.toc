@@ -18,13 +18,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第二章\hspace {0.3em}}观测方法与数据处理}{7}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}观测结果与参量计算}{9}{chapter.3}
+\contentsline {section}{\numberline {2.1}观测设备}{7}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}观测结果综述}{9}{section.3.1}
+\contentsline {section}{\numberline {2.2}观测源}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}观测参量}{13}{section.3.2}
+\contentsline {section}{\numberline {2.3}数据处理}{10}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}物理参量}{16}{section.3.3}
+\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}观测结果与参量计算}{11}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}观测结果综述}{11}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}观测参量}{12}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}物理参量}{15}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第四章\hspace {0.3em}}分析与讨论}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 

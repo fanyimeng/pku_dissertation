@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  2 JUN 2013 16:29
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  2 JUN 2013 17:41
 entering extended mode
 **00946063.tex
 (D:\Dissertation\00946063.tex
@@ -1122,7 +1122,8 @@ File: english.lbx 2011/11/13 v1.7 biblatex localization
 \@quotelevel=\count401
 \@quotereset=\count402
 
-No file 00946063.aux.
+(D:\Dissertation\00946063.aux (D:\Dissertation\tail/acknowledge.aux)
+(D:\Dissertation\tail/originauth.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
@@ -1141,7 +1142,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 136.
 LaTeX Font Info:    ... okay on input line 136.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 136.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 136.
-(C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+ (C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 136.
@@ -1221,7 +1222,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 136.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 136.
-
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -1285,9 +1285,6 @@ LaTeX Info: Redefining \nameref on input line 136.
 
 (D:\Dissertation\00946063.out) (D:\Dissertation\00946063.out)
 \@outlinefile=\write5
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1692,16 +1689,12 @@ Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 12.05pt
 
 
 ] [6]
+(D:\Dissertation\00946063.toc [7
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
+])
 \tf@toc=\write6
-[7
-
-
-] [8
-
-]
+ [8]
 第一章
 .................................................
 . fontspec info: "no-scripts"
@@ -1728,6 +1721,7 @@ JK@rm/m/n/12.05 ）|、|
 
 [1
 
+
 ]
 Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 14.05pt
  -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
@@ -1739,12 +1733,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 第二章
-
-LaTeX Warning: Reference `Fig.Observation' on page 7 undefined on input line 25
-7.
-
 Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 9.03pt
  -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
+[7]
 Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 5.0pt
  -> C:/CTEX/MiKTeX/fonts/type1/public/cm-unicode/cmunrm.pfb
 Requested font "cmmi9" at 9.03pt
@@ -1787,22 +1778,16 @@ Requested font "FZJPShuSong-Z01S/ICU" at 9.03pt
 Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 9.03pt
  -> C:/Windows/Fonts/æ^^96¹æ­£ç²¾å^^93^^81ä¹¦å®^^8bç®^^80ä½^^
 93.TTF
-[7] [8
-
-]
+ (D:\Dissertation\data/sourcelist.tex [8] [9]) [10]
 第三章
-
-LaTeX Warning: Reference `Fig.SpatialDistribution' on page 9 undefined on input
- line 289.
-
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 293 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
 File: img_plot/SpatiaDist_Velocity_Overlay.eps Graphic file (type eps)
 <img_plot/SpatiaDist_Velocity_Overlay.eps>
 Requested font "CMU Serif Roman/ICU:mapping=tex-text;" at 7.0pt
@@ -1825,58 +1810,31 @@ Requested font "msbm7" at 7.0pt
  -> msbm7
 Requested font "cmr10" at 10.54pt
  -> cmr10
+ [11
 
+] [12]
+(D:\Dissertation\data/observedpara.tex [13
 
-LaTeX Warning: Reference `Sec.ColdDarkCloud' on page 9 undefined on input line 
-299.
+]) [14]
+(D:\Dissertation\data/observedpara_stat.tex) [15
 
-
-LaTeX Warning: Reference `Tab.SourceList' on page 9 undefined on input line 301
-.
-
-[9] (D:\Dissertation\data/sourcelist.tex [10] [11])
-
-LaTeX Warning: Reference `App.Spectra' on page 12 undefined on input line 350.
-
-
-LaTeX Warning: Reference `App.Map' on page 12 undefined on input line 350.
-
-
-LaTeX Warning: Reference `Tab.ObservedPara' on page 12 undefined on input line 
-354.
-
-
-LaTeX Warning: Reference `Tab.ObservedParaStat' on page 12 undefined on input l
-ine 354.
-
-[12] [13] (D:\Dissertation\data/observedpara.tex [14
-
-]) [15]
-(D:\Dissertation\data/observedpara_stat.tex) [16
+] [16
 
 ]
 第四章
-[17
-
-] [18
+[17] [18
 
 ]
 Requested font "CMU Serif Roman/I/ICU:mapping=tex-text;" at 12.05pt
  -> C:/Windows/Fonts/cmunti.otf
  [19] [20] [21] [22]
 附录\nobreakspace {}A
-
-LaTeX Warning: Reference `Fig.Spectra' on page 23 undefined on input line 423.
-
 [23
 
 ] [24
 
 ]
 附录\nobreakspace {}B
-
-LaTeX Warning: Reference `Fig.Map' on page 25 undefined on input line 433.
-
 [25] [26
 
 ]
@@ -1896,31 +1854,21 @@ LaTeX Warning: Reference `Fig.Map' on page 25 undefined on input line 433.
 
 
 ]) [33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 450.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 450.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
  (D:\Dissertation\00946063.aux
 (D:\Dissertation\tail/acknowledge.aux) (D:\Dissertation\tail/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 450.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 450.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 464.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 464.
 Package logreq Info: Writing requests to '00946063.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27797 strings out of 430478
- 520108 string characters out of 3191502
+ 27813 strings out of 430478
+ 520394 string characters out of 3191502
  796608 words of memory out of 3000000
- 30494 multiletter control sequences out of 15000+200000
+ 30502 multiletter control sequences out of 15000+200000
  16700 words of font info for 131 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,12n,92p,1032b,1335s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,92p,1032b,1337s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on 00946063.pdf (41 pages).

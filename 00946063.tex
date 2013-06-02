@@ -253,12 +253,11 @@
 		值得一提的是，虽然TMC和PMC已经被较多地研究过，人们之前并没有对CMC足够重视，本研究是国际上最早对CMC进行的有针对性的毫米波观测之一，首次揭示了CMC中年轻冷云核的典型性质。
 
 \chapter{观测方法与数据处理}
-		
+	\section{观测设备}
 		观测设备为中国科学院紫金山天文台青海观测站13.7 m 望远镜。观测时间为2011年1月至5月。观测的谱线为 $J=1 \rightarrow 0 $ 的  \coa， \cob 和 \coc 谱线。观测模式为OTF（On-The-Fly模式）。观测时的设备参数如表 \ref{Fig.Observation}。
 
 		\begin{table}[H]
-			\begin{footnotesize}
-	        \centering
+	        \begin{center}
 	        \caption{设备参数\label{Fig.Observation}}
 	        \setlength{\tabcolsep}{0.1in}
 	        \vspace{0.5em}
@@ -276,31 +275,15 @@
 	        \hline
 	        \bottomrule
 	        \end{tabular}
-	        \end{footnotesize}
+	        \end{center}
         \end{table}
 
-        为了处理观测数据，我们使用了IRAM提供的GILDAS软件包\supercite{2000ASPC..217..299G}和SMA提供的MIRIAD软件包\supercite{1995ASPC...77..433S}。OTF的数据在处理前被转换为间隔为30\arcsec 的三维数据矩阵（3-D data cube）。
+    \section{观测源表}
+        所有完成观测的源的源名和坐标参见表 \ref{Tab.SourceList} ，有3个源由于参考位置不合适，为了保证数据的可靠性，被排除出后续讨论，其源名之后有“*”为记。我们将在后续研究中重新选取合适的参考位置进行重新观测。
 
-        在观测时，成图范围为20\arcmin \multi 20 \arcmin ， 但是我们发现， 由于成图范围只是对于9波束接收机阵列中的中心接收机而言的，在图的边缘时信噪比会显著降低。于是我们为了保证数据质量 舍弃了边缘的数据，只保留了14\arcmin \multi 14 \arcmin 的范围。
+        本研究的选源无任何倾向性，即随机从Wu et al. (2012)的674源中选了在TMC、PMC和CMC范围之内的\supercite{wu2012gas}。
 
-\chapter{观测结果与参量计算}
-
-	\section{观测结果综述}
-		我们观测的71个源的空间分布如图 \ref{Fig.SpatialDistribution}。
-
-		\begin{figure}[H]
-		\centering
-		\includegraphics[totalheight=72mm]{img_plot/SpatiaDist_Velocity_Overlay.eps}
-		\caption{\small 源的空间分布。背景灰度图来自 1.2 m 望远镜\cob 巡天的积分强度图\supercite{2001ApJ...547..792D}，点的颜色代表相应源的几何中心位置的\vlsr 。
-		虚线表示TMC、PMC、CMC三个区域的分界，根据\parencite{2010A&A...512A..67L}。
-		\label{Fig.SpatialDistribution}}
-		\end{figure}
-
-		我们在下文以“团块”称这些源和源中的不同速度成分，这是沿用了Planck Collaboration使用的“冷团块”的称呼\supercite{2011A&A...536A..23P}。不仅如此，由于我们的成图区域是14 \arcmin $\times$ 14 \arcmin ， 对于TMC、PMC和CMC来说，成图的尺度分别为$0.6\times0.6$ pc、 $0.9\times0.9$ pc、 和 $1.7\times1.7$ pc。这样的成图尺度恰好符合第\ref{Sec.ColdDarkCloud}节中关于团块尺度（0.3$\sim$3 pc）的界定。
-
-		所有完成观测的源的源名和坐标参见表 \ref{Tab.SourceList} 。有3个源由于没有好的参考位置，被排除出后续讨论，其源名之后有“*”为记。对于剩余的\numsou 个团块，我们全部探测到了\coaa  和 \cobb 发射线， 而对于其中的 \numcocc 个, 我们探测到了\cocc 发射信号。在5个Planck团块中，我们发现了双重速度成分: 我们检视了每个团块几何中心处的谱线，在这5个源中发现了双重的发射峰；之后为了验证，对于两个峰分别作积分强度图，发现明显分离的辐射区域，从而将其认证为双重速度成分。为了方便和明确，在下文，我们将这10个速度成分视作单独的团块。
-
-		\topcaption{{观测源表}}\label{Tab.SourceList}
+        \topcaption{{观测源表}}\label{Tab.SourceList}
 			%%%%%%%%%%%Supertabular Starts！
 			\begin{footnotesize}
 			\begin{center}
@@ -309,7 +292,7 @@
 			\tablefirsthead{%
 			\toprule
 			\hline
-				Name         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &Region&$\dagger$ \\
+				源名         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &区域&$\dagger$ \\
 							 &deg   &deg & (h m s)         & (d m s)        & (h m s)        & (d m s)     &      &          \\
 			\hline}
 			%%%%%%%%%%%Table tail (except for last page).
@@ -324,7 +307,7 @@
 			\multicolumn{9}{c}{接上页}\\
 			\toprule
 				%\hline %Suggest that it is not a new table by removing this top rule.
-				Name         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &Region&$\dagger$ \\
+				源名         &Glon  &Glat&  RA(J2000)      & DEC(J2000)     & RA(B1950)      & DEC(B1950)  &区域&$\dagger$ \\
 							 &deg   &deg & (h m s)         & (d m s)        & (h m s)        & (d m s)     &      &          \\
 			\hline}
 			%%%%%%%%%%%Table tail in last page.
@@ -338,6 +321,30 @@
 			\end{footnotesize}
 			%%%%%%%%%%%Supertabular Ends！
 
+	\section{数据处理}
+        为了处理观测数据，我们使用了IRAM提供的GILDAS软件包\supercite{2000ASPC..217..299G}和SMA提供的MIRIAD软件包\supercite{1995ASPC...77..433S}。OTF的数据在处理前被转换为间隔为30\arcsec 的三维数据矩阵（3-D data cube）。
+
+        在观测时，成图范围为20\arcmin \multi 20 \arcmin ， 但是我们发现， 由于成图范围只是对于9波束接收机阵列中的中心接收机而言的，在图的边缘时信噪比会显著降低。于是我们为了保证数据质量 舍弃了边缘的数据，只保留了14\arcmin \multi 14 \arcmin 的范围。
+
+
+\chapter{观测结果与参量计算}
+
+	\section{观测结果综述}
+
+		我们观测的71个源的空间分布如图 \ref{Fig.SpatialDistribution}。
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[totalheight=82mm]{img_plot/SpatiaDist_Velocity_Overlay.eps}
+			\caption{\small 源的空间分布。背景灰度图来自 1.2 m 望远镜\cob 巡天的积分强度图\supercite{2001ApJ...547..792D}，点的颜色代表相应源的几何中心位置的\vlsr 。
+			虚线表示TMC、PMC、CMC三个区域的分界，根据\parencite{2010A&A...512A..67L}。
+			\label{Fig.SpatialDistribution}}
+		\end{figure}
+
+		我们在下文以“团块”称这我们观测的源，这是沿用了Planck Collaboration使用的“冷团块”的称呼\supercite{2011A&A...536A..23P}。不仅如此，由于我们的成图区域是14 \arcmin $\times$ 14 \arcmin ， 对于TMC、PMC和CMC来说，成图的尺度分别为$0.6\times0.6$ pc、 $0.9\times0.9$ pc、 和 $1.7\times1.7$ pc。这样的成图尺度恰好符合第\ref{Sec.ColdDarkCloud}节中关于团块尺度（0.3$\sim$3 pc）的界定。
+
+		对于\numsou 个团块我们全部探测到了\coaa  和 \cobb 发射线， 而对于其中的 \numcocc 个, 我们探测到了\cocc 发射信号。在5个Planck团块中，我们发现了双重速度成分: 我们检视了每个团块几何中心处的谱线，在这5个源中发现了双重的发射峰；之后为了验证，对于两个峰分别作积分强度图，发现明显分离的辐射区域，从而将其认证为双重速度成分。为了方便和明确，在下文，我们将这10个速度成分视作单独的团块。
+	
 		我们绘制了全部团块（不同速度成分速度成分视为独立团块）\coaa 和 \cobb 的积分强度图。在本研究中，我们将主要关注云核的性质，是故我们要在团块中证认云核。证认标准为：
 		\textbf{在积分强度图中强度为局部峰值的60\% \cob 之等值线需完全包括在成图区域内。}
 		这样，我们很好地区分了云核和其所在的团块。同时，由于这样定义的云核有清晰的界限，使得我们可以对其进行较为精确的椭圆高斯拟合。
@@ -353,6 +360,10 @@
 
 		通过对谱线的高斯拟合，我们得到了观测参量：\vlsr、\ta 和 FWHM。每个云核中心处的观测参量如表 \ref{Tab.ObservedPara}。对于全部 \numcore 个云核、 TMC 和 CMC，我们分别对这些观测参量做了统计。统计结果如表 \ref{Tab.ObservedParaStat}。
 
+        我们发现TMC中的云核比之CMC中的云核有着较小的平均$\Delta V (12)$、$\Delta V (13)$ 和 $\Delta V (18)$。但是，TMC中云核的平均$T_{A}(12)$、$T_{A}(13)$ 和 $T_{A}(18)$均比CMC中云核的相应平均值大。
+
+
+
 		\begin{landscape}
 		\topcaption{{观测参量}}\label{Tab.ObservedPara}
 			%%%%%%%%%%%Supertabular Starts！
@@ -363,7 +374,7 @@
 			\tablefirsthead{%
 			\toprule
 			\hline
-			Source           &  $v_{lsr}$(12)&     FWHM  (12) &   Ta	 (12)           &   $v_{lsr}$(13)   &   FWHM(13)      &  Ta(13)              &     $v_{lsr}$ (18) &  FWHM (18)   &  Ta (18)   &Line Profile$^{\dag}$&\\
+			云核名称          &  $v_{lsr}$(12)&     FWHM  (12) &   Ta	 (12)           &   $v_{lsr}$(13)   &   FWHM(13)      &  Ta(13)              &     $v_{lsr}$ (18) &  FWHM (18)   &  Ta (18)   &谱线轮廓$^{\dag}$&\\
                    &     (km/s)    &     (km/s)     &     (K)              &         (km/s)    &     (km/s)      &     (K)              &    (km/s)          &     (km/s)   &      (K)   &    &\\
 			\hline}
 			%%%%%%%%%%%Table tail (except for last page).
@@ -377,7 +388,7 @@
 			%\hline  %It looks better without this line.
 			\multicolumn{12}{c}{接上页}\\
 			\toprule
-			Source           &  $v_{lsr}$(12)&     FWHM  (12) &   Ta	 (12)           &   $v_{lsr}$(13)   &   FWHM(13)      &  Ta(13)              &     $v_{lsr}$ (18) &  FWHM (18)   &  Ta (18)   &Line Profile$^{\dag}$&\\
+			云核名称          &  $v_{lsr}$(12)&     FWHM  (12) &   Ta	 (12)           &   $v_{lsr}$(13)   &   FWHM(13)      &  Ta(13)              &     $v_{lsr}$ (18) &  FWHM (18)   &  Ta (18)   &谱线轮廓$^{\dag}$&\\
                    &     (km/s)    &     (km/s)     &     (K)              &         (km/s)    &     (km/s)      &     (K)              &    (km/s)          &     (km/s)   &      (K)   &    &\\
 			\hline}
 			%%%%%%%%%%%Table tail in last page.
@@ -391,7 +402,7 @@
 			%%%%%%%%%%%Supertabular Ends！
 		\end{landscape}
 		
-		\begin{table}[H]
+		\begin{table}
 			\begin{footnotesize}
 	        \begin{center}
 	        \caption{观测参量统计结果\label{Tab.ObservedParaStat}}
@@ -405,7 +416,10 @@
 	        \end{footnotesize}
         \end{table}
 
+
 	\section{物理参量}
+
+
 
 \chapter{分析与讨论}
 	\section{谱线轮廓}
