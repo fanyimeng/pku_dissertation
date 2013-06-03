@@ -1707,6 +1707,108 @@
     \keyw{ISM: clouds, ISM: individual objects: Barnard 1, ISM: jets and outflows, stars: formation, stars: low-mass, stars: pre-main sequence}
   \endentry
 
+  \entry{1981MNRAS.194..809L}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=da586f91452e69e050f9d6c72688bb9e}{{Larson}}{L\bibinitperiod}{R.\bibnamedelimi B.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=da586f91452e69e050f9d6c72688bb9e}{{Larson}}{L\bibinitperiod}{R.\bibnamedelimi B.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{da586f91452e69e050f9d6c72688bb9e}
+    \strng{fullhash}{da586f91452e69e050f9d6c72688bb9e}
+    \field{sortinit}{0}
+    \field{journaltitle}{\mnras}
+    \field{month}{03}
+    \field{title}{{Turbulence and star formation in molecular clouds}}
+    \field{volume}{194}
+    \field{year}{1981}
+    \field{pages}{809\bibrangedash 826}
+    \keyw{INTERSTELLAR MATTER, MOLECULAR CLOUDS, PROTOSTARS, STAR FORMATION, TURBULENCE EFFECTS, CLUMPS, DENSITY DISTRIBUTION, STELLAR GRAVITATION, STELLAR MASS, VELOCITY DISTRIBUTION, VIRIAL THEOREM}
+  \endentry
+
+  \entry{2012ApJ...758...44S}{article}{}
+    \name{labelname}{16}{}{%
+      {{hash=e0b4b4bf99855c195ba35780140925f4}{{Saul}}{S\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=0fbdf0d10eaea054d7c07bc29bef4e5e}{{Peek}}{P\bibinitperiod}{J.\bibnamedelimi E.\bibnamedelimi G.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=972aa741bea79d81d52025911186effa}{{Grcevich}}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=a8f4ccf6a47c118249982f97ccfacadb}{{Putman}}{P\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=e319b1c15f5ef79c4b9dc560da139be7}{{Douglas}}{D\bibinitperiod}{K.\bibnamedelimi A.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=f6721f5361b0257dc24f2054e8305fec}{{Korpela}}{K\bibinitperiod}{E.\bibnamedelimi J.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=b802de10e5e91733d5a27efd18a2f746}{{Stanimirović}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=2abc7bc8462735ad6d8841b62f6ef019}{{Heiles}}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=1def02ac100aa13f51b5be6c32ed0e10}{{Gibson}}{G\bibinitperiod}{S.\bibnamedelimi J.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=c29089ca5bb4eea448005a6a1d431b0b}{{Lee}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=c970cdbfcea3408db147c2691eab7a5e}{{Begum}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=42c5f09cd4be66592af41369ea9cf913}{{Brown}}{B\bibinitperiod}{A.\bibnamedelimi R.\bibnamedelimi H.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=958ee62534d8957482e2a3f66349bba8}{{Burkhart}}{B\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=51c2cecc1ac18c1094a1b63078cfa72c}{{Hamden}}{H\bibinitperiod}{E.\bibnamedelimi T.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=4bab30e8a0d1100147c65fee85acbd0c}{{Pingel}}{P\bibinitperiod}{N.\bibnamedelimi M.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=cdfc7f559a70c021f3ba022e48b04749}{{Tonnesen}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{16}{}{%
+      {{hash=e0b4b4bf99855c195ba35780140925f4}{{Saul}}{S\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=0fbdf0d10eaea054d7c07bc29bef4e5e}{{Peek}}{P\bibinitperiod}{J.\bibnamedelimi E.\bibnamedelimi G.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=972aa741bea79d81d52025911186effa}{{Grcevich}}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=a8f4ccf6a47c118249982f97ccfacadb}{{Putman}}{P\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=e319b1c15f5ef79c4b9dc560da139be7}{{Douglas}}{D\bibinitperiod}{K.\bibnamedelimi A.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=f6721f5361b0257dc24f2054e8305fec}{{Korpela}}{K\bibinitperiod}{E.\bibnamedelimi J.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=b802de10e5e91733d5a27efd18a2f746}{{Stanimirović}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=2abc7bc8462735ad6d8841b62f6ef019}{{Heiles}}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=1def02ac100aa13f51b5be6c32ed0e10}{{Gibson}}{G\bibinitperiod}{S.\bibnamedelimi J.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=c29089ca5bb4eea448005a6a1d431b0b}{{Lee}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=c970cdbfcea3408db147c2691eab7a5e}{{Begum}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=42c5f09cd4be66592af41369ea9cf913}{{Brown}}{B\bibinitperiod}{A.\bibnamedelimi R.\bibnamedelimi H.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=958ee62534d8957482e2a3f66349bba8}{{Burkhart}}{B\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=51c2cecc1ac18c1094a1b63078cfa72c}{{Hamden}}{H\bibinitperiod}{E.\bibnamedelimi T.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=4bab30e8a0d1100147c65fee85acbd0c}{{Pingel}}{P\bibinitperiod}{N.\bibnamedelimi M.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=cdfc7f559a70c021f3ba022e48b04749}{{Tonnesen}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{d6808bcff8d09265d7ac14bd20008ec6}
+    \strng{fullhash}{4e4aa1279892c0b2d9ad35631e6db7a2}
+    \field{sortinit}{0}
+    \field{eid}{44}
+    \field{eprintclass}{astro-ph.GA}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apj}
+    \field{month}{10}
+    \field{title}{{The GALFA-H I Compact Cloud Catalog}}
+    \field{volume}{758}
+    \field{year}{2012}
+    \field{pages}{44}
+    \verb{doi}
+    \verb 10.1088/0004-637X/758/1/44
+    \endverb
+    \verb{eprint}
+    \verb 1208.4103
+    \endverb
+    \keyw{galaxies: formation, Galaxy: halo, intergalactic medium, ISM: clouds}
+  \endentry
+
+  \entry{2005Sci...307.1292G}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=f0b2001a957724a16964184d1a75d2dd}{{Grenier}}{G\bibinitperiod}{I.\bibnamedelimi A.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=5a6970ba0c6bfaed05d1883cfe580423}{{Casandjian}}{C\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+      {{hash=63ea494e6c971ba7261feb6c68b89041}{{Terrier}}{T\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=f0b2001a957724a16964184d1a75d2dd}{{Grenier}}{G\bibinitperiod}{I.\bibnamedelimi A.}{I\bibinitperiod}{}{}{}{}}%
+      {{hash=5a6970ba0c6bfaed05d1883cfe580423}{{Casandjian}}{C\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+      {{hash=63ea494e6c971ba7261feb6c68b89041}{{Terrier}}{T\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{091f27f7a86949a3d8e357c753a1e7a8}
+    \strng{fullhash}{091f27f7a86949a3d8e357c753a1e7a8}
+    \field{sortinit}{0}
+    \field{journaltitle}{Science}
+    \field{month}{02}
+    \field{title}{{Unveiling Extensive Clouds of Dark Gas in the Solar Neighborhood}}
+    \field{volume}{307}
+    \field{year}{2005}
+    \field{pages}{1292\bibrangedash 1295}
+    \verb{doi}
+    \verb 10.1126/science.1106924
+    \endverb
+  \endentry
+
 \endrefsection
 \endinput
 

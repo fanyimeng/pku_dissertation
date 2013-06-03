@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  3 JUN 2013 19:59
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  3 JUN 2013 21:13
 entering extended mode
 **00946063.tex
 (D:\Dissertation\00946063.tex
@@ -1933,59 +1933,59 @@ Underfull \vbox (badness 1776) has occurred while \output is active []
 第五章
 [33
 
-] [34]
-Overfull \hbox (10.8456pt too wide) in paragraph at lines 767--767
+] [34] [35] [36
+
+]
+Overfull \hbox (10.8456pt too wide) in paragraph at lines 772--772
 []\EU1/lmr/m/n/12.05 Planck Collaboration. “\EU1/lmr/m/it/12.05 Planck Early 
 Release Compact Source Catalogue (Planck,
  []
 
-[35
-
-] [36] [37] [38]
-Overfull \hbox (2.80417pt too wide) in paragraph at lines 767--767
+[37] [38] [39] [40]
+Overfull \hbox (2.80417pt too wide) in paragraph at lines 772--772
 \EU1/lmr/m/it/12.05 monoxide abundance and visual extinction in interstellar cl
 ouds\EU1/lmr/m/n/12.05 ”. \EU1/lmr/m/it/12.05 ApJ\EU1/lmr/m/n/12.05 , 1982[]1
 1:
  []
 
-[39] [40
-
-]
-附录\nobreakspace {}A
 [41] [42
 
 ]
-附录\nobreakspace {}B
+附录\nobreakspace {}A
 [43] [44
 
-] (D:\Dissertation\tail/acknowledge.tex) [45
+]
+附录\nobreakspace {}B
+[45] [46
+
+] (D:\Dissertation\tail/acknowledge.tex) [47
 
 
 ]
-(D:\Dissertation\tail/originauth.tex [46
+(D:\Dissertation\tail/originauth.tex [48
 
 
 
-]) [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 793.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 793.
+]) [49]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 798.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 798.
  (D:\Dissertation\00946063.aux
 (D:\Dissertation\tail/acknowledge.aux) (D:\Dissertation\tail/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 793.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 793.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 798.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 798.
 
 
-Package biblatex Warning: Please rerun LaTeX.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to '00946063.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27924 strings out of 430478
- 522552 string characters out of 3191502
- 801167 words of memory out of 3000000
- 30593 multiletter control sequences out of 15000+200000
+ 27944 strings out of 430478
+ 523059 string characters out of 3191502
+ 801158 words of memory out of 3000000
+ 30613 multiletter control sequences out of 15000+200000
  18266 words of font info for 138 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,12n,92p,1032b,1363s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 00946063.pdf (55 pages).
+Output written on 00946063.pdf (57 pages).
