@@ -5,7 +5,7 @@
 	\bibliographystyle{astron}
 	\setCJKmainfont[BoldFont={FZHei-B01S}, ItalicFont={FZKai-Z03S}]{FZJPShuSong-Z01S} % FangZhengFonts
 	\setCJKfamilyfont{heiti}[BoldFont={FZXiaoBiaoSong-B05S},AutoFakeSlant]{FZXiaoBiaoSong-B05S}
-	\setmainfont{CMU Serif Roman}
+	%\setmainfont{CMU Serif Roman}
 	%\usepackage{mathptmx}
 	%\usepackage{unicode-math}
 	%\setmainfont{Times New Roman}
@@ -35,13 +35,13 @@
 		ctitle = {对71个Planck冷团块的CO(1-0)成图研究},
 		etitle = {CO (1-0) Mapping Study \\of 71 Planck Cold Clumps},
 		cauthor = {孟繁一},
-		eauthor = {Fanyi Meng},
+		eauthor = {\textsc{Fanyi Meng}},
 		studentid = {00946063},
 		date = {二\chinese{0}一三年六月},
 		school = {元培学院},
 		cmajor = {物理学}, emajor = {Physics},
 		direction = {天体物理},
-		cmentor = {吴月芳\ 教授}, ementor = {Prof.\ Yuefang Wu},
+		cmentor = {吴月芳\ 教授}, ementor = {\textsc{Prof.\ Yuefang Wu}},
 		ckeywords = {恒星形成，分子云，分子谱线},
 		ekeywords = {Star Formation，Molecular Cloud，Molecular Spectrum}
 	}
@@ -159,7 +159,6 @@
 
 	% 自动生成目录．
 	\tableofcontents
-	% 以下为正文．
 	\mainmatter
 
 \chapter{引言}
@@ -169,7 +168,7 @@
 		暗云（Dark Cloud），也称为分子云（molecular cloud），是主要由$H_2$分子（其质量分数占绝对优势）组成的在光学波段暗的一类星际介质．其在光学波段的消光$A_V>1^{m}$，故被称为“暗”云\supercite{2007ARA&A..45..339B} ． 需要指出的是，这种消光并非由其气体成分造成，而是由其中的尘埃颗粒对光学波段的电磁波产生吸收造成的．由于尘埃的这种吸收作用，造成了对外界辐射的良好屏蔽，使得分子云本身能够保持较低的温度（例如典型的致密结构温度在$10-20\rm\ K$\supercite{1983ApJ...265..223B})，这是我们称其为“冷暗云”（Cold Dark Cloud）的原因．
 
 		分子云呈现“层级状”结构\supercite{1994ApJ...423..681V}，通常将其分为分子云（Cloud）、团块（Clump）、云核（Core）三个层次\supercite{2007ARA&A..45..339B,2000prpl.conf...97W}:
-		\begin{adjustwidth}{0.5cm}{0cm}
+		%\begin{adjustwidth}{0.5cm}{0cm}
 		\begin{description}
 			\item[分子云:] 质量一般为$10^3-10^4\ M_{\odot}$，尺度为$2-15\rm\ pc$，平均数密度为$50-500\rm\ cm^{-3}$，速度弥散为$2- 5\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}．典型的分子云有Taurus、Perseus以及Orion等．
 
@@ -177,7 +176,7 @@
 
 			\item[云核:] 质量一般为$0.5-5\ M_{\odot}$，尺度为$0.03-0.2\rm\ pc$，平均数密度为$10^4-10^5\rm\ cm^{-3}$，速度弥散为$0.1- 0.3\rm\ km\ s^{-1}$\supercite{2007ARA&A..45..339B}．典型的云核有L1544、L1498以及B68等\supercite{2007ARA&A..45..339B}．
 		\end{description}
-		\end{adjustwidth}
+		%\end{adjustwidth}
 
 		分子云是恒星形成的摇篮．此观点由Bart J. Bok于1946年首次提出\supercite{1948HarMo...7...53B}，并在之后的半个多世纪被包括红外和毫米波波段在内的观测所证实\supercite{shu1987star,2007ARA&A..45..339B}．虽然前人对分子云核中的恒星形成做过相当多的研究，但由于之前的选源主要在光学或者红外波段，从而选出的源大都是已经有明显的恒星形成活动的区域，使得人们很难对星前核（prestellar core）进行系统的观测，从而不易研究恒星形成的早期状况．基于此，我们亟需一批更长波段（例如毫米-亚毫米波段）系统地选出的源，从而研究恒星(甚至是云核)形成早期阶段的物理状态． 幸运的是，Planck空间望远镜提供了这样的研究样本．
 
@@ -223,7 +222,7 @@
 
 		我们通过对TMC、PMC和CMC中的Planck冷团块（特别是团块中的气体云核）的气体成分谱线成图观测，可以得出这些团块和其中的云核的：
 
-		\begin{adjustwidth}{0.5cm}{0cm}
+		%\begin{adjustwidth}{0.5cm}{0cm}
 		\begin{enumerate}
 			\item 激发温度（\texc ）、热速度弥散（\sigmath ）、气体柱密度（\nhyd ）、数密度（\nnhyd ）等物理性质和物质组成．
 
@@ -231,11 +230,11 @@
 
 			\item 云核的几何尺度（$R$）、LTE质量（$M_{LTE}$）、Jeans质量（$M_{J}$）和virial质量（$M_{vir}$）等云核特有的参量．这些参量往往和云核的稳定性以及恒星形成密切相关．
 		\end{enumerate}
-		\end{adjustwidth}
+		%\end{adjustwidth}
 		
 		根据这些参量，我们进行了如下分析：
 
-		\begin{adjustwidth}{0.5cm}{0cm}
+		%\begin{adjustwidth}{0.5cm}{0cm}
 		\begin{enumerate}
 			\item 通过分析谱线轮廓探究其中是否有分子外向流、内流等剧烈的气体运动过程．
 
@@ -249,7 +248,7 @@
 
 			\item 通过查找与我们的云核成协的源，来验证Planck团块和其中的云核是否是星前核（prestellar core）．
 		\end{enumerate}
-		\end{adjustwidth}
+		%\end{adjustwidth}
 
 		通过这些分析和讨论，我们一方面可以揭示与验证Planck冷团块的物理性质和演化阶段．另一方面，我们可以通过这些样本，系统地总结典型恒星形成区中年轻云核的物理性质、动力学状态、物质组成等基本情况，使得我们了解恒星形成的早期阶段特征．
 
@@ -258,11 +257,11 @@
 \chapter{观测方法与数据处理}
 
 	\section{观测设备}
-		观测设备为中国科学院紫金山天文台青海观测站13.7 m 望远镜．观测时间为2011年1月至5月．观测的谱线为 $J=1 \rightarrow 0 $ 的  \coa， \cob 和 \coc 谱线．观测模式为OTF（On-The-Fly模式）．观测时的设备参数如表 \ref{Fig.Observation}．
+		观测设备为中国科学院紫金山天文台青海观测站13.7 m 望远镜．观测时间为2011年1月至5月．观测的谱线为 $J=1 \rightarrow 0 $ 的  \coa， \cob 和 \coc 谱线．观测模式为OTF（On-The-Fly模式）．观测时的设备参数如表 \ref{Tab.Observation}．
 
 		\begin{table}[H]
 	        \begin{center}
-	        \caption{设备参数\label{Fig.Observation}}
+	        \caption{设备参数\label{Tab.Observation}}
 	        \setlength{\tabcolsep}{0.1in}
 	        \vspace{0.5em}
 	        \begin{tabular}{rl}
@@ -339,7 +338,7 @@
 		\begin{figure}[H]
 			\centering
 			\includegraphics[totalheight=82mm]{img_plot/SpatiaDist_Velocity_Overlay.eps}
-			\caption{\small 源的空间分布．背景灰度图来自 1.2 m 望远镜\cob 巡天的积分强度图\supercite{2001ApJ...547..792D}，点的颜色代表相应源的几何中心位置的\vlsr ．
+			\caption{源的空间分布．背景灰度图来自 1.2 m 望远镜\cob 巡天的积分强度图\supercite{2001ApJ...547..792D}，点的颜色代表相应源的几何中心位置的\vlsr ．
 			虚线表示TMC、PMC、CMC三个区域的分界，根据\parencite{2010A&A...512A..67L}．
 			\label{Fig.SpatialDistribution}}
 		\end{figure}
@@ -485,7 +484,7 @@
 
 		    $T^*_R$是经过主波束效率改正后的天线温度．$T_0 = h\nu /k$，$k$ 是 Boltzmann 常量. $T_{bg} = 2.73 /k$ 是宇宙微波背景辐射能谱的拟合黑体谱对应的温度．
 
-		\subsection{柱密度}
+		\subsection{柱密度}\label{Sec.ColumnDensity}
 
 			在LTE假设下，如果我们假设\cobb 的发射是光薄的，我们可以计算出\cob ．采用的方法和Garden et al. （1991）所用方法相同\supercite{1991ApJ...374..540G}．之后我们使用典型的丰度比：$\rm [H_2]/[ ^{12}CO]=10^4$,  $\rm [^{12}CO]/[^{13}CO]=60$来计算\nhyd．(考虑到之前的研究\supercite{1987ApJ...317..926H}证实太阳系附近的$\rm [^{12}CO]/[^{13}CO]\sim 50$而另一研究\supercite{1980Sci...208..663P}揭示$\rm [^{12}CO]/[^{13}CO]\sim 70$：我们采用$\rm [^{12}CO]/[^{13}CO]=60$．)
 
@@ -532,7 +531,7 @@
 			\begin{figure}[H]
 				\centering
 				\includegraphics[totalheight=70mm]{img_plot/1813.eps}
-				\caption{\small 18个云核的${N_{\rm H_2}(\rm C^{18}O)}/{ N_{\rm H_2}(\rm ^{13}CO)}$分布．}
+				\caption{18个云核的${N_{\rm H_2}(\rm C^{18}O)}/{ N_{\rm H_2}(\rm ^{13}CO)}$分布．}
 				\label{Fig.1813}
 			\end{figure}
 
@@ -679,7 +678,7 @@
 
 		需要强调的是，我们不能忽略分辨率对以上分析准确性的影响。在CMC的距离（450 pc）上，我们采用的望远镜的波束投影直径为$\sim 0.1$ pc，意味着其不能很好分辨典型尺寸（$0.03~0.2$ pc）\supercite{2007ARA&A..45..339B}的云核。而考虑到$M_{J}\propto R^{1/2}$、$M_{vir}\propto R$但是 $M_{LTE}\propto R^2$ ：我们可能高估了CMC中云核的$M_{LTE}$（相对于$M_{LTE}$和$M_{J}$）。
 
-	\section{气体-尘埃耦合}
+	\section{气体-尘埃耦合}\label{Sec.GasDust}
 
 		我们研究了全部云核的气体-尘埃热耦合状况。
 
@@ -698,16 +697,70 @@
 
 		相较于气体温度，大部分云核具有更高的尘埃温度，这可以用“尘埃加热气体”的模型解释：尘埃颗粒被分子云中心恒星形成过程中的辐射所加热，之后通过碰撞将能量传递给比尘埃颗粒冷的气体分子\supercite{1974ApJ...189..441G}。另外，关于耗空（depletion）的物理模型\supercite{2001ApJ...557..736G}显示\nnhyd $<10^{4}\rm\ cm^{-3}$时会有$T_K$的升高， 从而使得$T_D>T_K$。我们样品中云核的\nnhyd 全部在这个范围内（TMC和CMC中云核均有\nnhyd $<10^{3.9}\rm\ cm^{-3}$），但并无$T_D>T_K$，故而不符合此模型。此矛盾很可能揭示了我们的云核尚无显著的耗空，这同样可能是由于我们云核处于早期演化阶段导致的。
 
-		\iffalse
-     
-     	The comparison of $T_k$ and $T_D$ is as shown in Figure \ref{Fig.GasDust}.
-     	The correlation between $T_K$ and $T_D$ is not obvious: which is with $R^2\sim 10^{-5}$. However, we  found that majority (61\%) of the cores have $T_D>T_K$. All the \numcore cores are with the $T_D/T_k$ of  average value 1.3$\pm$0.4. The cores in TMC are with mean $T_D/T_k=1.23\pm0.23$, while the cores in CMC  are with mean $T_D/T_k=1.47\pm0.47$.
- 
-     	Such excess of dust temperature can be interpreted with the mechanism of gas heated by dust: dust grains  are heated by radiations from forming stellar objects in the center of the molecular clouds, and  transfer energy to cooler gas by collisions (\citealt{1974ApJ...189..441G}). Model of depletion suggests  a increasing of $T_K$ and $T_D<T_K$ when \nnhyd$<10^{4}\rm\ cm^{-3}$ (\citealt{2001ApJ...557..736G}). As  the \nnhyd in TMC and CMC are both less than $10^{3.9}\rm\ cm^{-3}$, our result cannot consist this model . This inconsistency indicates that the depletion in our cores are not significant yet.
-\fi
 	\section{CO丰度}
-	\section{云核的成协情况}
 
+		我们在第\ref{Sec.ColumnDensity}节计算\nhyd 的过程中假定$\rm [H_2]/[ ^{12}CO]=10^4$。 然而通过Planck观测的尘埃连续谱，我们也可以用不同的方法得到\nhyd 。本节比较了两种方法得到的\nhyd 。
+
+		我们首先确定了我们的云核在ECC中对应的辐射源的面积，我们在同样的面积中重新计算平均\nhyd ，方法仍然同第\ref{Sec.ColumnDensity}节。由于每个云核中，柱密度随半径变化明显，这样在同样面积中计算平均柱密度可以避免云核的柱密度随半径变化带来的系统性偏差。ECC中“云核”的 $R=\sqrt{\pi\theta_{maj}\theta_{min}/[8\ln(2)]}$ 。我们采用Planck Collaboration (2011)通过尘埃辐射流量计算\nhyd 的方法\supercite{2011A&A...536A..23P}。
+
+		对于全部的\numcore 个云核，CO丰度（$N_{^{12}\rm CO}/N_{/rmH_2}$）的范围为从$4\times 10^{-7}$ 至$1.3\times 10^{-3 }$，均值为$1.5\times 10^{-4}$。这与前人得出的CO丰度范围吻合较好\supercite{1988ApJ...334..771V}。
+
+		对于TMC，我们特别比较了其CO丰度和之前同样针对TMC的CO丰度研究\supercite{1982ApJ...262..590F}。 如果我们沿用第\ref{Sec.ColumnDensity}节中的丰度比\supercite{1991ApJ...374..540G}：假定$\rm [H_2/CO] = 10^4$ 而 $\rm [^{16}O/^{18}O]=490$，即可得出TMC中云核的$N_{\rm C^{18}O}/N_{H_2}$范围为$1\times 10^{-9}$ 至 $1\times 10^{-6 }$，均值为 $3\times 10^{-7}$。这与\parencite{1982ApJ...262..590F}中给出的TMC中$N_{\rm C^{18}O}/N_{H_2}$范围： $4.2\times 10^{-8}$ 至 $1.3\times 10^{-7}$相符。
+
+	\section{团块的成协源情况}
+
+		为了更全面深入地了解我们成图区域（团块）所处的环境，我们调查了与其成协的前人观测中的源，特别是YSO（Young Stellar Object）。我们检查了全部成图区域14\arcmin$\times$14\arcmin 中的成协源情况，发现的成协源包括：X-射线、射电、中性氢、脉泽、红外天体、HH（Herbig-Haro）天体以及YSO。成协源种类与坐标数据全部来自SIMBAD数据库\supercite{2007ASPC..377..197W}。成协源具体情况如附录\ref{App.Map}中的图 \ref{Fig.Map}所示。
+
+		首先，由于我们主要关注YSO，为了明确我们的团块是否在\emph{Spitzer} YSO巡天的覆盖范围之内，我们调查了IRAC以及MIPS的相关数据\supercite{2010ApJS..186..259R}。被IRAC\textbf{或}MIPS巡天覆盖的源在表 \ref{Tab.SourceList}中表头为“$\dagger$”的一列标识为 Y（被IRAC或MIPS巡天覆盖） 或N（未被IRAC或MIPS巡天覆盖）。
+
+		之后，我们分别调查了三个区域的成协源情况。
+
+		在TMC的\numsoutmc 个团块中，13个发现了X-射线成协源，14个发现了射电、H\textsc{i}或脉泽成协源，16个发现了红外成协源。其中8个被发现与HH天体成协。在TMC中，\emph{Spitzer} IRAC \emph{或} MIPS 覆盖了28个团块，但其中只有8个团块被发现和YSO成协。
+
+		我们PMC中的团块拥有成协源的比例比之TMC显著较高。虽然其中只有\numsoupmc 个团块，但在这\numsoupmc 个团块中，2个被发现有X-射线源与之成协，7个被发现有射电、H\textsc{i}或脉泽成协源。在PMC的11个被IRAC \emph{或} MIPS覆盖的团块中，6个发现了YSO成协源。不仅PMC中的大多数团块有成协源，其单个团块的成协源数量也较大，例如G158.20-20.28 和 G158.37-20.72均含有丰富的成协源。值得注意的是，我们发现G159.21-20.12是Barnard 1暗云的一部分\supercite{1986ApJ...303L..11G}；G160.51-17.07 是 Barnard 5 暗云的一部分\supercite{2010ApJ...712..778H}。并且， G159.21-20.12 的 \coaa 谱线和 SMM 1 的同一谱线十分相似\supercite{2010ApJ...712..778H}，这从侧面验证了我们观测的可靠性。
+
+		对于CMC中的\numsoucmc 个团块，G159.82-10.48 和 G160.53-09.84 被发现与X-射线源成协， 6个被发现有有射电、H\textsc{i}或脉泽成协源，9个被发现与红外源成协，G155.52-08.93 和 G160.53-09.84 两个源被发现与HH天体成协。参考最近对CMC的一项观测\supercite{2013ApJ...764..133H}，我们发现有4个CMC的团块与YSO成协，但在CMC中有12个团块被IRAC \emph{或} MIPS覆盖。总体来看，CMC中的团块成协源较TMC和PMC为少，这也恰恰说明了CMC中恒星形成活动的低活跃度，与前人关于CMC研究吻合。
+
+		除了对于我们样本中的团块进行成协源分析，我们还专门考察了云核的成协源情况。我们限定在云核中心偏离一个主波束大小($\sim$ 1\arcmin )的范围内寻找成协源。我们发现绝大多数云核在中心附近这样的范围内没有成协源，仅有的几个特例为：
+
+		\begin{description}
+		\item[G159.21-20.12C1]的中心区域有YSO和YSO候选体以及HH天体与之成协；
+		\item[G164.75-24.19C2]的中心有红外源;
+		\item[G164.92-12.65C1]的中心有红外源;
+		\item[G174.70-15.48C1]的中心区域有YSO、X-射线源以及红外源.
+		\end{description}
+
+		除去这四个，大多数（34个，占总数的90\%）的云核在中心区域并无成协源。如此高的无源核比例同样说明了Planck团块处于早期演化阶段。
+
+		值得注意的是，我们仔细考察TMC中仅有的3个中心有成协源的云核，发现 G164.75-24.19C2 和 G164.92-12.65C1均有\sigmath $>$ \sigmant ，根据第\ref{Sec.Turbulence}节中的分析，这说明了他们可能演化得更加成熟，其中的湍动已经经过一定的耗散。而G174.70-15.48C1有着 高达 14 K 的 \texc ，是TMC云核中\texc 最大者，这也说明了其可能处在比我们的大多数云核晚的演化阶段。这些演化阶段较晚的云核所展现出来的（与我们大多数云核不相符合的）特征很好地验证了我们之前第\ref{Sec.Turbulence}节和第\ref{Sec.GasDust}节的讨论。
+
+\chapter{总结与展望}
+		
+	\section{本文总结}
+
+		本文介绍了对\numsou 个Planck冷团块的\coaa 、 \cobb 和 \cocc 成图研究。于2011年1月到5月在中国科学院紫金山天文台青海观测站进行观测。我们在本研究中已经得到如下所列的结果：
+	    \begin{enumerate}
+	     \item 
+	     	对于所有的\numsou 个团块，我们均探测到了 \coaa 和 \cobb 辐射。而对于其中的\numcocc 个，我们探测到了 \cocc 辐射。对于我们探测到的每个谱线，通过高斯拟合，我们得到了其线心速度、天线温度以及FWHM。我们在这些团块中证认出了\numcore 个云核。TMC、PMC和CMC中分别由\numcoretmc 、\numcorepmc 和\numcorecmc 个云核。在LTE假设下，我们计算了云核的激发温度与柱密度。并且得到了云核的热速度弥散、非热速度弥散以及三维速度弥散。得益于云核明确的边界，我们估算了云核的尺度，从而得到了包括云核半径、气体数密度以及LTE质量在内的“云核参量”。
+	     \item
+	     	大约半数云核的中心谱线显示出非高斯轮廓。但是经过检验其P-V图， 我们排除了大多数云核伴随有 高速气体的可能。仅有的两个例外是G164.75-24.19C2 和 G173.07-17.89C1。考虑到我们的云核总数，总体而言，我们的云核并无剧烈的高速气体运动。
+	    \item 
+	    	我们发现了在我们的样本中，湍动在支撑云核和云核柱密度分布中起支配地位：大多数在TMC和CMC中的云核有\sigmant/\sigmath$>1$；同时，对于大多数的云核，无论是在TMC或CMC中，其柱密度的概率分布函数均接近对数正态分布，这说明了湍动主导了其柱密度分布。丰富的湍动表明这些云核并没有收到过多的重力作用。
+	    \item 
+	    	我们在考虑了湍动作用的情况下计算了云核的Jeans质量和virial质量，并且发现大多数云核的LTE质量都小于Jeans质量，说明其很可能是稳定的。同时我们发现所有的云核都有virial质量明显大于LTE质量，说明其不是重力束缚状态，很可能正处在演化的过渡阶段。
+	    \item
+	    	我们考察了云核的气体成分与尘埃成分之间的热耦合情况。通过ECC的数据，我们得到尘埃温度$T_D$，跟我们求得的云核气体成分温度$T_k$进行了比较。我们发现，61\%的云核有$T_D>T_k$，与\parencite{1974ApJ...189..441G}中的“尘埃加热气体”模型吻合。同时，参考\parencite{2001ApJ...557..736G}中的耗空（depletion）模型，这也说明了我们的云核并无明显的耗空现象发生。
+	    \item
+	    	我们检验了云核中的CO丰度情况。一方面我们利用我们计算出的CO柱密度；另一方面我们根据ECC表中提供的尘埃连续谱流量计算出的氢分子柱密度，两相比较，发现这些云核的CO丰度$N_{\rm^{12}CO}/N_{\rm H_{2}}$在$4\times 10^{-7}$ 到 $1.3\times 10^{-3 }$之间，和之前的研究得到的范围相符\supercite{1988ApJ...334..771V}。此外，我们还特别检验了TMC中的CO丰度情况，我们发现其同样符合之前对TMC区域的CO丰度研究\supercite{1982ApJ...262..590F}。
+	    \item
+	    	利用SIMBAD数据库提供的资料，我们还调研了团块与云核成协源的情况。我们发现了X-射线、射电、中性氢、脉泽、红外天体、HH（Herbig-Haro） 天体以及YSO等与之成协的源。 我们我们发现CMC中的团块成协源很少，而PMC中的团块成协源较多。90\%的云核中心区域（中心附近1\arcmin 半径范围内）没有成协源，仅有的四个例外显示出明显更晚期演化阶段的特征。
+    	\end{enumerate}
+	\section{未来的研究计划}
+		为了更深入地了解Planck冷团块的性质，同时能更好地理解恒星形成的早期特征，我们还需要进行如下工作：
+		\begin{enumerate}
+	     \item 
+	     	对Planck冷团块进行稠密分子谱线：如
+    	\end{enumerate}
 \appendix 
 
 \printbibliography[heading = bibintoc]

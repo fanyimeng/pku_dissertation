@@ -1435,6 +1435,278 @@
     \keyw{ISM: Clouds, ISM: Globules, ISM: Molecules, Molecular Processes}
   \endentry
 
+  \entry{1988ApJ...334..771V}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=8c9b366059355091071c841199dec4e9}{{van\bibnamedelimb Dishoeck}}{v\bibinitperiod}{E.\bibnamedelimi F.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=66fa0a84c0a2aad35a312903d5047e96}{{Black}}{B\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=8c9b366059355091071c841199dec4e9}{{van\bibnamedelimb Dishoeck}}{v\bibinitperiod}{E.\bibnamedelimi F.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=66fa0a84c0a2aad35a312903d5047e96}{{Black}}{B\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{dfd73e5139f6c1abaa7f4b84a33634e8}
+    \strng{fullhash}{dfd73e5139f6c1abaa7f4b84a33634e8}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{11}
+    \field{title}{{The photodissociation and chemistry of interstellar CO}}
+    \field{volume}{334}
+    \field{year}{1988}
+    \field{pages}{771\bibrangedash 802}
+    \verb{doi}
+    \verb 10.1086/166877
+    \endverb
+    \keyw{CARBON MONOXIDE, INTERSTELLAR CHEMISTRY, INTERSTELLAR GAS, PHOTODISSOCIATION, HYDROGEN, ISOTOPE EFFECT, RADIATION DISTRIBUTION, ULTRAVIOLET ABSORPTION}
+  \endentry
+
+  \entry{1982ApJ...262..590F}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=296676026857af8725f822ef2b2e8794}{{Frerking}}{F\bibinitperiod}{M.\bibnamedelimi A.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=13540adae13f7bfa920c7d0bd59a4093}{{Langer}}{L\bibinitperiod}{W.\bibnamedelimi D.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=95df4fbeb6e10005bc66f2f9f5cdc803}{{Wilson}}{W\bibinitperiod}{R.\bibnamedelimi W.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=296676026857af8725f822ef2b2e8794}{{Frerking}}{F\bibinitperiod}{M.\bibnamedelimi A.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=13540adae13f7bfa920c7d0bd59a4093}{{Langer}}{L\bibinitperiod}{W.\bibnamedelimi D.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=95df4fbeb6e10005bc66f2f9f5cdc803}{{Wilson}}{W\bibinitperiod}{R.\bibnamedelimi W.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{e87510a424391bde7c82dbff71bbcccd}
+    \strng{fullhash}{e87510a424391bde7c82dbff71bbcccd}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{11}
+    \field{title}{{The relationship between carbon monoxide abundance and visual extinction in interstellar clouds}}
+    \field{volume}{262}
+    \field{year}{1982}
+    \field{pages}{590\bibrangedash 605}
+    \verb{doi}
+    \verb 10.1086/160451
+    \endverb
+    \keyw{ABUNDANCE, CARBON MONOXIDE, INTERSTELLAR EXTINCTION, INTERSTELLAR MATTER, MOLECULAR CLOUDS, ASTRONOMICAL CATALOGS, GAS DENSITY, ISOTOPES, MASS}
+  \endentry
+
+  \entry{2007ASPC..377..197W}{inproceedings}{}
+    \name{labelname}{25}{}{%
+      {{hash=f3b11d998c4ac517af022e582306bc42}{{Wenger}}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=399fb91174f113d7f5c3f19a276282b8}{{Oberto}}{O\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=aafd9fd3bf781f340b49d822b3a42a02}{{Bonnarel}}{B\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=52062d34c7b74a035113d16bb20d20c8}{{Brouty}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=dc503989af0b20f25115dbab8e2bd665}{{Bruneau}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=2150f2bb711f83c86bbbf5e6d6d86908}{{Brunet}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=3d8df5fe35f89a4c6baea2decf916028}{{Cambresy}}{C\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=1cda24a3703ccf7ce7c12f2a5d905502}{{Dubois}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=ad548f2e432fc29de18e1594d9f35852}{{Eisele}}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=a0234f4a986916b43917118ba86753f8}{{Fernique}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=389c4fc4ced94469b450ba3faba90e52}{{Genova}}{G\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=83321b5560b43219199add88ebea5b3d}{{Laloë}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=30e0bb9a5100fcb2287f783a97102e69}{{Lesteven}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=3846f41c167f9edcc30b8f4e17d18da4}{{Loup}}{L\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=01cca30666b820ce90be665df9263273}{{Ochsenbein}}{O\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=45a4a60517803496f787c58cddbc9023}{{Vannier}}{V\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=50a1023f543ad71dcde017f8c8f71e2b}{{Vollmer}}{V\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=ca48de459cda4ad412279a4791a17b00}{{Vonflie}}{V\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=e88790ff75e2d9d12e7eab8a9db8fef4}{{Wagner}}{W\bibinitperiod}{M.\bibnamedelimi J.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=6c3cf03a684b4692c5fce267519bf13a}{{Woelfel}}{W\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=e6176fbd1dfc4004a4afc165602c427c}{{Borde}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=877d2659a69f2a4dc1b5152f5c97db96}{{Beyneix}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=86246608dbc509e759c2cdb69ee37abc}{{Chassagnard}}{C\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=dd341c1a60451651df82aec2fe86c1ad}{{Jasniewicz}}{J\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=72e6cb9325c2c5cc438dc7e9fd639b30}{{Davoust}}{D\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{25}{}{%
+      {{hash=f3b11d998c4ac517af022e582306bc42}{{Wenger}}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=399fb91174f113d7f5c3f19a276282b8}{{Oberto}}{O\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=aafd9fd3bf781f340b49d822b3a42a02}{{Bonnarel}}{B\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=52062d34c7b74a035113d16bb20d20c8}{{Brouty}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=dc503989af0b20f25115dbab8e2bd665}{{Bruneau}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=2150f2bb711f83c86bbbf5e6d6d86908}{{Brunet}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=3d8df5fe35f89a4c6baea2decf916028}{{Cambresy}}{C\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=1cda24a3703ccf7ce7c12f2a5d905502}{{Dubois}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=ad548f2e432fc29de18e1594d9f35852}{{Eisele}}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=a0234f4a986916b43917118ba86753f8}{{Fernique}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=389c4fc4ced94469b450ba3faba90e52}{{Genova}}{G\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=83321b5560b43219199add88ebea5b3d}{{Laloë}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=30e0bb9a5100fcb2287f783a97102e69}{{Lesteven}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=3846f41c167f9edcc30b8f4e17d18da4}{{Loup}}{L\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=01cca30666b820ce90be665df9263273}{{Ochsenbein}}{O\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=45a4a60517803496f787c58cddbc9023}{{Vannier}}{V\bibinitperiod}{P.\bibnamedelimi J.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=50a1023f543ad71dcde017f8c8f71e2b}{{Vollmer}}{V\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      {{hash=ca48de459cda4ad412279a4791a17b00}{{Vonflie}}{V\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=e88790ff75e2d9d12e7eab8a9db8fef4}{{Wagner}}{W\bibinitperiod}{M.\bibnamedelimi J.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=6c3cf03a684b4692c5fce267519bf13a}{{Woelfel}}{W\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=e6176fbd1dfc4004a4afc165602c427c}{{Borde}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=877d2659a69f2a4dc1b5152f5c97db96}{{Beyneix}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=86246608dbc509e759c2cdb69ee37abc}{{Chassagnard}}{C\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=dd341c1a60451651df82aec2fe86c1ad}{{Jasniewicz}}{J\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=72e6cb9325c2c5cc438dc7e9fd639b30}{{Davoust}}{D\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=381a42a0f8d4fc7f475a3613cdff1f44}{{Ricketts}}{R\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=6a12151598e563d75aff3cd243a9f8c8}{{Birdie}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=5665f5d8ac89f08e062d7b4012a3c3d4}{{Isaksson}}{I\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{5d2ba41dc591abd9955914b4b8aaa780}
+    \strng{fullhash}{736bfb7926026561469652c2e05627b3}
+    \field{sortinit}{0}
+    \field{booktitle}{Library and Information Services in Astronomy V}
+    \field{month}{10}
+    \field{series}{Astronomical Society of the Pacific Conference Series}
+    \field{title}{{The New Version of SIMBAD}}
+    \field{volume}{377}
+    \field{year}{2007}
+    \field{pages}{197}
+  \endentry
+
+  \entry{2010ApJS..186..259R}{article}{}
+    \name{labelname}{34}{}{%
+      {{hash=1c8717805c08b814a1ac3baa0cae777b}{{Rebull}}{R\bibinitperiod}{L.\bibnamedelimi M.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=fa8852e8b660609b880399813d666dc5}{{Padgett}}{P\bibinitperiod}{D.\bibnamedelimi L.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=48fc0e15a4fef0e2032860dd284428d8}{{McCabe}}{M\bibinitperiod}{C.-E.}{C\bibinithyphendelim E\bibinitperiod}{}{}{}{}}%
+      {{hash=30ac65b56280c778cc93955bd25f6a4b}{{Hillenbrand}}{H\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=bdcf827793171ed2d6aa23f3d81e2d14}{{Stapelfeldt}}{S\bibinitperiod}{K.\bibnamedelimi R.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=1f659c1ae01715195f2e1632367fb9e2}{{Noriega-Crespo}}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=13d68ffd31c0a3185b1ddcf4317fe0b7}{{Carey}}{C\bibinitperiod}{S.\bibnamedelimi J.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=e1b9acda89798b9978f5d770f2ca7f50}{{Brooke}}{B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=de20ca88705fa20121f16bf016c138bb}{{Huard}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=500b15f65fb1a194119f529589815391}{{Terebey}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=a184861264214583a27ddb62c5b1d18c}{{Audard}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=7c8172d71fcd5412352519a6af04ccce}{{Monin}}{M\bibinitperiod}{J.-L.}{J\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+      {{hash=2ccc47efe3c38ae39bfda41f408ded37}{{Fukagawa}}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=85d3efa71e369ddb12e70822da59b103}{{Güdel}}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=e9247172b8e8787782105c0eae7fe203}{{Knapp}}{K\bibinitperiod}{G.\bibnamedelimi R.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=0bd0ff1f2efb06c1f242e1e4481eaebb}{{Menard}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=1ad588b2ecf49103698e3b6b0779dc5e}{{Allen}}{A\bibinitperiod}{L.\bibnamedelimi E.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=198fc9d0233b5d8e1e2693d4360f0b9b}{{Angione}}{A\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=e7d70f817ec037639db99ba030aaf939}{{Baldovin-Saavedra}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=21f1448593c66ea301b22c294bf78771}{{Bouvier}}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=39cb8bdfaaf0d3fe7c797bfd31bb6840}{{Briggs}}{B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=416462dd82397051a30256c78175d390}{{Dougados}}{D\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=c85dcaa20cba932bb2cbe489d0810fbb}{{Evans}}{E\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=9a1a755800b81d3f262b2731b6047ab9}{{Flagey}}{F\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=20219e13d712b4323cbd3c90aa757c9d}{{Guieu}}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=15a2e265f7b476da7f2eb86b51284d51}{{Grosso}}{G\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=fdd9d4b4b52c355ecc240757f6584f25}{{Glauser}}{G\bibinitperiod}{A.\bibnamedelimi M.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=ae14d6e8a6e91c2439e51837f9007342}{{Harvey}}{H\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=f6fb732eae7a896eb1ddc5e8c4ff7479}{{Hines}}{H\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=698a7c0e11f2c2553d00daac5671ec25}{{Latter}}{L\bibinitperiod}{W.\bibnamedelimi B.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=523e302c796f028f59fdbe212b4c3353}{{Skinner}}{S\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=1b2511f477319f6cb4d60a4762102913}{{Strom}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=579903080fd4be9d060ae8b75ef16774}{{Tromp}}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=127a45db30ec9be86403c7de57e3a91c}{{Wolf}}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{34}{}{%
+      {{hash=1c8717805c08b814a1ac3baa0cae777b}{{Rebull}}{R\bibinitperiod}{L.\bibnamedelimi M.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=fa8852e8b660609b880399813d666dc5}{{Padgett}}{P\bibinitperiod}{D.\bibnamedelimi L.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=48fc0e15a4fef0e2032860dd284428d8}{{McCabe}}{M\bibinitperiod}{C.-E.}{C\bibinithyphendelim E\bibinitperiod}{}{}{}{}}%
+      {{hash=30ac65b56280c778cc93955bd25f6a4b}{{Hillenbrand}}{H\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=bdcf827793171ed2d6aa23f3d81e2d14}{{Stapelfeldt}}{S\bibinitperiod}{K.\bibnamedelimi R.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=1f659c1ae01715195f2e1632367fb9e2}{{Noriega-Crespo}}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=13d68ffd31c0a3185b1ddcf4317fe0b7}{{Carey}}{C\bibinitperiod}{S.\bibnamedelimi J.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=e1b9acda89798b9978f5d770f2ca7f50}{{Brooke}}{B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=de20ca88705fa20121f16bf016c138bb}{{Huard}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=500b15f65fb1a194119f529589815391}{{Terebey}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=a184861264214583a27ddb62c5b1d18c}{{Audard}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=7c8172d71fcd5412352519a6af04ccce}{{Monin}}{M\bibinitperiod}{J.-L.}{J\bibinithyphendelim L\bibinitperiod}{}{}{}{}}%
+      {{hash=2ccc47efe3c38ae39bfda41f408ded37}{{Fukagawa}}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=85d3efa71e369ddb12e70822da59b103}{{Güdel}}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=e9247172b8e8787782105c0eae7fe203}{{Knapp}}{K\bibinitperiod}{G.\bibnamedelimi R.}{G\bibinitperiod}{}{}{}{}}%
+      {{hash=0bd0ff1f2efb06c1f242e1e4481eaebb}{{Menard}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=1ad588b2ecf49103698e3b6b0779dc5e}{{Allen}}{A\bibinitperiod}{L.\bibnamedelimi E.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=198fc9d0233b5d8e1e2693d4360f0b9b}{{Angione}}{A\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=e7d70f817ec037639db99ba030aaf939}{{Baldovin-Saavedra}}{B\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=21f1448593c66ea301b22c294bf78771}{{Bouvier}}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=39cb8bdfaaf0d3fe7c797bfd31bb6840}{{Briggs}}{B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=416462dd82397051a30256c78175d390}{{Dougados}}{D\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=c85dcaa20cba932bb2cbe489d0810fbb}{{Evans}}{E\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=9a1a755800b81d3f262b2731b6047ab9}{{Flagey}}{F\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=20219e13d712b4323cbd3c90aa757c9d}{{Guieu}}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=15a2e265f7b476da7f2eb86b51284d51}{{Grosso}}{G\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=fdd9d4b4b52c355ecc240757f6584f25}{{Glauser}}{G\bibinitperiod}{A.\bibnamedelimi M.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=ae14d6e8a6e91c2439e51837f9007342}{{Harvey}}{H\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=f6fb732eae7a896eb1ddc5e8c4ff7479}{{Hines}}{H\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=698a7c0e11f2c2553d00daac5671ec25}{{Latter}}{L\bibinitperiod}{W.\bibnamedelimi B.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=523e302c796f028f59fdbe212b4c3353}{{Skinner}}{S\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=1b2511f477319f6cb4d60a4762102913}{{Strom}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=579903080fd4be9d060ae8b75ef16774}{{Tromp}}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=127a45db30ec9be86403c7de57e3a91c}{{Wolf}}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{71b842098c7a9ac40a7225c266317207}
+    \strng{fullhash}{1be0a47f780950225a2a849c73238c4e}
+    \field{sortinit}{0}
+    \field{eprintclass}{astro-ph.SR}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apjs}
+    \field{month}{02}
+    \field{title}{{The Taurus Spitzer Survey: New Candidate Taurus Members Selected Using Sensitive Mid-Infrared Photometry}}
+    \field{volume}{186}
+    \field{year}{2010}
+    \field{pages}{259\bibrangedash 307}
+    \verb{doi}
+    \verb 10.1088/0067-0049/186/2/259
+    \endverb
+    \verb{eprint}
+    \verb 0911.3176
+    \endverb
+    \keyw{circumstellar matter, infrared: stars, stars: formation, stars: pre-main sequence}
+  \endentry
+
+  \entry{1986ApJ...303L..11G}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=eb680709ff8b18a6d230e30afd7f9680}{{Goldsmith}}{G\bibinitperiod}{P.\bibnamedelimi F.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=13540adae13f7bfa920c7d0bd59a4093}{{Langer}}{L\bibinitperiod}{W.\bibnamedelimi D.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=95df4fbeb6e10005bc66f2f9f5cdc803}{{Wilson}}{W\bibinitperiod}{R.\bibnamedelimi W.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=eb680709ff8b18a6d230e30afd7f9680}{{Goldsmith}}{G\bibinitperiod}{P.\bibnamedelimi F.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=13540adae13f7bfa920c7d0bd59a4093}{{Langer}}{L\bibinitperiod}{W.\bibnamedelimi D.}{W\bibinitperiod}{}{}{}{}}%
+      {{hash=95df4fbeb6e10005bc66f2f9f5cdc803}{{Wilson}}{W\bibinitperiod}{R.\bibnamedelimi W.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{ed1f29d5022f254206935141e6f559b0}
+    \strng{fullhash}{ed1f29d5022f254206935141e6f559b0}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apjl}
+    \field{month}{04}
+    \field{title}{{Molecular outflows, gas density distribution, and the effects of star formation in the dark cloud Barnard 5}}
+    \field{volume}{303}
+    \field{year}{1986}
+    \field{pages}{L11\bibrangedash L15}
+    \verb{doi}
+    \verb 10.1086/184643
+    \endverb
+    \keyw{GAS DENSITY, INFRARED ASTRONOMY, INTERSTELLAR GAS, MOLECULAR CLOUDS, STAR FORMATION, STELLAR MASS EJECTION, ASTRONOMICAL MAPS, CARBON MONOXIDE, DENSITY DISTRIBUTION, INFRARED ASTRONOMY SATELLITE}
+  \endentry
+
+  \entry{2010ApJ...712..778H}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=6b7e52b3a5a2634560366b048f050ead}{{Hiramatsu}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=34a599b18678d459bfa512bc6ab5ff88}{{Hirano}}{H\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=0a0a82a59ecdfbabb322d514931c9cf6}{{Takakuwa}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=6b7e52b3a5a2634560366b048f050ead}{{Hiramatsu}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=34a599b18678d459bfa512bc6ab5ff88}{{Hirano}}{H\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=0a0a82a59ecdfbabb322d514931c9cf6}{{Takakuwa}}{T\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{7686258880331ddaed0c08fc8df1c504}
+    \strng{fullhash}{7686258880331ddaed0c08fc8df1c504}
+    \field{sortinit}{0}
+    \field{eprintclass}{astro-ph.GA}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apj}
+    \field{month}{04}
+    \field{title}{{Outflow-Core Interaction in Barnard 1}}
+    \field{volume}{712}
+    \field{year}{2010}
+    \field{pages}{778\bibrangedash 789}
+    \verb{doi}
+    \verb 10.1088/0004-637X/712/2/778
+    \endverb
+    \verb{eprint}
+    \verb 1001.5107
+    \endverb
+    \keyw{ISM: clouds, ISM: individual objects: Barnard 1, ISM: jets and outflows, stars: formation, stars: low-mass, stars: pre-main sequence}
+  \endentry
+
 \endrefsection
 \endinput
 
