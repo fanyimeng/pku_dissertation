@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  2 JUN 2013 20:22
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  3 JUN 2013 10:16
 entering extended mode
 **00946063.tex
 (D:\Dissertation\00946063.tex
@@ -1876,53 +1876,82 @@ Underfull \vbox (badness 2065) has occurred while \output is active []
 
 ]
 第四章
-[23] [24
+Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
+File: img_plot/pv_G164.75-24.19.eps Graphic file (type eps)
+<img_plot/pv_G164.75-24.19.eps>
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+File: img_plot/pv_G173.07-17.89.eps Graphic file (type eps)
+ <img_plot/pv_G173.07-17.89.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]
+File: img_plot/VelocityComparison.eps Graphic file (type eps)
+ <img_plot/VelocityComparison.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+[25] [26
 
 ]
 Requested font "CMU Serif Roman/I/ICU:mapping=tex-text;" at 12.05pt
  -> C:/Windows/Fonts/cmunti.otf
- [25] [26] [27]
-Overfull \hbox (2.40533pt too wide) in paragraph at lines 586--586
+ [27] [28] [29]
+Overfull \hbox (2.40533pt too wide) in paragraph at lines 640--640
 []\EU1/CMUSerifRoman(0)/m/n/12.05 A. Penzias. “\EU1/CMUSerifRoman(0)/m/it/12.
 05 Nuclear Processing and Isotopes in the Galaxy\EU1/CMUSerifRoman(0)/m/n/12.05
  ”. \EU1/CMUSerifRoman(0)/m/it/12.05 Science\EU1/CMUSerifRoman(0)/m/n/12.05 ,
  1980[]05:
  []
 
-[28]
+[30]
 附录\nobreakspace {}A
-[29
+[31
 
-] [30
+] [32
 
 ]
 附录\nobreakspace {}B
-[31] [32
+[33] [34
 
-] (D:\Dissertation\tail/acknowledge.tex) [33
+] (D:\Dissertation\tail/acknowledge.tex) [35
 
 
 ]
-(D:\Dissertation\tail/originauth.tex [34
+(D:\Dissertation\tail/originauth.tex [36
 
 
 
-]) [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
+]) [37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 667.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 667.
  (D:\Dissertation\00946063.aux
 (D:\Dissertation\tail/acknowledge.aux) (D:\Dissertation\tail/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 613.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 613.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 667.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 667.
 Package logreq Info: Writing requests to '00946063.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27860 strings out of 430478
- 521394 string characters out of 3191502
- 802617 words of memory out of 3000000
- 30538 multiletter control sequences out of 15000+200000
+ 27891 strings out of 430478
+ 522138 string characters out of 3191502
+ 803617 words of memory out of 3000000
+ 30566 multiletter control sequences out of 15000+200000
  18290 words of font info for 141 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,12n,92p,1032b,1337s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 00946063.pdf (43 pages).
+Output written on 00946063.pdf (45 pages).

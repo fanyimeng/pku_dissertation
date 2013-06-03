@@ -1169,6 +1169,173 @@
     \keyw{stars: formation, ISM: evolution, ISM: structure, ISM: dust, extinction, ISM: clouds}
   \endentry
 
+  \entry{2005AJ....129..330W}{article}{}
+    \name{labelname}{6}{}{%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=c931af3637695914c2018e4235017422}{{Zhang}}{Z\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+      {{hash=742f8103481c80bc5dcf8cf53a3fff91}{{Chen}}{C\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=23def27e9b56fe60b9900dd5d82da01b}{{Yang}}{Y\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=e5deb6be74a58df88ca02b438ff5594a}{{Wei}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=c8f84749e0dbbade11f8940ec310174e}{{Ho}}{H\bibinitperiod}{P.\bibnamedelimi T.\bibnamedelimi P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{6}{}{%
+      {{hash=57cfccefdf02c4242604fbd44d33d9e1}{{Wu}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=c931af3637695914c2018e4235017422}{{Zhang}}{Z\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+      {{hash=742f8103481c80bc5dcf8cf53a3fff91}{{Chen}}{C\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=23def27e9b56fe60b9900dd5d82da01b}{{Yang}}{Y\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=e5deb6be74a58df88ca02b438ff5594a}{{Wei}}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      {{hash=c8f84749e0dbbade11f8940ec310174e}{{Ho}}{H\bibinitperiod}{P.\bibnamedelimi T.\bibnamedelimi P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{50efe4799c8c70dff1913f8d05759401}
+    \strng{fullhash}{ab6ad540d7fe79adaadd9206a235c872}
+    \field{sortinit}{0}
+    \field{journaltitle}{\aj}
+    \field{month}{01}
+    \field{title}{{CO J = 2-1 Maps of Bipolar Outflows in Massive Star-forming Regions}}
+    \field{volume}{129}
+    \field{year}{2005}
+    \field{pages}{330\bibrangedash 347}
+    \verb{doi}
+    \verb 10.1086/426361
+    \endverb
+    \keyw{ISM: Jets and Outflows, ISM: Kinematics and Dynamics, ISM: Molecules, ISM: Masers, Stars: Formation}
+  \endentry
+
+  \entry{2004A&A...416..191T}{article}{}
+    \name{labelname}{4}{}{%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=195b211cdccbc4c5e91cc94a9740d22a}{{Caselli}}{C\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=24c53f626b9d82dff6238ba11d126741}{{Walmsley}}{W\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=07367f371f38540ba80fb8fe9ef376fc}{{Tafalla}}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=195b211cdccbc4c5e91cc94a9740d22a}{{Caselli}}{C\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=24c53f626b9d82dff6238ba11d126741}{{Walmsley}}{W\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{6cf7a83a224fe2289f8ec0d5f53cbfa3}
+    \strng{fullhash}{60fc99e907dea68d59a66dceb9502c49}
+    \field{sortinit}{0}
+    \field{journaltitle}{\aap}
+    \field{month}{03}
+    \field{title}{{On the internal structure of starless cores. I. Physical conditions and the distribution of CO, CS, N$_{2}$H$^{+}$, and NH$_{3}$ in L1498 and L1517B}}
+    \field{volume}{416}
+    \field{year}{2004}
+    \field{pages}{191\bibrangedash 212}
+    \verb{doi}
+    \verb 10.1051/0004-6361:20031704
+    \endverb
+    \keyw{ISM: abundances, ISM: clouds -ISM: molecules, stars: formation, ISM: individual objects: L1498, L1517B}
+  \endentry
+
+  \entry{2011MNRAS.416.1436B}{article}{}
+    \name{labelname}{6}{}{%
+      {{hash=ab8415fe00bc622288944929c7611967}{{Ballesteros-Paredes}}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=df97b2b44927ad38ab0c33c398f77b39}{{Vázquez-Semadeni}}{V\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=6a03fb66c9fd880d64b4939fdd84a854}{{Gazol}}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=8bf5ca5f1ef02787732421ed28fac5d6}{{Hartmann}}{H\bibinitperiod}{L.\bibnamedelimi W.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=d3f92e14bf1e06a27a655d0d29ce696c}{{Heitsch}}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=00d053f97a6451d3573d08011aba81a0}{{Colín}}{C\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{6}{}{%
+      {{hash=ab8415fe00bc622288944929c7611967}{{Ballesteros-Paredes}}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=df97b2b44927ad38ab0c33c398f77b39}{{Vázquez-Semadeni}}{V\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=6a03fb66c9fd880d64b4939fdd84a854}{{Gazol}}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=8bf5ca5f1ef02787732421ed28fac5d6}{{Hartmann}}{H\bibinitperiod}{L.\bibnamedelimi W.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=d3f92e14bf1e06a27a655d0d29ce696c}{{Heitsch}}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=00d053f97a6451d3573d08011aba81a0}{{Colín}}{C\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{42384431e4059f271d1a33cecdaec9d0}
+    \strng{fullhash}{356fa88373dd72518cf4a79c2b3aa1e2}
+    \field{sortinit}{0}
+    \field{eprintclass}{astro-ph.GA}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\mnras}
+    \field{month}{09}
+    \field{title}{{Gravity or turbulence? - II. Evolving column density probability distribution functions in molecular clouds}}
+    \field{volume}{416}
+    \field{year}{2011}
+    \field{pages}{1436\bibrangedash 1442}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2011.19141.x
+    \endverb
+    \verb{eprint}
+    \verb 1105.5411
+    \endverb
+    \keyw{turbulence, stars: formation, ISM: clouds, ISM: general, ISM: kinematics and dynamics}
+  \endentry
+
+  \entry{2013ApJ...766L..17S}{article}{}
+    \name{labelname}{22}{}{%
+      {{hash=8bcefc7dbff375e9de89fb09d4b64181}{{Schneider}}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=4316fff4bebeb4846857be9fe37b2549}{{André}}{A\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=ded3613c873999759e28f52f0f219dce}{{Könyves}}{K\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=3b8c584e70d6010375ba04dce25f6544}{{Bontemps}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=32e046b6cf352cd128235dca3811effd}{{Motte}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=1e61a567c5bf49e6e462edba11ea15a1}{{Federrath}}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=f399c3f426554f52bd5f88b787da0921}{{Ward-Thompson}}{W\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=2f92b789b1d1edd99814ba1aa9947c72}{{Arzoumanian}}{A\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=8dfc541376c977419cc8434029e3800f}{{Benedettini}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=b66e73f8a243894b41c79c8b5bdc23bd}{{Bressert}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=633e005af02b765acef5d4e745885d89}{{Didelon}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=9ce3c24652496883c080351890c461cf}{{Di\bibnamedelimb Francesco}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=12d2cc195c78969afc3932b1c9113304}{{Griffin}}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=5b7480729baaa9e9f707934be26cf566}{{Hennemann}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=3730af369e82ec6b9b05c42b14b1bd22}{{Hill}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=8a144658ca75b83d553530203f2bb231}{{Palmeirim}}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=f1cfaa0da787c62f3c1419b2723e2870}{{Pezzuto}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=00c7ee93a23a267748e1ded0c5db61ec}{{Peretto}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=d82564c5f5e55bafc0e02bb47ad86f77}{{Roy}}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=fbdb4dc55c863f91de305b50ffa900f0}{{Rygl}}{R\bibinitperiod}{K.\bibnamedelimi L.\bibnamedelimi J.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=79236b1c0e38c43c2d1dea8e31d27fa7}{{Spinoglio}}{S\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=6f3249d029fd251f5733bea287b62dec}{{White}}{W\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{22}{}{%
+      {{hash=8bcefc7dbff375e9de89fb09d4b64181}{{Schneider}}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=4316fff4bebeb4846857be9fe37b2549}{{André}}{A\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=ded3613c873999759e28f52f0f219dce}{{Könyves}}{K\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=3b8c584e70d6010375ba04dce25f6544}{{Bontemps}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=32e046b6cf352cd128235dca3811effd}{{Motte}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=1e61a567c5bf49e6e462edba11ea15a1}{{Federrath}}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=f399c3f426554f52bd5f88b787da0921}{{Ward-Thompson}}{W\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=2f92b789b1d1edd99814ba1aa9947c72}{{Arzoumanian}}{A\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=8dfc541376c977419cc8434029e3800f}{{Benedettini}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=b66e73f8a243894b41c79c8b5bdc23bd}{{Bressert}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=633e005af02b765acef5d4e745885d89}{{Didelon}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=9ce3c24652496883c080351890c461cf}{{Di\bibnamedelimb Francesco}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=12d2cc195c78969afc3932b1c9113304}{{Griffin}}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=5b7480729baaa9e9f707934be26cf566}{{Hennemann}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      {{hash=3730af369e82ec6b9b05c42b14b1bd22}{{Hill}}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      {{hash=8a144658ca75b83d553530203f2bb231}{{Palmeirim}}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=f1cfaa0da787c62f3c1419b2723e2870}{{Pezzuto}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      {{hash=00c7ee93a23a267748e1ded0c5db61ec}{{Peretto}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=d82564c5f5e55bafc0e02bb47ad86f77}{{Roy}}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      {{hash=fbdb4dc55c863f91de305b50ffa900f0}{{Rygl}}{R\bibinitperiod}{K.\bibnamedelimi L.\bibnamedelimi J.}{K\bibinitperiod}{}{}{}{}}%
+      {{hash=79236b1c0e38c43c2d1dea8e31d27fa7}{{Spinoglio}}{S\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      {{hash=6f3249d029fd251f5733bea287b62dec}{{White}}{W\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{0118b185978daeb29978327245e2026c}
+    \strng{fullhash}{1f4f0d39578a6f7842cbd65a45f8714b}
+    \field{sortinit}{0}
+    \field{eid}{L17}
+    \field{eprintclass}{astro-ph.GA}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apjl}
+    \field{month}{04}
+    \field{title}{{What Determines the Density Structure of Molecular Clouds? A Case Study of Orion B with Herschel}}
+    \field{volume}{766}
+    \field{year}{2013}
+    \field{pages}{L17}
+    \verb{doi}
+    \verb 10.1088/2041-8205/766/2/L17
+    \endverb
+    \verb{eprint}
+    \verb 1304.0327
+    \endverb
+    \keyw{dust, extinction, ISM: clouds, ISM: structure}
+  \endentry
+
 \endrefsection
 \endinput
 
