@@ -1336,6 +1336,60 @@
     \keyw{dust, extinction, ISM: clouds, ISM: structure}
   \endentry
 
+  \entry{2008ApJ...684..395H}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=b38f808718220bedf05d3529ddc0594c}{{Hennebelle}}{H\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=58829ebe914b883088975a76f8cad884}{{Chabrier}}{C\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=b38f808718220bedf05d3529ddc0594c}{{Hennebelle}}{H\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=58829ebe914b883088975a76f8cad884}{{Chabrier}}{C\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{a500470aa8719b6c91a79642ea606eea}
+    \strng{fullhash}{a500470aa8719b6c91a79642ea606eea}
+    \field{sortinit}{0}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\apj}
+    \field{month}{09}
+    \field{title}{{Analytical Theory for the Initial Mass Function: CO Clumps and Prestellar Cores}}
+    \field{volume}{684}
+    \field{year}{2008}
+    \field{pages}{395\bibrangedash 410}
+    \verb{doi}
+    \verb 10.1086/589916
+    \endverb
+    \verb{eprint}
+    \verb 0805.0691
+    \endverb
+    \keyw{ISM: Clouds, Stars: Formation, Stars: Luminosity Function, Mass Function, Turbulence}
+  \endentry
+
+  \entry{2000ApJ...537..221U}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=09a9832cf521562ed440c21e57fe82c6}{{Ungerechts}}{U\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=19bef0ccf6758d75d2b83995784464bc}{{Umbanhowar}}{U\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=7b463df8f03e6d6f754ae2f97d747aeb}{{Thaddeus}}{T\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=09a9832cf521562ed440c21e57fe82c6}{{Ungerechts}}{U\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      {{hash=19bef0ccf6758d75d2b83995784464bc}{{Umbanhowar}}{U\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=7b463df8f03e6d6f754ae2f97d747aeb}{{Thaddeus}}{T\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{6b72f41230210c5d0d1ca232c314b625}
+    \strng{fullhash}{6b72f41230210c5d0d1ca232c314b625}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{07}
+    \field{title}{{A CO Survey of Giant Molecular Clouds near Cassiopeia A and NGC 7538}}
+    \field{volume}{537}
+    \field{year}{2000}
+    \field{pages}{221\bibrangedash 235}
+    \verb{doi}
+    \verb 10.1086/308992
+    \endverb
+    \keyw{Galaxy: Structure, ISM: Clouds, ISM: individual (NGC 7538), ISM: Molecules}
+  \endentry
+
 \endrefsection
 \endinput
 

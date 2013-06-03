@@ -541,7 +541,7 @@
 
 			综合以上两点，同时基于提高精确度的考虑，我们仍然采用\cob 来计算\nhyd．
 
-		\subsection{速度弥散}
+		\subsection{速度弥散}\label{Sec.VelocityDispersion}
 
 			对于所有的云核，\sigmath 可如下导出：
 
@@ -595,43 +595,93 @@
 
 		各云核的非高斯轮廓形态均列于表 \ref{Tab.ObservedPara}。
 
-		通过P-V图（position-velocity diagram）， 我们可以检验谱线存在线翼的云核是否确实具有高速气体（如外向流）\supercite{2005AJ....129..330W}。 根据P-V图（见图 \ref{Fig.PV}）显示，在我们的全部样本中，仅有2个云核展现出高速气体的特征：
+		通过P-V图（position-velocity diagram）， 我们可以检验谱线存在线翼的云核是否确实具有高速气体（如外向流）\supercite{2005AJ....129..330W}。 
 
-		\begin{figure}[h]
+		\begin{figure}[htbp]
 		\includegraphics[totalheight=52mm]{img_plot/{pv_G164.75-24.19}.eps}
 		\includegraphics[totalheight=52mm]{img_plot/{pv_G173.07-17.89}.eps}
 		\caption{云核G164.75-24.19C2和G173.07-17.89C1的P-V图，位置选取参见附录 \ref{Fig.Map}中的图 \ref{Fig.Map}相应积分强度图上的线段标记。\label{Fig.PV}}.
 		\end{figure}
 
+		根据P-V图（见图 \ref{Fig.PV}）显示，在我们的全部样本中，仅有2个云核展现出高速气体的特征：
 		云核G164.75-24.19C2 的P-V图显示了清晰的外向流特征。 而对于云核G173.07-17.89C1，其P-V图上的凸起顶点位置 和云核位置有显著的偏离， 这说明了云核和周围物质有一定的相互作用， 但同时也伴随着高速湍动。
 
 		即便如此，我们的样本中的绝大多数云核并未发现高速气体的存在，这证明了Planck冷团块“年轻”、“安静”的特征，说明我们的选源是成功的。
 
-	\section{云核内的湍动}
+	\section{云核内的湍动}\label{Sec.Turbulence}
 
 		截至目前的研究揭示：云核尺度的湍动一般是亚音速的，而分子云尺度上湍动是超音速的，相较于热压力，湍动在支撑云核（抵抗重力塌缩）方面作用较小\supercite{1983ApJ...270..105M,2004A&A...416..191T}。然而，对于我们的样本，云核中的湍动较之热运动更加剧烈，占有支配地位。
 
 		我们首先比较了\sigmath 和\sigmant 。如图 \ref{Fig.SigmaTH/SigmaNT}，可见在TMC和CMC中大多数云核都有\sigmant / \sigmath $>1$ ，从而其非热运动压力和热压力的比值$R_p=\frac{\sigma^2_{NT}}{\sigma^2_{Therm} }$ 也总体上大于1。而由于只有两个云核中发现了高速气体的迹象，对于大多数云核来说，这种相对而言大的非热速度弥散很可能是湍动占支配地位造成的。
 
-		\begin{figure}[ht]
+		\begin{figure}[htbp]
 		\includegraphics[totalheight=120mm]{img_plot/VelocityComparison.eps}
 		\caption{在各个区域中，\sigmath ， \sigmant 以及 \sigmath/\sigmant 的分布情况.\label{Fig.SigmaTH/SigmaNT}}
 		\end{figure}
 
 		另外，我们还检验了各个云核\nhyd 的概率分布函数（probability distribution function，下文简称为PDF），亦证实此结论。
-
 		理论计算与数值模拟\supercite{2011MNRAS.416.1436B} 以及最近的观测结果\supercite{2013ApJ...766L..17S}均指出：湍动支配下的云核\nhyd 分布会显示出对数正态（lognormal）型的PDF， 而重力因素会使得分布函数在高\nhyd 范围内出现符合幂律分布的情形（power law tail）。 
-
 		为了定量研究我们云核\nhyd 的PDF，我们采用Kolmogorov–Smirnov检验。依惯例，我们设定拒绝空假设的$p$值为0.05。对立假设为\nhyd 符合对数正态（lognormal）分布。
 
+		在TMC的\numcoretmc 个云核中，84\% 展现出对数正态分布的\nhyd PDF；在CMC的\numcorecmc 个云核中，此比例为69\% 。在我们的样本中，未发现高\nhyd 范围内出现幂律分布的迹象。图\ref{Fig.PDF}出示了典型的三个云核（分属于TMC、PMC和CMC）的PDF以及相应的对数正态分布拟合。
 
-\iffalse
-     	Additionally, the \nhyd probability distribution function (PDF) of our cores also shows the turbulence richness in our samples. As theoretically interpreted by \citet{2011MNRAS.416.1436B} and some of recent observations such as \citet{2013ApJ...766L..17S}, the lognormal PDF of \nhyd suggests that the \nhyd distribution is governed by turbulence, while a power law "tail" in high density part is the result of self-gravity. To investigate the \nhyd PDF of our cores, we adopt the Kolmogorov–Smirnov test and set criteria to be $p > 0.05$ to claim the PDF obeys the lognormal distribution, following \citet{LiuTie}. In the \numcoretmc cores in TMC, 84\% are found with lognormal \nhyd PDF, while in CMC, the proportion is 69\%. Besides this, no power law tail is found in our \nhyd PDF. Four examples of the \nhyd PDF are shown in Figure \ref{Fig. PDF}. 
-    
-     	The dominance of turbulence indicate that the gravitational contracting or collapse is rare in our cores of both regions,  otherwise the turbulence will soon decay on a dynamic timescale (\citealt{shu1987star}).This reflects that \Planck clumps in TMC and CMC are  quiescent and not affected by gravity greatly. 
-\fi
+		\begin{figure}[htbp]
+		\includegraphics[totalheight=62mm]{img_plot/{PDF_G173.60-17.89C2_final}.eps}
+		\includegraphics[totalheight=62mm]{img_plot/{PDF_G159.21-20.12C1_final}.eps}
+		\includegraphics[totalheight=62mm]{img_plot/{PDF_G157.60-12.17bC2_final}.eps}
+		\caption{ TMC、PMC和CMC中典型云核的\nhyd PDF以及相应的对数正态分布拟合\label{Fig.PDF}}.
+		\end{figure}
+
+		湍动在这些云核中的支配地位说明我们的样本中罕有重力作用下的塌缩，否则湍动会在一个动力学时标内耗散殆尽\supercite{shu1987star}。这也证实了Planck冷团块的处在演化早期，同时也能说明重力对这些云核的影响并不明显。
+
 	\section{云核的重力稳定性}
+
+		在分子云中，可能有多重作用共同抵抗重力、支持气体成分，例如热压力、湍动、磁场等。考虑到第\ref{Sec.Turbulence}节中我们已经证实了我们的云核中有丰富的湍动，我们将同时考虑热运动和湍动\supercite{2008ApJ...684..395H}来计算$M_{J}$：
+
+     	\begin{equation}
+        	\frac{M_{J}}{M_\odot} \approx 1.0a_J \left(\frac{T_{eff}}{10 \rm K}\right)  ^{3/2}  \left(\frac{\mu}{2.33}\right) ^{-1/2} \left(\frac{n^{\rm H_{2}}}{10^4\ \rm cm^{-3}}\right)^{-1/2}
+     	\end{equation}
+
+     	其中，$a_J$ 是考虑到维度因素的无量纲量，此处为1. 有效温度 $T_{eff}$ 定义为 :
+
+     	\begin{equation}
+         	T_{eff} \equiv \frac{C^2_{s, eff} \mu m_{H}}{k}
+     	\end{equation}
+
+     	其中， $C_{s, eff}$ 是等效声速，其定义为:
+
+     	\begin{equation}
+       		C_{s, eff} \equiv (\sigma ^2 _{NT}+\sigma ^2 _{Therm})^{1/2}
+     	\end{equation}
+
+     	如果我们假定云核是重力束缚的等温球，并且具有骏一的密度且仅仅被随机运动所支撑，其$M_{vir}$可表示为\supercite{2000ApJ...537..221U}：
+
+     	\begin{equation}
+        	\frac{M_{vir}}{M_\odot} = 2.10\times 10^{2}\left(\frac{R}{\rm pc}\right)\left(\frac{\Delta V}{\rm km\ s^{-1}}\right)^2
+     	\end{equation}
+
+     	其中， $\Delta V $ 是 \coc 或\cob 的FWHM（参见第\ref{Sec.VelocityDispersion}节的讨论）。 由此，我们可以通过比较$M_{vir}$ 和 $M_{LTE}$ 来讨论云核的稳定性。
+
+     	对于TMC和CMC中的云核，我们均进行了$M_{LTE}-M_{J}$以及$M_{LTE}-M_{vir}$的比较，比较结果分别如图 \ref{Fig.Mass}所示。
+
+     	\begin{figure}[htbp]
+			\includegraphics[totalheight=50mm]{img_plot/M_j_tmc.eps}
+			\includegraphics[totalheight=50mm]{img_plot/M_vir_tmc.eps}\\
+			\includegraphics[totalheight=50mm]{img_plot/M_j_cmc.eps}
+			\includegraphics[totalheight=50mm]{img_plot/M_vir_cmc.eps}
+			\caption{左上图: TMC中云核的 $M_{LTE}-M_{J}$ 关系；右上图:TMC中云核的 $M_{LTE}-M_{vir}$ 关系；左下图: CMC中云核的 $M_{LTE}-M_{J}$ 关系；右下图:CMC中云核的 $M_{LTE}-M_{vir}$ 关系.  蓝色虚线表示 $M_{LTE}=M_{J}$ 或 $M_{LTE}=M_{vir}$。\label{Fig.Mass}}
+		\end{figure}
+
+		通过比较，我们发现TMC的\numcoretmc 个云核中有17个$M_J$大于$M_{LTE}$，这表明他们很可能没有重力作用下的塌缩；对于CMC的\numcorecmc 个云核中有10个$M_J$大于$M_{LTE}$，在其余6个$M_{LTE}>M_J$的云核中，三个（G156.92-09.72C1, G157.12-11.56C1, G157.60-12.17bC1） 被发现有蓝色轮廓的谱线，这表明了其中可能存在重力塌缩。值得注意的是，G157.60-12.17bC1是CMC中唯一一个有\sigmath $>$ \sigmant 的云核，这增加了其存在重力塌缩的可能性。
+
+		与此同时，所有的云核都有$M_{vir}>M_{LTE}$。在TMC中，云核的平均 $\alpha=\frac{M_{vir}}{M_{LTE}}$高达51；在CMC中，这个比值更达到58。在TMC中仅4个云核有$\alpha<3$，而其中的63\%都有$\alpha>10$；对于CMC，$\alpha$的均值为$9\pm6$，仅3个云核有$\alpha<3$。两个区域如此巨大的$\alpha$揭示了他们并未处于重力束缚下，很可能正处在演化的过渡阶段。
+
+		需要强调的是，我们不能忽略分辨率对以上分析准确性的影响。在CMC的距离（450 pc）上，我们采用的望远镜的波束投影直径为$\sim 0.1$ pc，意味着其不能很好分辨典型尺寸（$0.03~0.2$ pc）\supercite{2007ARA&A..45..339B}的云核。而考虑到$M_{J}\propto R^{1/2}$、$M_{vir}\propto R$但是 $M_{LTE}\propto R^2$ ：我们可能高估了CMC中云核的$M_{LTE}$（相对于$M_{LTE}$和$M_{J}$）。
+
 	\section{气体-尘埃耦合}
+
+		
+
 	\section{CO丰度}
 	\section{云核的成协情况}
 
