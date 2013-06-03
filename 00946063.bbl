@@ -1390,6 +1390,51 @@
     \keyw{Galaxy: Structure, ISM: Clouds, ISM: individual (NGC 7538), ISM: Molecules}
   \endentry
 
+  \entry{1974ApJ...189..441G}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=725381940299d149c1ade249905b12db}{{Goldreich}}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=54e4f64984f150ebee63f4e0e4028c66}{{Kwan}}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=725381940299d149c1ade249905b12db}{{Goldreich}}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=54e4f64984f150ebee63f4e0e4028c66}{{Kwan}}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{6bd08af894783f8b41c2a45519699147}
+    \strng{fullhash}{6bd08af894783f8b41c2a45519699147}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{05}
+    \field{title}{{Molecular Clouds}}
+    \field{volume}{189}
+    \field{year}{1974}
+    \field{pages}{441\bibrangedash 454}
+    \verb{doi}
+    \verb 10.1086/152821
+    \endverb
+  \endentry
+
+  \entry{2001ApJ...557..736G}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=eb680709ff8b18a6d230e30afd7f9680}{{Goldsmith}}{G\bibinitperiod}{P.\bibnamedelimi F.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=eb680709ff8b18a6d230e30afd7f9680}{{Goldsmith}}{G\bibinitperiod}{P.\bibnamedelimi F.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{eb680709ff8b18a6d230e30afd7f9680}
+    \strng{fullhash}{eb680709ff8b18a6d230e30afd7f9680}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{08}
+    \field{title}{{Molecular Depletion and Thermal Balance in Dark Cloud Cores}}
+    \field{volume}{557}
+    \field{year}{2001}
+    \field{pages}{736\bibrangedash 746}
+    \verb{doi}
+    \verb 10.1086/322255
+    \endverb
+    \keyw{ISM: Clouds, ISM: Globules, ISM: Molecules, Molecular Processes}
+  \endentry
+
 \endrefsection
 \endinput
 
