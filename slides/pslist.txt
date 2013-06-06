@@ -1,0 +1,123 @@
+\begin{figure}[h]
+\centering
+\caption{Spectra at the emission peaks of \numcore cores. For each plot, 3 lines of \coaa \cobb and \cocc are colored red, green and blue respectively.\label{Fig.Spectra}}
+\includegraphics[width=52mm,height=32mm]{G153.34-08.00C1_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G153.34-08.00C2_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G154.68-15.34C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G155.52-08.93_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G156.53-08.63_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G156.90-08.49_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G156.92-09.72C1_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G157.10-08.70_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G157.12-11.56C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G157.12-11.56C2_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G157.12-11.56C3_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G157.19-08.81_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G157.54-04.05C1_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G157.54-04.05C2_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G157.54-04.05C3_spec.ps   }\\
+\end{figure}\clearpage
+\begin{figure}[h]
+\includegraphics[width=52mm,height=32mm]{G157.58-08.89_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G157.60-12.17a_spec.ps    }
+\includegraphics[width=52mm,height=32mm]{G157.60-12.17bC1_spec.ps  }\\
+\includegraphics[width=52mm,height=32mm]{G157.60-12.17bC2_spec.ps  }
+\includegraphics[width=52mm,height=32mm]{G157.91-08.23C1_spec.ps   }
+\includegraphics[width=52mm,height=32mm]{G158.20-20.28_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G158.22-20.14_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G158.24-21.80_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G158.37-20.72_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G158.40-21.86_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G159.01-08.46_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G159.03-08.32_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G159.14-08.76_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G159.16-05.58_spec.ps     }
+\includegraphics[width=52mm,height=32mm]{G159.21-20.12C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G159.65-19.68a_spec.ps    }
+\includegraphics[width=52mm,height=32mm]{G159.65-19.68b_spec.ps    }
+\includegraphics[width=52mm,height=32mm]{G159.67-05.71aC1_spec.ps  }\\
+\end{figure}\clearpage
+\begin{figure}[h]
+\includegraphics[width=52mm,height=32mm]{G159.67-05.71aC2_spec.ps  }  
+\includegraphics[width=52mm,height=32mm]{G159.67-05.71bC1_spec.ps  }  
+\includegraphics[width=52mm,height=32mm]{G159.82-10.48C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G159.82-10.48C2_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G160.35-06.37_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G160.51-16.84_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G160.51-17.07_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G160.53-09.84_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G160.53-19.72C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G160.62-16.70_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G161.08-21.78_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G161.21-08.72_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G162.24-09.04C1_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G162.46-08.70_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G162.86-05.24_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G163.32-08.42_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G164.13-08.85C1_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G164.57-24.48C1_spec.ps   }\\
+end{figure}\clearpage
+\begin{figure}[h]
+\includegraphics[width=52mm,height=32mm]{G164.57-24.48C2_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G164.57-24.48C3_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G164.75-24.19C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G164.75-24.19C2_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G164.81-05.67C1_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G164.92-12.65C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G164.92-12.65C2_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G164.92-12.65C3_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G166.99-15.34C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G168.00-15.69_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G168.13-16.39a_spec.ps    }  
+\includegraphics[width=52mm,height=32mm]{G168.13-16.39b_spec.ps    }\\
+\includegraphics[width=52mm,height=32mm]{G169.76-16.15a_spec.ps    }  
+\includegraphics[width=52mm,height=32mm]{G169.76-16.15b_spec.ps    }  
+\includegraphics[width=52mm,height=32mm]{G169.82-19.39_spec.ps     }\\
+\includegraphics[width=52mm,height=32mm]{G169.98-18.97_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G170.13-16.06a_spec.ps    }  
+\includegraphics[width=52mm,height=32mm]{G170.13-16.06b_spec.ps    }\\
+end{figure}\clearpage
+\begin{figure}[h]
+\includegraphics[width=52mm,height=32mm]{G170.26-16.02_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G170.57-07.85_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G170.88-10.92_spec.ps     }\\  
+\includegraphics[width=52mm,height=32mm]{G171.43-17.36_spec.ps     }    
+\includegraphics[width=52mm,height=32mm]{G172.13-16.93_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G172.83-05.17C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G172.85-14.74_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G172.92-16.74a_spec.ps    }  
+\includegraphics[width=52mm,height=32mm]{G172.92-16.74b_spec.ps    }\\
+\includegraphics[width=52mm,height=32mm]{G172.94-05.49C1_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G173.07-17.89C1_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G173.07-17.89C2_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G173.45-05.43_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G173.60-17.89C1_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G173.60-17.89C2_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G173.91-16.25_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G174.06-15.81_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G174.39-13.43_spec.ps     }\\
+end{figure}\clearpage
+\begin{figure}[h]
+\includegraphics[width=52mm,height=32mm]{G174.70-15.48C1_spec.ps   }  
+\includegraphics[width=52mm,height=32mm]{G175.16-16.74_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G175.97-20.38C1_spec.ps   }\\
+\includegraphics[width=52mm,height=32mm]{G176.46-21.10_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G177.60-20.58_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G177.89-20.16a_spec.ps    }\\
+\includegraphics[width=52mm,height=32mm]{G177.89-20.16b_spec.ps    }  
+\includegraphics[width=52mm,height=32mm]{G177.97-09.72_spec.ps     }  
+\includegraphics[width=52mm,height=32mm]{G182.19-17.71a_spec.ps    }\\
+\includegraphics[width=52mm,height=32mm]{G182.19-17.71b_spec.ps    }  
+end{figure}\clearpage
+                                                                        
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    

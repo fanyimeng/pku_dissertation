@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  3 JUN 2013 21:30
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2013.3.25)  6 JUN 2013 13:18
 entering extended mode
 **00946063.tex
 (D:\Dissertation\00946063.tex
@@ -1209,7 +1209,15 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'UTF-8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '00946063.bbl' found.
-(D:\Dissertation\00946063.bbl)
+(D:\Dissertation\00946063.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                2004ARA&A..42...79B
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 138.
 Package biblatex Info: Reference segment=0 on input line 138.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1660,30 +1668,32 @@ Requested font "[lmromancaps10-regular]:mapping=tex-text" at 15.06pt
 .................................................
 Requested font "FZHei-B01S/ICU:mapping=tex-text;" at 15.06pt
  -> C:/Windows/Fonts/FZheitiS.TTF
+Requested font "[lmroman8-bold]:mapping=tex-text" at 8.0pt
+ -> C:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman8-bold.otf
+[1
 
-Overfull \hbox (13.46378pt too wide) in paragraph at lines 170--173
+
+]
+Overfull \hbox (13.46378pt too wide) in paragraph at lines 183--186
 []\xeCJK@rm/m/n/12.05 分 子 云 呈 现 |“层 级 状”| 结 构$[]$，| �
 �� 常 将 其 分 为 分 子 云 |（\EU1/lmr/m/n/12.05 Cloud\xeCJK@rm/m/n/12
 .05 ）|、| 团 块 |（\EU1/lmr/m/n/12.05 Clump\xeCJK@rm/m/n/12.05 ）|、|
  []
 
-[1
-
-
-]
+[2]
 Requested font "[lmroman12-regular]:mapping=tex-text" at 14.05pt
  -> C:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman12-regular.otf
+ [3]
+Underfull \vbox (badness 6364) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-[3] [4] [5] [6
-
-]
+ [4]
+[5] [6]
 第二章
 Requested font "[lmroman9-regular]:mapping=tex-text" at 9.03pt
  -> C:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman9-regular.otf
-[7]
+[7
+
+]
 Requested font "[lmroman5-regular]:mapping=tex-text" at 5.0pt
  -> C:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman5-regular.otf
 Requested font "cmmi9" at 9.03pt
@@ -1728,14 +1738,14 @@ Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 9.03pt
 93.TTF
  (D:\Dissertation\data/sourcelist.tex [8] [9]) [10]
 第三章
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 340 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
 File: img_plot/SpatiaDist_Velocity_Overlay.eps Graphic file (type eps)
 <img_plot/SpatiaDist_Velocity_Overlay.eps>
 Requested font "[lmroman7-regular]:mapping=tex-text" at 7.0pt
@@ -1762,7 +1772,7 @@ Requested font "cmr10" at 10.54pt
 
 ] [12]
 (D:\Dissertation\data/observedpara.tex
-Overfull \hbox (0.17322pt too wide) in paragraph at lines 399--21
+Overfull \hbox (0.17322pt too wide) in paragraph at lines 412--21
  [] 
  []
 
@@ -1809,19 +1819,19 @@ Requested font "FZJPShuSong-Z01S/ICU:mapping=tex-text;" at 7.53pt
 93.TTF
 
 (D:\Dissertation\data/physicalpara.tex
-Overfull \hbox (11.27907pt too wide) in paragraph at lines 455--26
+Overfull \hbox (11.27907pt too wide) in paragraph at lines 469--26
  [] 
  []
 
 [16
 
 ])
-Overfull \hbox (6.83636pt too wide) in paragraph at lines 26--458
+Overfull \hbox (6.83636pt too wide) in paragraph at lines 26--472
  [] 
  []
 
 [17] (D:\Dissertation\data/physicalpara_stat.tex)
-Overfull \hbox (34.3195pt too wide) in paragraph at lines 1--472
+Overfull \hbox (34.3195pt too wide) in paragraph at lines 1--486
  [] 
  []
 
@@ -1837,57 +1847,57 @@ Underfull \vbox (badness 2073) has occurred while \output is active []
 
 ]
 第四章
-Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 601 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
 File: img_plot/pv_G164.75-24.19.eps Graphic file (type eps)
 <img_plot/pv_G164.75-24.19.eps>
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 616 replaced by U+FFFD.
 File: img_plot/pv_G173.07-17.89.eps Graphic file (type eps)
  <img_plot/pv_G173.07-17.89.eps> [23]
 File: img_plot/VelocityComparison.eps Graphic file (type eps)
 
 <img_plot/VelocityComparison.eps>
-Invalid UTF-8 byte or sequence at line 629 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 629 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 629 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 629 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 629 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 629 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
 File: img_plot/PDF_G173.60-17.89C2_final.eps Graphic file (type eps)
  <img_plot/PDF_G173.60-17.89C2_final.eps>
-Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 644 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 644 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 644 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 644 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 644 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 644 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 644 replaced by U+FFFD.
 File: img_plot/PDF_G159.21-20.12C1_final.eps Graphic file (type eps)
 
 <img_plot/PDF_G159.21-20.12C1_final.eps>
-Invalid UTF-8 byte or sequence at line 631 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 631 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 631 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 631 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 631 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 631 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 645 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 645 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 645 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 645 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 645 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 645 replaced by U+FFFD.
 File: img_plot/PDF_G157.60-12.17bC2_final.eps Graphic file (type eps)
 
 <img_plot/PDF_G157.60-12.17bC2_final.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 629--632
+Underfull \hbox (badness 10000) in paragraph at lines 643--646
 [][] []
  []
 
@@ -1902,7 +1912,7 @@ File: img_plot/M_j_cmc.eps Graphic file (type eps)
 File: img_plot/M_vir_cmc.eps Graphic file (type eps)
  <img_plot/M_vir_cmc.eps> [27] [28]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 679.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 693.
 
 File: img_plot/Gas-Dust_EB_Core.eps Graphic file (type eps)
 <img_plot/Gas-Dust_EB_Core.eps> [29] [30]
@@ -1936,13 +1946,13 @@ Underfull \vbox (badness 1776) has occurred while \output is active []
 ] [34] [35] [36
 
 ]
-Overfull \hbox (10.8456pt too wide) in paragraph at lines 772--772
+Overfull \hbox (10.8456pt too wide) in paragraph at lines 786--786
 []\EU1/lmr/m/n/12.05 Planck Collaboration. “\EU1/lmr/m/it/12.05 Planck Early 
 Release Compact Source Catalogue (Planck,
  []
 
 [37] [38] [39] [40]
-Overfull \hbox (2.80417pt too wide) in paragraph at lines 772--772
+Overfull \hbox (2.80417pt too wide) in paragraph at lines 786--786
 \EU1/lmr/m/it/12.05 monoxide abundance and visual extinction in interstellar cl
 ouds\EU1/lmr/m/n/12.05 ”. \EU1/lmr/m/it/12.05 ApJ\EU1/lmr/m/n/12.05 , 1982[]1
 1:
@@ -1952,1287 +1962,36 @@ ouds\EU1/lmr/m/n/12.05 ”. \EU1/lmr/m/it/12.05 ApJ\EU1/lmr/m/n/12.05 , 1982[]1
 
 ]
 附录\nobreakspace {}A
-(D:\Dissertation\filelist/spectra.tex
-File: img_spec/G153.34-08.00C1_spec.ps Graphic file (type eps)
- <img_spec/G153.34-08.00C1_spec.ps>
-File: img_spec/G153.34-08.00C2_spec.ps Graphic file (type eps)
-
-<img_spec/G153.34-08.00C2_spec.ps>
-File: img_spec/G154.68-15.34C1_spec.ps Graphic file (type eps)
- <img_spec/G154.68-15.34C1_spec.ps>
-File: img_spec/G155.52-08.93_spec.ps Graphic file (type eps)
-
-<img_spec/G155.52-08.93_spec.ps>
-File: img_spec/G156.53-08.63_spec.ps Graphic file (type eps)
- <img_spec/G156.53-08.63_spec.ps>
-File: img_spec/G156.90-08.49_spec.ps Graphic file (type eps)
-
-<img_spec/G156.90-08.49_spec.ps>
-File: img_spec/G156.92-09.72C1_spec.ps Graphic file (type eps)
- <img_spec/G156.92-09.72C1_spec.ps>
-File: img_spec/G157.10-08.70_spec.ps Graphic file (type eps)
-
-<img_spec/G157.10-08.70_spec.ps>
-File: img_spec/G157.12-11.56C1_spec.ps Graphic file (type eps)
- <img_spec/G157.12-11.56C1_spec.ps>
-File: img_spec/G157.12-11.56C2_spec.ps Graphic file (type eps)
-
-<img_spec/G157.12-11.56C2_spec.ps>
-File: img_spec/G157.12-11.56C3_spec.ps Graphic file (type eps)
- <img_spec/G157.12-11.56C3_spec.ps>
-File: img_spec/G157.19-08.81_spec.ps Graphic file (type eps)
-
-<img_spec/G157.19-08.81_spec.ps>
-File: img_spec/G157.58-08.89_spec.ps Graphic file (type eps)
- <img_spec/G157.58-08.89_spec.ps>
-File: img_spec/G157.60-12.17a_spec.ps Graphic file (type eps)
-
-<img_spec/G157.60-12.17a_spec.ps>
-File: img_spec/G157.60-12.17bC1_spec.ps Graphic file (type eps)
- <img_spec/G157.60-12.17bC1_spec.ps>
-File: img_spec/G157.60-12.17bC2_spec.ps Graphic file (type eps)
-
-<img_spec/G157.60-12.17bC2_spec.ps>
-File: img_spec/G157.91-08.23C1_spec.ps Graphic file (type eps)
- <img_spec/G157.91-08.23C1_spec.ps>
-File: img_spec/G158.20-20.28_spec.ps Graphic file (type eps)
-
-<img_spec/G158.20-20.28_spec.ps>
-File: img_spec/G158.22-20.14_spec.ps Graphic file (type eps)
- <img_spec/G158.22-20.14_spec.ps>
-File: img_spec/G158.24-21.80_spec.ps Graphic file (type eps)
-
-<img_spec/G158.24-21.80_spec.ps>
-File: img_spec/G158.37-20.72_spec.ps Graphic file (type eps)
- <img_spec/G158.37-20.72_spec.ps>
-File: img_spec/G158.40-21.86_spec.ps Graphic file (type eps)
-
-<img_spec/G158.40-21.86_spec.ps>
-File: img_spec/G159.01-08.46_spec.ps Graphic file (type eps)
- <img_spec/G159.01-08.46_spec.ps>
-File: img_spec/G159.03-08.32_spec.ps Graphic file (type eps)
-
-<img_spec/G159.03-08.32_spec.ps>
-File: img_spec/G159.14-08.76_spec.ps Graphic file (type eps)
- <img_spec/G159.14-08.76_spec.ps>
-File: img_spec/G159.16-05.58_spec.ps Graphic file (type eps)
-
-<img_spec/G159.16-05.58_spec.ps>
-File: img_spec/G159.21-20.12C1_spec.ps Graphic file (type eps)
- <img_spec/G159.21-20.12C1_spec.ps>
-File: img_spec/G159.65-19.68a_spec.ps Graphic file (type eps)
-
-<img_spec/G159.65-19.68a_spec.ps>
-File: img_spec/G159.65-19.68b_spec.ps Graphic file (type eps)
- <img_spec/G159.65-19.68b_spec.ps>
-File: img_spec/G159.67-05.71aC1_spec.ps Graphic file (type eps)
-
-<img_spec/G159.67-05.71aC1_spec.ps>
-File: img_spec/G159.67-05.71aC2_spec.ps Graphic file (type eps)
- <img_spec/G159.67-05.71aC2_spec.ps>
-File: img_spec/G159.67-05.71bC1_spec.ps Graphic file (type eps)
-
-<img_spec/G159.67-05.71bC1_spec.ps>
-File: img_spec/G159.82-10.48C1_spec.ps Graphic file (type eps)
- <img_spec/G159.82-10.48C1_spec.ps>
-File: img_spec/G159.82-10.48C2_spec.ps Graphic file (type eps)
-
-<img_spec/G159.82-10.48C2_spec.ps>
-File: img_spec/G160.35-06.37_spec.ps Graphic file (type eps)
- <img_spec/G160.35-06.37_spec.ps>
-File: img_spec/G160.51-16.84_spec.ps Graphic file (type eps)
-
-<img_spec/G160.51-16.84_spec.ps>
-File: img_spec/G160.51-17.07_spec.ps Graphic file (type eps)
- <img_spec/G160.51-17.07_spec.ps>
-File: img_spec/G160.53-09.84_spec.ps Graphic file (type eps)
-
-<img_spec/G160.53-09.84_spec.ps>
-File: img_spec/G160.53-19.72C1_spec.ps Graphic file (type eps)
- <img_spec/G160.53-19.72C1_spec.ps>
-File: img_spec/G160.62-16.70_spec.ps Graphic file (type eps)
-
-<img_spec/G160.62-16.70_spec.ps>
-File: img_spec/G161.08-21.78_spec.ps Graphic file (type eps)
- <img_spec/G161.08-21.78_spec.ps>
-File: img_spec/G161.21-08.72_spec.ps Graphic file (type eps)
-
-<img_spec/G161.21-08.72_spec.ps>
-File: img_spec/G162.24-09.04C1_spec.ps Graphic file (type eps)
- <img_spec/G162.24-09.04C1_spec.ps>
-File: img_spec/G162.46-08.70_spec.ps Graphic file (type eps)
-
-<img_spec/G162.46-08.70_spec.ps>
-File: img_spec/G162.86-05.24_spec.ps Graphic file (type eps)
- <img_spec/G162.86-05.24_spec.ps>
-File: img_spec/G163.32-08.42_spec.ps Graphic file (type eps)
-
-<img_spec/G163.32-08.42_spec.ps>
-File: img_spec/G164.13-08.85C1_spec.ps Graphic file (type eps)
- <img_spec/G164.13-08.85C1_spec.ps>
-File: img_spec/G164.57-24.48C1_spec.ps Graphic file (type eps)
-
-<img_spec/G164.57-24.48C1_spec.ps>
-File: img_spec/G164.57-24.48C2_spec.ps Graphic file (type eps)
- <img_spec/G164.57-24.48C2_spec.ps>
-File: img_spec/G164.57-24.48C3_spec.ps Graphic file (type eps)
-
-<img_spec/G164.57-24.48C3_spec.ps>
-File: img_spec/G164.75-24.19C1_spec.ps Graphic file (type eps)
- <img_spec/G164.75-24.19C1_spec.ps>
-File: img_spec/G164.75-24.19C2_spec.ps Graphic file (type eps)
-
-<img_spec/G164.75-24.19C2_spec.ps>
-File: img_spec/G164.81-05.67C1_spec.ps Graphic file (type eps)
- <img_spec/G164.81-05.67C1_spec.ps>
-File: img_spec/G164.92-12.65C1_spec.ps Graphic file (type eps)
-
-<img_spec/G164.92-12.65C1_spec.ps>
-File: img_spec/G164.92-12.65C2_spec.ps Graphic file (type eps)
- <img_spec/G164.92-12.65C2_spec.ps>
-File: img_spec/G164.92-12.65C3_spec.ps Graphic file (type eps)
-
-<img_spec/G164.92-12.65C3_spec.ps>
-File: img_spec/G166.99-15.34C1_spec.ps Graphic file (type eps)
- <img_spec/G166.99-15.34C1_spec.ps>
-File: img_spec/G168.00-15.69_spec.ps Graphic file (type eps)
-
-<img_spec/G168.00-15.69_spec.ps>
-File: img_spec/G168.13-16.39a_spec.ps Graphic file (type eps)
- <img_spec/G168.13-16.39a_spec.ps>
-File: img_spec/G168.13-16.39b_spec.ps Graphic file (type eps)
-
-<img_spec/G168.13-16.39b_spec.ps>
-File: img_spec/G169.76-16.15a_spec.ps Graphic file (type eps)
- <img_spec/G169.76-16.15a_spec.ps>
-File: img_spec/G169.76-16.15b_spec.ps Graphic file (type eps)
-
-<img_spec/G169.76-16.15b_spec.ps>
-File: img_spec/G169.82-19.39_spec.ps Graphic file (type eps)
- <img_spec/G169.82-19.39_spec.ps>
-File: img_spec/G169.98-18.97_spec.ps Graphic file (type eps)
-
-<img_spec/G169.98-18.97_spec.ps>
-File: img_spec/G170.13-16.06a_spec.ps Graphic file (type eps)
- <img_spec/G170.13-16.06a_spec.ps>
-File: img_spec/G170.13-16.06b_spec.ps Graphic file (type eps)
-
-<img_spec/G170.13-16.06b_spec.ps>
-File: img_spec/G170.26-16.02_spec.ps Graphic file (type eps)
- <img_spec/G170.26-16.02_spec.ps>
-File: img_spec/G170.57-07.85_spec.ps Graphic file (type eps)
-
-<img_spec/G170.57-07.85_spec.ps>
-File: img_spec/G170.88-10.92_spec.ps Graphic file (type eps)
- <img_spec/G170.88-10.92_spec.ps>
-File: img_spec/G171.43-17.36_spec.ps Graphic file (type eps)
-
-<img_spec/G171.43-17.36_spec.ps>
-File: img_spec/G172.13-16.93_spec.ps Graphic file (type eps)
- <img_spec/G172.13-16.93_spec.ps>
-File: img_spec/G172.83-05.17C1_spec.ps Graphic file (type eps)
-
-<img_spec/G172.83-05.17C1_spec.ps>
-File: img_spec/G172.85-14.74_spec.ps Graphic file (type eps)
- <img_spec/G172.85-14.74_spec.ps>
-File: img_spec/G172.92-16.74a_spec.ps Graphic file (type eps)
-
-<img_spec/G172.92-16.74a_spec.ps>
-File: img_spec/G172.92-16.74b_spec.ps Graphic file (type eps)
- <img_spec/G172.92-16.74b_spec.ps>
-File: img_spec/G172.94-05.49C1_spec.ps Graphic file (type eps)
-
-<img_spec/G172.94-05.49C1_spec.ps>
-File: img_spec/G173.07-17.89C1_spec.ps Graphic file (type eps)
- <img_spec/G173.07-17.89C1_spec.ps>
-File: img_spec/G173.07-17.89C2_spec.ps Graphic file (type eps)
-
-<img_spec/G173.07-17.89C2_spec.ps>
-File: img_spec/G173.45-05.43_spec.ps Graphic file (type eps)
- <img_spec/G173.45-05.43_spec.ps>
-File: img_spec/G173.60-17.89C1_spec.ps Graphic file (type eps)
-
-<img_spec/G173.60-17.89C1_spec.ps>
-File: img_spec/G173.60-17.89C2_spec.ps Graphic file (type eps)
- <img_spec/G173.60-17.89C2_spec.ps>
-File: img_spec/G173.91-16.25_spec.ps Graphic file (type eps)
-
-<img_spec/G173.91-16.25_spec.ps>
-File: img_spec/G174.06-15.81_spec.ps Graphic file (type eps)
- <img_spec/G174.06-15.81_spec.ps>
-File: img_spec/G174.39-13.43_spec.ps Graphic file (type eps)
-
-<img_spec/G174.39-13.43_spec.ps>
-File: img_spec/G174.70-15.48C1_spec.ps Graphic file (type eps)
- <img_spec/G174.70-15.48C1_spec.ps>
-File: img_spec/G175.16-16.74_spec.ps Graphic file (type eps)
-
-<img_spec/G175.16-16.74_spec.ps>
-File: img_spec/G175.97-20.38C1_spec.ps Graphic file (type eps)
- <img_spec/G175.97-20.38C1_spec.ps>
-File: img_spec/G176.46-21.10_spec.ps Graphic file (type eps)
-
-<img_spec/G176.46-21.10_spec.ps>
-File: img_spec/G177.60-20.58_spec.ps Graphic file (type eps)
- <img_spec/G177.60-20.58_spec.ps>
-File: img_spec/G177.89-20.16a_spec.ps Graphic file (type eps)
-
-<img_spec/G177.89-20.16a_spec.ps>
-File: img_spec/G177.89-20.16b_spec.ps Graphic file (type eps)
- <img_spec/G177.89-20.16b_spec.ps>
-File: img_spec/G177.97-09.72_spec.ps Graphic file (type eps)
-
-<img_spec/G177.97-09.72_spec.ps>
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
- [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46])
-[47] [48
+[43] [44
 
 ]
 附录\nobreakspace {}B
-(D:\Dissertation\filelist/maps.tex
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 2 replaced by U+FFFD.
-File: img_maps/G153.34-08.00.eps Graphic file (type eps)
- <img_maps/G153.34-08.00.eps>
-Overfull \hbox (8.53291pt too wide) in paragraph at lines 2--2
- [][] 
- []
+[45] [46
 
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
-File: img_maps/G154.68-15.34.eps Graphic file (type eps)
-<img_maps/G154.68-15.34.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 3--3
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-File: img_maps/G155.52-08.93.eps Graphic file (type eps)
-<img_maps/G155.52-08.93.eps>
-Overfull \hbox (8.52768pt too wide) in paragraph at lines 4--4
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 5 replaced by U+FFFD.
-File: img_maps/G156.53-08.63.eps Graphic file (type eps)
-<img_maps/G156.53-08.63.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 5--5
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
-File: img_maps/G156.90-08.49.eps Graphic file (type eps)
-<img_maps/G156.90-08.49.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 6--6
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 7 replaced by U+FFFD.
-File: img_maps/G156.92-09.72.eps Graphic file (type eps)
-<img_maps/G156.92-09.72.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 7--7
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
-File: img_maps/G157.10-08.70.eps Graphic file (type eps)
-<img_maps/G157.10-08.70.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 8--8
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
-File: img_maps/G157.12-11.56.eps Graphic file (type eps)
-<img_maps/G157.12-11.56.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 9--9
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-File: img_maps/G157.19-08.81.eps Graphic file (type eps)
-<img_maps/G157.19-08.81.eps>
-Overfull \hbox (8.5317pt too wide) in paragraph at lines 10--10
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-File: img_maps/G157.58-08.89.eps Graphic file (type eps)
-<img_maps/G157.58-08.89.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 11--11
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
-File: img_maps/G157.60-12.17.eps Graphic file (type eps)
-<img_maps/G157.60-12.17.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 12--12
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 13 replaced by U+FFFD.
-File: img_maps/G157.60-12.17b.eps Graphic file (type eps)
-<img_maps/G157.60-12.17b.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 13--13
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 14 replaced by U+FFFD.
-File: img_maps/G157.91-08.23.eps Graphic file (type eps)
-<img_maps/G157.91-08.23.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 14--14
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 15 replaced by U+FFFD.
-File: img_maps/G158.20-20.28.eps Graphic file (type eps)
-<img_maps/G158.20-20.28.eps>
-Overfull \hbox (8.53291pt too wide) in paragraph at lines 15--15
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 16 replaced by U+FFFD.
-File: img_maps/G158.22-20.14.eps Graphic file (type eps)
-<img_maps/G158.22-20.14.eps>
-Overfull \hbox (8.535pt too wide) in paragraph at lines 16--16
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 17 replaced by U+FFFD.
-File: img_maps/G158.24-21.80.eps Graphic file (type eps)
-<img_maps/G158.24-21.80.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 17--17
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
-File: img_maps/G158.37-20.72.eps Graphic file (type eps)
-<img_maps/G158.37-20.72.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 18--18
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-File: img_maps/G158.40-21.86.eps Graphic file (type eps)
-<img_maps/G158.40-21.86.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 19--19
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 20 replaced by U+FFFD.
-File: img_maps/G159.01-08.46.eps Graphic file (type eps)
-<img_maps/G159.01-08.46.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 20--20
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 21 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 21 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 21 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 21 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 21 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 21 replaced by U+FFFD.
-File: img_maps/G159.03-08.32.eps Graphic file (type eps)
-<img_maps/G159.03-08.32.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 21--21
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
-File: img_maps/G159.14-08.76.eps Graphic file (type eps)
-<img_maps/G159.14-08.76.eps>
-Overfull \hbox (8.53058pt too wide) in paragraph at lines 22--22
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 23 replaced by U+FFFD.
-File: img_maps/G159.16-05.58.eps Graphic file (type eps)
-<img_maps/G159.16-05.58.eps>
-Overfull \hbox (8.5363pt too wide) in paragraph at lines 23--23
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
-File: img_maps/G159.21-20.12.eps Graphic file (type eps)
-<img_maps/G159.21-20.12.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 24--24
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 25 replaced by U+FFFD.
-File: img_maps/G159.65-19.68.eps Graphic file (type eps)
-<img_maps/G159.65-19.68.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 25--25
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 26 replaced by U+FFFD.
-File: img_maps/G159.65-19.68b.eps Graphic file (type eps)
-<img_maps/G159.65-19.68b.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 26--26
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 27 replaced by U+FFFD.
-File: img_maps/G159.67-05.71.eps Graphic file (type eps)
-<img_maps/G159.67-05.71.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 27--27
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 28 replaced by U+FFFD.
-File: img_maps/G159.82-10.48.eps Graphic file (type eps)
-<img_maps/G159.82-10.48.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 28--28
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-File: img_maps/G160.35-06.37.eps Graphic file (type eps)
-<img_maps/G160.35-06.37.eps>
-Overfull \hbox (8.52768pt too wide) in paragraph at lines 29--29
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
-File: img_maps/G160.51-16.84.eps Graphic file (type eps)
-<img_maps/G160.51-16.84.eps>
-Overfull \hbox (8.5346pt too wide) in paragraph at lines 30--30
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 31 replaced by U+FFFD.
-File: img_maps/G160.51-17.07.eps Graphic file (type eps)
-<img_maps/G160.51-17.07.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 31--31
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 32 replaced by U+FFFD.
-File: img_maps/G160.53-09.84.eps Graphic file (type eps)
-<img_maps/G160.53-09.84.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 32--32
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 33 replaced by U+FFFD.
-File: img_maps/G160.53-19.72.eps Graphic file (type eps)
-<img_maps/G160.53-19.72.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 33--33
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
-File: img_maps/G160.62-16.70.eps Graphic file (type eps)
-<img_maps/G160.62-16.70.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 34--34
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-File: img_maps/G161.08-21.78.eps Graphic file (type eps)
-<img_maps/G161.08-21.78.eps>
-Overfull \hbox (8.52768pt too wide) in paragraph at lines 35--35
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
-File: img_maps/G161.21-08.72.eps Graphic file (type eps)
-<img_maps/G161.21-08.72.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 36--36
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 37 replaced by U+FFFD.
-File: img_maps/G162.24-09.04.eps Graphic file (type eps)
-<img_maps/G162.24-09.04.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 37--37
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 38 replaced by U+FFFD.
-File: img_maps/G162.46-08.70.eps Graphic file (type eps)
-<img_maps/G162.46-08.70.eps>
-Overfull \hbox (8.53746pt too wide) in paragraph at lines 38--38
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 39 replaced by U+FFFD.
-File: img_maps/G162.86-05.24.eps Graphic file (type eps)
-<img_maps/G162.86-05.24.eps>
-Overfull \hbox (8.5363pt too wide) in paragraph at lines 39--39
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 40 replaced by U+FFFD.
-File: img_maps/G163.32-08.42.eps Graphic file (type eps)
-<img_maps/G163.32-08.42.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 40--40
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 41 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 41 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 41 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 41 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 41 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 41 replaced by U+FFFD.
-File: img_maps/G164.13-08.85.eps Graphic file (type eps)
-<img_maps/G164.13-08.85.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 41--41
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
-File: img_maps/G164.57-24.48.eps Graphic file (type eps)
-<img_maps/G164.57-24.48.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 42--42
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-File: img_maps/G164.75-24.19.eps Graphic file (type eps)
-<img_maps/G164.75-24.19.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 43--43
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
-File: img_maps/G164.81-05.67.eps Graphic file (type eps)
-<img_maps/G164.81-05.67.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 44--44
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
-File: img_maps/G164.92-12.65.eps Graphic file (type eps)
-<img_maps/G164.92-12.65.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 45--45
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-File: img_maps/G166.99-15.34.eps Graphic file (type eps)
-<img_maps/G166.99-15.34.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 46--46
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 47 replaced by U+FFFD.
-File: img_maps/G168.00-15.69.eps Graphic file (type eps)
-<img_maps/G168.00-15.69.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 47--47
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
-File: img_maps/G168.13-16.39.eps Graphic file (type eps)
-<img_maps/G168.13-16.39.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 48--48
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 49 replaced by U+FFFD.
-File: img_maps/G169.76-16.15.eps Graphic file (type eps)
-<img_maps/G169.76-16.15.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 49--49
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-File: img_maps/G169.76-16.15b.eps Graphic file (type eps)
-<img_maps/G169.76-16.15b.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 50--50
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 51 replaced by U+FFFD.
-File: img_maps/G169.82-19.39.eps Graphic file (type eps)
-<img_maps/G169.82-19.39.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 51--51
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-File: img_maps/G169.98-18.97.eps Graphic file (type eps)
-<img_maps/G169.98-18.97.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 52--52
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 53 replaced by U+FFFD.
-File: img_maps/G170.13-16.06.eps Graphic file (type eps)
-<img_maps/G170.13-16.06.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 53--53
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
-File: img_maps/G170.26-16.02.eps Graphic file (type eps)
-<img_maps/G170.26-16.02.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 54--54
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 55 replaced by U+FFFD.
-File: img_maps/G170.57-07.85.eps Graphic file (type eps)
-<img_maps/G170.57-07.85.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 55--55
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
-File: img_maps/G170.88-10.92.eps Graphic file (type eps)
-<img_maps/G170.88-10.92.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 56--56
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
-File: img_maps/G171.43-17.36.eps Graphic file (type eps)
-<img_maps/G171.43-17.36.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 57--57
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 58 replaced by U+FFFD.
-File: img_maps/G172.13-16.93.eps Graphic file (type eps)
-<img_maps/G172.13-16.93.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 58--58
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 59 replaced by U+FFFD.
-File: img_maps/G172.83-05.17.eps Graphic file (type eps)
-<img_maps/G172.83-05.17.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 59--59
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 60 replaced by U+FFFD.
-File: img_maps/G172.85-14.74.eps Graphic file (type eps)
-<img_maps/G172.85-14.74.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 60--60
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 61 replaced by U+FFFD.
-File: img_maps/G172.92-16.74.eps Graphic file (type eps)
-<img_maps/G172.92-16.74.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 61--61
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 62 replaced by U+FFFD.
-File: img_maps/G172.92-16.74b.eps Graphic file (type eps)
-<img_maps/G172.92-16.74b.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 62--62
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-File: img_maps/G172.94-05.49.eps Graphic file (type eps)
-<img_maps/G172.94-05.49.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 63--63
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
-File: img_maps/G173.07-17.89.eps Graphic file (type eps)
-<img_maps/G173.07-17.89.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 64--64
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-File: img_maps/G173.45-05.43.eps Graphic file (type eps)
-<img_maps/G173.45-05.43.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 65--65
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
-File: img_maps/G173.60-17.89.eps Graphic file (type eps)
-<img_maps/G173.60-17.89.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 66--66
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
-File: img_maps/G173.91-16.25.eps Graphic file (type eps)
-<img_maps/G173.91-16.25.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 67--67
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 68 replaced by U+FFFD.
-File: img_maps/G174.06-15.81.eps Graphic file (type eps)
-<img_maps/G174.06-15.81.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 68--68
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 69 replaced by U+FFFD.
-File: img_maps/G174.39-13.43.eps Graphic file (type eps)
-<img_maps/G174.39-13.43.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 69--69
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 70 replaced by U+FFFD.
-File: img_maps/G174.70-15.48.eps Graphic file (type eps)
-<img_maps/G174.70-15.48.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 70--70
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 71 replaced by U+FFFD.
-File: img_maps/G175.16-16.74.eps Graphic file (type eps)
-<img_maps/G175.16-16.74.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 71--71
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 72 replaced by U+FFFD.
-File: img_maps/G175.97-20.38.eps Graphic file (type eps)
-<img_maps/G175.97-20.38.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 72--72
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 73 replaced by U+FFFD.
-File: img_maps/G176.46-21.10.eps Graphic file (type eps)
-<img_maps/G176.46-21.10.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 73--73
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
-File: img_maps/G177.60-20.58.eps Graphic file (type eps)
-<img_maps/G177.60-20.58.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 74--74
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-File: img_maps/G177.89-20.16.eps Graphic file (type eps)
-<img_maps/G177.89-20.16.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 75--75
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 76 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 76 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 76 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 76 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 76 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 76 replaced by U+FFFD.
-File: img_maps/G177.89-20.16b.eps Graphic file (type eps)
-<img_maps/G177.89-20.16b.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 76--76
- [][] 
- []
-
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 77 replaced by U+FFFD.
-File: img_maps/G177.97-09.72.eps Graphic file (type eps)
-<img_maps/G177.97-09.72.eps>
-Overfull \hbox (8.5306pt too wide) in paragraph at lines 77--77
- [][] 
- []
-
-[49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53])
-[54] (D:\Dissertation\tail/acknowledge.tex) [55
-
+] (D:\Dissertation\tail/acknowledge.tex) [47
 
 
 ]
-(D:\Dissertation\tail/originauth.tex [56
+(D:\Dissertation\tail/originauth.tex [48
 
 
 
-]) [57]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 798.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 798.
+]) [49]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 812.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 812.
  (D:\Dissertation\00946063.aux
 (D:\Dissertation\tail/acknowledge.aux) (D:\Dissertation\tail/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 798.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 798.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 812.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 812.
 Package logreq Info: Writing requests to '00946063.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 28290 strings out of 430478
- 531444 string characters out of 3191502
+ 27950 strings out of 430478
+ 523196 string characters out of 3191502
  801158 words of memory out of 3000000
- 30781 multiletter control sequences out of 15000+200000
- 18266 words of font info for 138 fonts, out of 3000000 for 9000
+ 30617 multiletter control sequences out of 15000+200000
+ 18274 words of font info for 139 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,12n,92p,1032b,1363s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 00946063.pdf (65 pages).
+Output written on 00946063.pdf (57 pages).

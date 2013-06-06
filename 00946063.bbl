@@ -19,6 +19,75 @@
 
 
 \refsection{0}
+  \entry{shu1987star}{article}{}
+    \name{labelname}{3}{}{%
+      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{3}{}{%
+      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
+      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{57a6153867effab00a8e8b90acdbc6cf}
+    \strng{fullhash}{57a6153867effab00a8e8b90acdbc6cf}
+    \field{sortinit}{0}
+    \field{journaltitle}{\araa}
+    \field{title}{{Star formation in molecular clouds - Observation and theory}}
+    \field{volume}{25}
+    \field{year}{1987}
+    \field{pages}{23\bibrangedash 81}
+    \verb{doi}
+    \verb 10.1146/annurev.aa.25.090187.000323
+    \endverb
+    \keyw{ASTROPHYSICS, MOLECULAR CLOUDS, STAR FORMATION, STELLAR MODELS, ASTRONOMICAL MAPS, BINARY STARS, GRAVITATIONAL COLLAPSE, PROTOSTARS, STAR CLUSTERS, STELLAR MASS}
+  \endentry
+
+  \entry{2007ARA&A..45..565M}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=eec62d6948f92b9ba5c972c842092b64}{{McKee}}{M\bibinitperiod}{C.\bibnamedelimi F.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=77d904f32ea6fa8e49d02dfa484e6a5f}{{Ostriker}}{O\bibinitperiod}{E.\bibnamedelimi C.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=eec62d6948f92b9ba5c972c842092b64}{{McKee}}{M\bibinitperiod}{C.\bibnamedelimi F.}{C\bibinitperiod}{}{}{}{}}%
+      {{hash=77d904f32ea6fa8e49d02dfa484e6a5f}{{Ostriker}}{O\bibinitperiod}{E.\bibnamedelimi C.}{E\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{ca1f0af31231fb818e83822e0c605b65}
+    \strng{fullhash}{ca1f0af31231fb818e83822e0c605b65}
+    \field{sortinit}{0}
+    \field{eprinttype}{arXiv}
+    \field{journaltitle}{\araa}
+    \field{month}{09}
+    \field{title}{{Theory of Star Formation}}
+    \field{volume}{45}
+    \field{year}{2007}
+    \field{pages}{565\bibrangedash 687}
+    \verb{doi}
+    \verb 10.1146/annurev.astro.45.051806.110602
+    \endverb
+    \verb{eprint}
+    \verb 0707.3514
+    \endverb
+  \endentry
+
+  \entry{1948HarMo...7...53B}{article}{}
+    \name{labelname}{1}{}{%
+      {{hash=90df15c1c57f746548a0e4517c40553d}{{Bok}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{1}{}{%
+      {{hash=90df15c1c57f746548a0e4517c40553d}{{Bok}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{90df15c1c57f746548a0e4517c40553d}
+    \strng{fullhash}{90df15c1c57f746548a0e4517c40553d}
+    \field{sortinit}{0}
+    \field{journaltitle}{Harvard Observatory Monographs}
+    \field{title}{{Dimensions and Masses of Dark Nebulae}}
+    \field{volume}{7}
+    \field{year}{1948}
+    \field{pages}{53}
+  \endentry
+
   \entry{2007ARA&A..45..339B}{article}{}
     \name{labelname}{2}{}{%
       {{hash=44c2ea0fb575619f07b2f801ea0dcf80}{{Bergin}}{B\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod}{}{}{}{}}%
@@ -114,48 +183,6 @@
     \verb{eprint}
     \verb arXiv:astro-ph/9902246
     \endverb
-  \endentry
-
-  \entry{1948HarMo...7...53B}{article}{}
-    \name{labelname}{1}{}{%
-      {{hash=90df15c1c57f746548a0e4517c40553d}{{Bok}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod}{}{}{}{}}%
-    }
-    \name{author}{1}{}{%
-      {{hash=90df15c1c57f746548a0e4517c40553d}{{Bok}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod}{}{}{}{}}%
-    }
-    \strng{namehash}{90df15c1c57f746548a0e4517c40553d}
-    \strng{fullhash}{90df15c1c57f746548a0e4517c40553d}
-    \field{sortinit}{0}
-    \field{journaltitle}{Harvard Observatory Monographs}
-    \field{title}{{Dimensions and Masses of Dark Nebulae}}
-    \field{volume}{7}
-    \field{year}{1948}
-    \field{pages}{53}
-  \endentry
-
-  \entry{shu1987star}{article}{}
-    \name{labelname}{3}{}{%
-      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-    }
-    \name{author}{3}{}{%
-      {{hash=f1fcdfd8e9676392ed11af6cdfc99082}{{Shu}}{S\bibinitperiod}{F.\bibnamedelimi H.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=a731eba8c46bff02fa5d036d754700f8}{{Adams}}{A\bibinitperiod}{F.\bibnamedelimi C.}{F\bibinitperiod}{}{}{}{}}%
-      {{hash=3907fb48a4201a9ac891f314d14f01ea}{{Lizano}}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-    }
-    \strng{namehash}{57a6153867effab00a8e8b90acdbc6cf}
-    \strng{fullhash}{57a6153867effab00a8e8b90acdbc6cf}
-    \field{sortinit}{0}
-    \field{journaltitle}{\araa}
-    \field{title}{{Star formation in molecular clouds - Observation and theory}}
-    \field{volume}{25}
-    \field{year}{1987}
-    \field{pages}{23\bibrangedash 81}
-    \verb{doi}
-    \verb 10.1146/annurev.aa.25.090187.000323
-    \endverb
-    \keyw{ASTROPHYSICS, MOLECULAR CLOUDS, STAR FORMATION, STELLAR MODELS, ASTRONOMICAL MAPS, BINARY STARS, GRAVITATIONAL COLLAPSE, PROTOSTARS, STAR CLUSTERS, STELLAR MASS}
   \endentry
 
   \entry{2011A&A...536A...1P}{article}{}
@@ -1809,6 +1836,7 @@
     \endverb
   \endentry
 
+  \missing{2004ARA&A..42...79B}
 \endrefsection
 \endinput
 
