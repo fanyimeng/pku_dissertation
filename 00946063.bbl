@@ -71,6 +71,32 @@
     \endverb
   \endentry
 
+  \entry{2004ARA&A..42...79B}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=0d91c1eb648b69f09cc43c3b952b3428}{{Bromm}}{B\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=da586f91452e69e050f9d6c72688bb9e}{{Larson}}{L\bibinitperiod}{R.\bibnamedelimi B.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=0d91c1eb648b69f09cc43c3b952b3428}{{Bromm}}{B\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+      {{hash=da586f91452e69e050f9d6c72688bb9e}{{Larson}}{L\bibinitperiod}{R.\bibnamedelimi B.}{R\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{3056c1f28df18cfd2b2e03967ba9356b}
+    \strng{fullhash}{3056c1f28df18cfd2b2e03967ba9356b}
+    \field{sortinit}{0}
+    \field{journaltitle}{\araa}
+    \field{month}{09}
+    \field{title}{{The First Stars}}
+    \field{volume}{42}
+    \field{year}{2004}
+    \field{pages}{79\bibrangedash 118}
+    \verb{doi}
+    \verb 10.1146/annurev.astro.42.053102.134034
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/0311019
+    \endverb
+  \endentry
+
   \entry{1948HarMo...7...53B}{article}{}
     \name{labelname}{1}{}{%
       {{hash=90df15c1c57f746548a0e4517c40553d}{{Bok}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod}{}{}{}{}}%
@@ -183,6 +209,120 @@
     \verb{eprint}
     \verb arXiv:astro-ph/9902246
     \endverb
+  \endentry
+
+  \entry{1999ApJ...526..279P}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=f9e3a13e6d98ad1b0eda052086bfd834}{{Padoan}}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=a4eaa057f5dd890ab5c24170c6b31df3}{{Nordlund}}{N\bibinitperiod}{Å.}{Å\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=f9e3a13e6d98ad1b0eda052086bfd834}{{Padoan}}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=a4eaa057f5dd890ab5c24170c6b31df3}{{Nordlund}}{N\bibinitperiod}{Å.}{Å\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{44245cc64c40ceff511160df5be1fa8c}
+    \strng{fullhash}{44245cc64c40ceff511160df5be1fa8c}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{11}
+    \field{title}{{A Super-Alfvénic Model of Dark Clouds}}
+    \field{volume}{526}
+    \field{year}{1999}
+    \field{pages}{279\bibrangedash 294}
+    \verb{doi}
+    \verb 10.1086/307956
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/9901288
+    \endverb
+    \keyw{ISM: CLOUDS, ISM: KINEMATICS AND DYNAMICS, ISM: MAGNETIC FIELDS, MAGNETOHYDRODYNAMICS: MHD, SHOCK WAVES, TURBULENCE}
+  \endentry
+
+  \entry{1968ApJ...152..515B}{article}{}
+    \name{labelname}{2}{}{%
+      {{hash=26de7b686125397b8bd81ae33a5a6aaa}{{Bodenheimer}}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=a86c5d15cdf3fa75a7c9af8efc317b4b}{{Sweigart}}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{2}{}{%
+      {{hash=26de7b686125397b8bd81ae33a5a6aaa}{{Bodenheimer}}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=a86c5d15cdf3fa75a7c9af8efc317b4b}{{Sweigart}}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{ce5065712a136ecd2c2ddbdaaa5b2843}
+    \strng{fullhash}{ce5065712a136ecd2c2ddbdaaa5b2843}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{05}
+    \field{title}{{Dynamic Collapse of the Isothermal Sphere}}
+    \field{volume}{152}
+    \field{year}{1968}
+    \field{pages}{515}
+    \verb{doi}
+    \verb 10.1086/149568
+    \endverb
+  \endentry
+
+  \entry{2000ApJ...533..440G}{article}{}
+    \name{labelname}{4}{}{%
+      {{hash=a86c6a58cb8c75bb5ff23ad3f6793d17}{{Gregersen}}{G\bibinitperiod}{E.\bibnamedelimi M.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=c5342d8c1ec87b9d73f2142e47c4f5b0}{{Evans}}{E\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod}{}{}{II}{I\bibinitperiod}}%
+      {{hash=a0b811e1218aedcb3b939939fa9f8293}{{Mardones}}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{4}{}{%
+      {{hash=a86c6a58cb8c75bb5ff23ad3f6793d17}{{Gregersen}}{G\bibinitperiod}{E.\bibnamedelimi M.}{E\bibinitperiod}{}{}{}{}}%
+      {{hash=c5342d8c1ec87b9d73f2142e47c4f5b0}{{Evans}}{E\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod}{}{}{II}{I\bibinitperiod}}%
+      {{hash=a0b811e1218aedcb3b939939fa9f8293}{{Mardones}}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{56af1ec4008a8cbc8a55b8e4d45dec38}
+    \strng{fullhash}{9f541db44d3c5903e3c0bac76a38701a}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{04}
+    \field{title}{{Does Infall End before the Class I Stage?}}
+    \field{volume}{533}
+    \field{year}{2000}
+    \field{pages}{440\bibrangedash 453}
+    \verb{doi}
+    \verb 10.1086/308665
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/9912175
+    \endverb
+    \keyw{STARS: FORMATION, STARS: PRE-MAIN-SEQUENCE, SUBMILLIMETER}
+  \endentry
+
+  \entry{2001ApJ...562..770D}{article}{}
+    \name{labelname}{5}{}{%
+      {{hash=9ce3c24652496883c080351890c461cf}{{Di\bibnamedelimb Francesco}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=8995bed6a09ee5950b9b62307c227864}{{Wilner}}{W\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=02ac51a2f51bb585984458be08cc81d9}{{Ohashi}}{O\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=a0b811e1218aedcb3b939939fa9f8293}{{Mardones}}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \name{author}{5}{}{%
+      {{hash=9ce3c24652496883c080351890c461cf}{{Di\bibnamedelimb Francesco}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      {{hash=261702e824a35ea3b07435b0eb40712f}{{Myers}}{M\bibinitperiod}{P.\bibnamedelimi C.}{P\bibinitperiod}{}{}{}{}}%
+      {{hash=8995bed6a09ee5950b9b62307c227864}{{Wilner}}{W\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod}{}{}{}{}}%
+      {{hash=02ac51a2f51bb585984458be08cc81d9}{{Ohashi}}{O\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      {{hash=a0b811e1218aedcb3b939939fa9f8293}{{Mardones}}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+    }
+    \strng{namehash}{8508b44fef5f6c613691762e556cfd9e}
+    \strng{fullhash}{b206ae8bc53aa244b0973a35644af087}
+    \field{sortinit}{0}
+    \field{journaltitle}{\apj}
+    \field{month}{12}
+    \field{title}{{Infall, Outflow, Rotation, and Turbulent Motions of Dense Gas within NGC 1333 IRAS 4}}
+    \field{volume}{562}
+    \field{year}{2001}
+    \field{pages}{770\bibrangedash 789}
+    \verb{doi}
+    \verb 10.1086/323854
+    \endverb
+    \verb{eprint}
+    \verb arXiv:astro-ph/0108022
+    \endverb
+    \keyw{ISM: individual (NGC 1333 IRAS 4), ISM: Kinematics and Dynamics, ISM: Molecules, Stars: Formation, Stars: Pre-Main-Sequence}
   \endentry
 
   \entry{2011A&A...536A...1P}{article}{}
@@ -1836,7 +1976,6 @@
     \endverb
   \endentry
 
-  \missing{2004ARA&A..42...79B}
 \endrefsection
 \endinput
 
