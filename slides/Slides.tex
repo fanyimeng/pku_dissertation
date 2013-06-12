@@ -1,4 +1,4 @@
-﻿%\XeTeXinputencoding "GB2312"
+%\XeTeXinputencoding "GB2312"
 \documentclass{article}
 \usepackage[paperwidth=160mm,paperheight=120mm]{geometry}
 \setlength\paperheight{80mm}
@@ -29,8 +29,8 @@
 \setlength{\parindent}{0pt}
 \linespread{1.2}
 
-\definecolor{DarkBlue}{RGB}{43,43,222}%Define a Color
-\definecolor{MyGrey}{RGB}{43,43,222}
+\definecolor{DarkBlue}{RGB}{43,43,122}%Define a Color
+\definecolor{MyGrey}{RGB}{43,43,122}
 \hypersetup{
             colorlinks,
             breaklinks,
@@ -171,6 +171,7 @@
         \begin{itemize}
           \item Gas Emission
           \item Physical Parameters
+          \item Turbulence
           \item Gas-Dust Coupling
           \item Stability of Cores
           \item Associated Objects
@@ -203,7 +204,7 @@
     \begin{figure}[H]
           \centering
           \includegraphics[totalheight=30 mm]{wu_distribution.eps}
-          \caption{\footnotesize The \Planck Cold Clumps studied by \citet{wu2012gas} are plotted as {\color{blue}\Large{\textbf{+}}}, over Milky Way regions map by \citet{2001ApJ...547..792D}.} \label{fig:wu_distribution}
+          \caption{\footnotesize The \Planck\  Cold Clumps studied by \citet{2012ApJ...756...76W} are plotted as {\color{blue}\Large{\textbf{+}}}, over Milky Way regions map by \citet{2001ApJ...547..792D}.} \label{fig:wu_distribution}
     \end{figure}
     \begin{figure}[H]\footnotesize
           \centering
@@ -421,10 +422,31 @@ Most of the cores (in both TMC and CMC) are found with \sigmant $>$ \sigmath, in
 \begin{figure}[H]
           \centering
           \includegraphics[totalheight=34 mm]{VelocityComparison.eps}
-
        \end{figure}
 The dominance of turbulence indicates that the gravitational contracting/collapse is rare in our cores of both regions, otherwise the turbulence will soon decay on a dynamic timescale (\citealt{shu1987star}).
+\newpage
+We tested the probability distribution function (PDF) of \nhyd in our cores, and good ($p>0.05$ in K-S test) log-normal distribution were found, without exhibiting "power-law tail". Such log-normal PDFs indicate that turbulence is dominating the density structure of gas in our cores. We compare our results with the gravity affected PDF by \citet{2013ApJ...766L..17S}.
+\begin{figure}[H]
+          \centering
+          \includegraphics[totalheight=53 mm]{PDF/{PDF_G173.60-17.89C2_final}.eps}
+          \includegraphics[totalheight=53 mm]{PDF/PDF_Gravity.eps}
+\end{figure}
 
+\newpage
+We tested the probability distribution function (PDF) of \nhyd in our cores, and good ($p>0.05$ in K-S test) log-normal distribution were found, without exhibiting "power-law tail". Such log-normal PDFs indicate that turbulence is dominating the density structure of gas in our cores. We compare our results with the gravity affected PDF by \citet{2013ApJ...766L..17S}.
+\begin{figure}[H]
+          \centering
+          \includegraphics[totalheight=53 mm]{PDF/{PDF_G159.21-20.12C1_final}.eps}
+          \includegraphics[totalheight=53 mm]{PDF/PDF_Gravity.eps}
+\end{figure}
+
+\newpage
+We tested the probability distribution function (PDF) of \nhyd in our cores, and good ($p>0.05$ in K-S test) log-normal distribution were found, without exhibiting "power-law tail". Such log-normal PDFs indicate that turbulence is dominating the density structure of gas in our cores. We compare our results with the gravity affected PDF by \citet{2013ApJ...766L..17S}.
+\begin{figure}[H]
+          \centering
+          \includegraphics[totalheight=53 mm]{PDF/{PDF_G157.60-12.17bC2_final}.eps}
+          \includegraphics[totalheight=53 mm]{PDF/PDF_Gravity.eps}
+\end{figure}
 \newpage
 
     \subsection{Stability of Cores}
@@ -451,23 +473,25 @@ CMC:
 \end{figure}
 \newpage
 
-\section{Coupling of Gas and Dust}
-\subsection{Temperature}
+\subsection{Coupling of Gas and Dust}
+\subsubsection{Temperature}
     Majority of the cores are found with $T_D>T_K$, consisting with the  Goldreich- Kwan picture \citep{1974ApJ...189..441G}.
         \begin{figure}[H]
           \centering
           \includegraphics[totalheight=40 mm]{Gas-Dust_EB_Core.eps}
           \caption{Correlation of Gas-Dust temperature} \label{fig:ECCTemp_DIstribution}
        \end{figure}
-\subsection{Column Density}
+
+\newpage
+\subsubsection{Column Density}
 \begin{figure}[h]
 \centering
 \includegraphics[totalheight=55mm]{SpatiaDist_Abundance_Overlay.eps}
 \caption{CO abundance calculated from CO emission ($N_{^{12}\rm CO}$) and Planck ECC data ($N_{H_2}$); Background: The contours of \cob data from \citep{2001ApJ...547..792D}}
 \end{figure}
-\newpage
-\section{Associated Objects}
 
+\newpage
+\subsection{Associated Objects}
 Most of the cores are without associated objects in the confine of circle of radius as same as beam size ($\sim$ 1 arc min) at there centers. The few exceptions are the cores that are:
  \begin{figure}[h]
 \includegraphics[totalheight=30mm]{Asso.eps}

@@ -36,6 +36,14 @@
 {Sargent}, A.~I. and {Beckwith}, S.~V.~W.: 1991,
 \newblock {\em \apjl} {\bf 382}, L31
 
+\bibitem[\protect\astroncite{{Schneider} et~al.}{2013}]{2013ApJ...766L..17S}
+{Schneider}, N., {Andr{\'e}}, P., {K{\"o}nyves}, V., {Bontemps}, S., {Motte},
+  F., {Federrath}, C., {Ward-Thompson}, D., {Arzoumanian}, D., {Benedettini},
+  M., {Bressert}, E., {Didelon}, P., {Di Francesco}, J., {Griffin}, M.,
+  {Hennemann}, M., {Hill}, T., {Palmeirim}, P., {Pezzuto}, S., {Peretto}, N.,
+  {Roy}, A., {Rygl}, K.~L.~J., {Spinoglio}, L., and {White}, G.: 2013,
+\newblock {\em \apjl} {\bf 766}, L17
+
 \bibitem[\protect\astroncite{Shu et~al.}{1987}]{shu1987star}
 Shu, F., Adams, F., and Lizano, S.: 1987,
 \newblock {\em \araa} {\bf 25}, 23
@@ -45,9 +53,9 @@ Shu, F., Adams, F., and Lizano, S.: 1987,
 {van Langevelde}, H.~J., {van Dishoeck}, E.~F., and {Blake}, G.~A.: 1994,
 \newblock {\em \apjl} {\bf 425}, L45
 
-\bibitem[\protect\astroncite{Wu et~al.}{2012}]{wu2012gas}
-Wu, Y., Liu, T., Meng, F., Li, D., Qin, S., and Ju, B.: 2012,
-\newblock {\em Arxiv preprint arXiv:1206.7027}
+\bibitem[\protect\astroncite{{Wu} et~al.}{2012}]{2012ApJ...756...76W}
+{Wu}, Y., {Liu}, T., {Meng}, F., {Li}, D., {Qin}, S.-L., and {Ju}, B.-G.: 2012,
+\newblock {\em \apj} {\bf 756}, 76
 
 \bibitem[\protect\astroncite{{Wu} et~al.}{2004}]{2004A&A...426..503W}
 {Wu}, Y., {Wei}, Y., {Zhao}, M., {Shi}, Y., {Yu}, W., {Qin}, S., and {Huang},
